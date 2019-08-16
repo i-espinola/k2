@@ -1,0 +1,16 @@
+﻿@import 'Source';
+
+nav {
+    list-style-type: none;
+
+    .selection {
+        border: 1px solid #fff;
+        border-radius: $radius;
+
+        h3 {
+            margin: 0;
+        }
+
+        span {}
+    }
+}

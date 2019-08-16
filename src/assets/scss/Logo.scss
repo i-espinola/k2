@@ -1,0 +1,16 @@
+﻿aside {
+
+
+    &.logo {
+        color: #fff;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        background: transparent;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}
