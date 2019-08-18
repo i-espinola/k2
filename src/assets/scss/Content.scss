@@ -1,0 +1,140 @@
+﻿@import 'Source';
+
+.card {
+    width: calc(100% - 30px);
+    max-width: 768px;
+    background: #fff;
+    position: relative;
+    margin: -85px auto 30px;
+    border-radius: $radius;
+    box-shadow: $shadow;
+    overflow: hidden;
+
+    .card-head {
+        padding: 15px;
+        line-height: 53px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+            font-weight: 100;
+            margin: 0;
+        }
+
+        .btn-add {
+            border-radius: 50%;
+            padding: 0;
+            width: 40px;
+            height: 40px;
+            line-height: normal;
+            box-sizing: content-box;
+            background: transparent;
+            color: $color-primary;
+            border: 2px solid $color-primary;
+
+            &:focus,
+            &:active,
+            &:hover {
+                color: #fff;
+                background: $color-primary;
+                box-shadow: 0px 0px 5px 3px rgba(64, 80, 181, 0.5);
+            }
+        }
+    }
+
+    .card-body {
+
+        table {
+            text-align: center;
+            width: 100%;
+            border-collapse: collapse;
+            border-color: $color-grey;
+
+            thead,
+            tbody {
+
+                tr {
+                    line-height: 40px;
+                    font-size: .735rem;
+
+                    th {
+                        border-top: 2px solid $color-grey;
+                        border-bottom: 2px solid $color-grey;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        padding: 5px 15px;
+                    }
+
+                    td {
+                        padding: 5px 15px;
+                        font-size: .8rem;
+                        border-bottom: 1px solid #eee;
+
+                        button {
+                            border-radius: $radius;
+                            background: transparent;
+                            color: $color-grey;
+                            border-color: $color-grey;
+
+                            &.btn-edit {
+                                border-right: 0;
+                                border-radius: $radius 0 0 $radius;
+
+                                &:focus,
+                                &:active,
+                                &:hover {
+                                    background: $orange;
+                                    border-color: $orange;
+                                    box-shadow: 0 0 5px 5px rgba(209, 147, 65, 0.5);
+
+                                    i {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+
+                            &.btn-dele {
+                                border-left: 0;
+                                border-radius: 0 $radius $radius 0;
+
+                                &:focus,
+                                &:active,
+                                &:hover {
+                                    background: $pink;
+                                    border-color: $pink;
+                                    box-shadow: 0 0 5px 5px rgba(209, 65, 113, 0.3);
+
+                                    i {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    & .actions {
+                        text-align: center;
+                        width: 1%;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+
+    .btn {
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 7px 15px;
+        font-weight: bold;
+        cursor: pointer;
+        outline: none;
+
+        &:first-child {
+            margin-right: -1px;
+        }
+    }
+
+}

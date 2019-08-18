@@ -7,10 +7,33 @@ body {
     box-sizing: border-box;
     font-family: $font-family;
     color: $color-grey;
+    background: $bg-body;
 
     b {
         font-weight: bold;
         color: inherit;
+    }
+
+    .wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+
+    .flex-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .right {
+        text-align: right;
     }
 
     @media(min-width: 576px) {}

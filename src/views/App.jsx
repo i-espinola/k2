@@ -5,8 +5,7 @@ import '../assets/scss/Setup.scss';
 
 // Components Childs
 import Header from '../components/Header';
-import Select from '../components/Select';
-import Logo from '../components/Logo';
+import Content from '../components/Content';
 
 const initState = {
     webService: ''
@@ -27,10 +26,9 @@ export default class App extends React.Component
     {
         return (
             <div className="main">
-                <Header>
-                    <Logo />
-                    <Select />
-                </Header>
+                <Header />
+                <Content></Content>
+
 
             </div>
         )

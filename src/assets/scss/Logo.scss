@@ -1,5 +1,6 @@
-﻿aside {
+﻿@import 'Source';
 
+aside {
 
     &.logo {
         color: #fff;
@@ -7,10 +8,16 @@
         display: block;
         text-align: center;
         background: transparent;
+        font-size: 2rem;
 
         a {
             text-decoration: none;
             color: inherit;
+
+            i {
+                font-style: normal;
+                color: $pink;
+            }
         }
     }
 }
