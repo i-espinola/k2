@@ -7,16 +7,14 @@ import '../assets/scss/Modal.scss';
 import Logo from '../components/Logo';
 
 const initState = {
-    list: [],
-    xxx: "",
-    visibility: false
+    visibility: false,
 }
 
 const initForm = {
-    description: '',
-    amount: 0,
-    value: 4,
-    total: 0,
+    selectId: undefined,
+    amount: 1,
+    value: 0,
+    total: 0
 }
 
 export default class Modal extends React.Component
@@ -27,6 +25,7 @@ export default class Modal extends React.Component
         this.state = {
             ...initState,
             ...initForm,
+            products: []
         }
     }
 
@@ -38,18 +37,44 @@ export default class Modal extends React.Component
                 visibility: this.props.visibility
             })
         }
+        if (this.props.products !== this.state.products)
+        {
+            this.setState({
+                products: this.props.products
+            })
+        }
     }
 
-    updateField = (event) => 
+    amountField = (event) => 
     {
-        const amount = event.target.value.replace(/\D/g, '');
+        const amount = parseInt(event.target.value.replace(/\D/g, ''));
         if (amount < 100000)
         {
             this.setState({
-                [event.target.name]: amount,
-                total: this.state.value * amount
-            })
+                amount: amount
+            }, () => { this.calc() }
+            )
         }
+    }
+
+    selectionField = (event) =>
+    {
+        this.setState({
+            selectId: event.target.value,
+        }, () =>
+            {
+                this.calc()
+            })
+    }
+
+    calc = () =>
+    {
+        const selectId = this.state.selectId;
+        const item = this.state.products[selectId];
+        this.setState({
+            value: item.valor,
+            total: item.valor * this.state.amount
+        })
     }
 
     close = () => 
@@ -59,7 +84,21 @@ export default class Modal extends React.Component
 
     save = () =>
     {
+        const id = this.state.selectId;
+        let item = this.state.products[id];
+        item.quantidadeCompra = this.state.amount;
+        item.valorCompra = this.state.total;
+
+        this.props.cart(item);
         this.props.toggle();
+    }
+
+    renderOptions = () => 
+    {
+        return (this.state.products.map((item, index) =>
+        {
+            return (<option key={item.id} value={index}>{item.label}</option>)
+        }))
     }
 
     render = () =>
@@ -74,18 +113,24 @@ export default class Modal extends React.Component
                     <div className="modal-body form">
                         <div className="form-group">
                             <label>Refrigerante *</label>
-                            <input
-                                type="text"
-                                name="description"
-                                value={this.state.description} />
+                            <select
+                                required
+                                value={this.state.selectId}
+                                onChange={(e) => this.selectionField(e)}
+                            >
+                                <option value=""></option>
+                                {this.renderOptions()}
+                            </select>
                         </div>
                         <div className="form-group">
                             <label>Quantidade *</label>
                             <input
+                                required
                                 type="text"
                                 name="amount"
                                 value={this.state.amount}
-                                onChange={e => this.updateField(e)} />
+                                onChange={e => this.amountField(e)}
+                            />
                         </div>
                         <div className="form-group left">
                             <label>Preço p/ unidade</label>

@@ -5,7 +5,7 @@ import '../assets/scss/Setup.scss';
 
 // Components Childs
 import Header from '../components/Header';
-import Content from '../components/Content';
+import Card from '../components/Card';
 
 const initState = {
     webService: ''
@@ -27,9 +27,7 @@ export default class App extends React.Component
         return (
             <div className="main">
                 <Header />
-                <Content></Content>
-
-
+                <Card></Card>
             </div>
         )
     }

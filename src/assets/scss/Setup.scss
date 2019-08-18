@@ -9,6 +9,10 @@ body {
     color: $color-grey;
     background: $bg-body;
 
+    * {
+        outline: none;
+    }
+
     b {
         font-weight: bold;
         color: inherit;

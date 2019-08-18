@@ -1,0 +1,45 @@
+﻿@import 'Source';
+
+.card {
+    width: calc(100% - 30px);
+    max-width: 768px;
+    background: #fff;
+    position: relative;
+    margin: -85px auto 30px;
+    border-radius: $radius;
+    box-shadow: $shadow;
+    overflow: hidden;
+
+    .card-head {
+        padding: 15px;
+        line-height: 53px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+            font-weight: 100;
+            margin: 0;
+        }
+
+        .btn-add {
+            border-radius: 50%;
+            padding: 0;
+            width: 40px;
+            height: 40px;
+            line-height: normal;
+            box-sizing: content-box;
+            background: transparent;
+            color: $color-primary;
+            border: 2px solid $color-primary;
+
+            &:focus,
+            &:active,
+            &:hover {
+                color: #fff;
+                background: $color-primary;
+                box-shadow: 0px 0px 5px 3px rgba(64, 80, 181, 0.5);
+            }
+        }
+    }
+}

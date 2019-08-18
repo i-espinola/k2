@@ -1,0 +1,91 @@
+﻿@import 'Source';
+
+.empty-cart {
+    padding: 15px;
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    b {
+        color: $color-primary;
+    }
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border-color: $color-grey;
+
+    thead,
+    tbody {
+
+        tr {
+            line-height: 40px;
+            font-size: .735rem;
+
+            th {
+                border-top: 1px solid $color-grey;
+                border-bottom: 1px solid $color-grey;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                padding: 5px 15px;
+            }
+
+            td {
+                font-size: .8rem;
+                padding: 5px 15px;
+                border-bottom: 1px solid #eee;
+
+                button {
+                    border: 1px solid $color-grey;
+                    background: transparent;
+                    border-radius: $radius;
+                    color: $color-grey;
+                    padding: 7px 15px;
+
+                    &.btn-edit {
+                        border-right: 0;
+                        border-radius: $radius 0 0 $radius;
+
+                        &:focus,
+                        &:active,
+                        &:hover {
+                            background: $orange;
+                            border-color: $orange;
+                            box-shadow: 0 0 5px 5px rgba(209, 147, 65, 0.5);
+
+                            i {
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                    &.btn-dele {
+                        border-left: 0;
+                        border-radius: 0 $radius $radius 0;
+
+                        &:focus,
+                        &:active,
+                        &:hover {
+                            background: $pink;
+                            border-color: $pink;
+                            box-shadow: 0 0 5px 5px rgba(209, 65, 113, 0.3);
+
+                            i {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+
+            & .actions {
+                text-align: center;
+                width: 1%;
+                white-space: nowrap;
+            }
+        }
+    }
+}
