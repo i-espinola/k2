@@ -18,16 +18,21 @@ table {
     border-collapse: collapse;
     border-color: $color-grey;
 
+    >tfoot {
+        font-weight: bold;
+    }
+
     thead,
-    tbody {
+    tbody,
+    tfoot {
 
         tr {
             line-height: 40px;
             font-size: .735rem;
 
             th {
-                border-top: 1px solid $color-grey;
-                border-bottom: 1px solid $color-grey;
+                border-top: 2px solid $color-primary;
+                border-bottom: 2px solid $color-primary;
                 text-transform: uppercase;
                 letter-spacing: 1px;
                 padding: 5px 15px;
@@ -37,6 +42,20 @@ table {
                 font-size: .8rem;
                 padding: 5px 15px;
                 border-bottom: 1px solid #eee;
+
+                &.amount {
+
+                    &:after {
+                        content: " un."
+                    }
+                }
+
+                &.currency {
+
+                    &:before {
+                        content: "R$ "
+                    }
+                }
 
                 button {
                     border: 1px solid $color-grey;

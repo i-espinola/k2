@@ -4,65 +4,99 @@
 import '../assets/scss/Table.scss';
 import 'font-awesome/css/font-awesome.min.css';
 
+const initState = {
+    cart: [],
+    totalAmount: 0,
+    totalValue: 0
+}
+
 export default class Table extends React.Component
 {
 
+    /**
+     * @param {any} props
+     */
     constructor (props)
     {
         super(props);
         this.state = {
-            cart: [],
+            ...initState
         }
     }
 
-    // componentWillReceiveProps = (nextProps, nextContext) =>
-    // {
-
-    //     debugger
-    //     if (nextProps.cart !== this.props.cart)
-    //     {
-    //         // this.setState(state => ({ cart: [...state.cart, this.props.cart] }))
-    //         this.setState(state => ({ cart: this.props.cart }))
-    //     }
-    //     console.log(this.props.cart)
-    // }
-
-
-    componentDidUpdate = (prevProps, prevState) =>
+    /**
+     * @param {{ cart: any; }} prevProps
+     */
+    componentDidUpdate = (prevProps) =>
     {
+        debugger
         if (prevProps.cart !== this.props.cart)
         {
-            debugger
-            console.log(this.props.cart)
-            this.setState({
-                cart: this.props.cart
-            })
-
+            this.setState({ cart: this.props.cart }, () => this.calcTotal())
         }
+    }
 
+    /**
+     * @param {number} item
+     */
+    deleteItem = (item) =>
+    {
+        let itemList = this.state.cart;
+        itemList.splice(item, 1);
+        this.setState({ cart: itemList }, () => this.calcTotal())
+    }
+
+    emptyCart = () => 
+    {
+        return (
+            <div className="empty-cart">
+                <h3>Bem-vindo!</h3>
+                <span>Clique no botão <b>+</b> para criar sua lista de refrigerantes favoritos<b>.</b></span>
+            </div>
+        )
+    }
+
+    calcTotal = () =>
+    {
+        // let amount, value = 0;
+        // let value = 0;
+
+        this.state.cart.map((item, index) =>
+        {
+            debugger
+            return this.setState(prevState => ({
+                totalAmount: (!index ? 0 : prevState.totalAmount) + item.quantidadeCompra,
+                totalValue: (!index ? 0 : prevState.totalValue) + item.valorCompra
+            }))
+        })
     }
 
     renderRows = () =>
     {
-        debugger
-        return this.state.cart.map(refri =>
+        return this.state.cart.map((item, index) =>
         {
             return (
-                <tr key={refri.id}>
-                    <td className="left">{refri.label}</td>
-                    <td>{refri.valor}</td>
-                    <td>{refri.quantidadeCompra}</td>
-                    <td>{refri.valorCompra}</td>
+                <tr key={index}>
+                    <td className="left">{item.label}</td>
+                    <td className="currency">{item.valor}</td>
+                    <td>{item.quantidadeCompra}</td>
+                    <td className="currency">{item.valorCompra}</td>
                     <td className="actions">
-                        <button className="btn btn-edit">
+                        <button
+                            className="btn btn-edit"
+                        >
                             <i className="fa fa-pencil"></i>
                         </button>
-                        <button className="btn btn-dele">
+                        <button
+                            data-item={index}
+                            className="btn btn-dele"
+                            onClick={() => this.deleteItem(index)}
+                        >
                             <i className="fa fa-trash"></i>
                         </button>
                     </td>
                 </tr>
-            )
+            );
         })
     }
 
@@ -82,23 +116,21 @@ export default class Table extends React.Component
                 <tbody>
                     {this.renderRows()}
                 </tbody>
+                <tfoot>
+                    <tr>
+                        <td className="left">Total</td>
+                        <td></td>
+                        <td className="amount">{this.state.totalAmount}</td>
+                        <td className="currency">{this.state.totalValue}</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
             </table>
-        )
-    }
-
-    emptyCart = () => 
-    {
-        return (
-            <div className="empty-cart">
-                <h3>Partiu <b>Refrix</b> ?</h3>
-                <span>Clique no botão <b>+</b> para selecionar seu refrigerante favorito.</span>
-            </div>
         )
     }
 
     render = () =>
     {
-        debugger
         return (
             <React.Fragment>
                 {this.state.cart.length > 0 ? this.renderTable() : this.emptyCart()}

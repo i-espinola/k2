@@ -12,6 +12,9 @@ import Table from './Table';
 export default class Card extends React.Component
 {
 
+    /**
+     * @param {any} props
+     */
     constructor (props)
     {
         super(props);
@@ -30,8 +33,14 @@ export default class Card extends React.Component
         this.webService();
     }
 
+    /**
+     * @param {any} objItem
+     */
     updateCart = (objItem) =>
     {
+        /**
+         * @param {{ cart: any; }} state
+         */
         this.setState(state => ({ cart: [...state.cart, objItem] }))
     }
 
@@ -41,9 +50,13 @@ export default class Card extends React.Component
             .then(response =>
             {
                 let tmp = [];
+                /**
+                 * @param {{ sabor: { split: (arg0: string) => void; }; marca: string; label: string; quantidade: string; }} item
+                 */
                 response.data.map(item =>
                 {
-                    item.label = item.sabor + " - " + item.marca + " - " + item.quantidade;
+                    const shortName = item.sabor === item.marca ? item.sabor.split("-") : "";
+                    item.label = (shortName[0] || item.sabor) + " " + item.marca + " (" + item.quantidade + ")";
                     return (tmp.push(item));
                 })
                 this.setState({
@@ -67,7 +80,7 @@ export default class Card extends React.Component
                 <div className="wrapper">
                     <div className="card">
                         <div className="card-head">
-                            <h2>Lista de refrigerantes</h2>
+                            <h2>Lista de <b>refri</b>gerantes</h2>
                             <button
                                 className="btn btn-add"
                                 onClick={() => this.modalToggle()}

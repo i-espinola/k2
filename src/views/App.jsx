@@ -14,6 +14,9 @@ const initState = {
 export default class App extends React.Component
 {
 
+    /**
+     * @param {any} props
+     */
     constructor (props)
     {
         super(props);
@@ -22,6 +25,9 @@ export default class App extends React.Component
         }
     }
 
+    /**
+     * @param {any} props
+     */
     render = (props) =>
     {
         return (

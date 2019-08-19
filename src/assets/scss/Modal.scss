@@ -51,7 +51,6 @@
                     font-size: .735rem;
                     letter-spacing: 1px;
                     margin-bottom: .5rem;
-                    text-transform: uppercase;
                 }
 
                 &.left {
@@ -68,6 +67,10 @@
 
                 dd {
                     margin: 0;
+
+                    &:before {
+                        content: "R$ "
+                    }
                 }
 
                 select {}
