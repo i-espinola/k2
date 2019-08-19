@@ -49,18 +49,18 @@ export default class Card extends React.Component
         (Axios.get(this.state.request)
             .then(response =>
             {
-                let tmp = [];
+                let arr = [];
                 /**
                  * @param {{ sabor: { split: (arg0: string) => void; }; marca: string; label: string; quantidade: string; }} item
                  */
                 response.data.map(item =>
                 {
                     const shortName = item.sabor === item.marca ? item.sabor.split("-") : "";
-                    item.label = (shortName[0] || item.sabor) + " " + item.marca + " (" + item.quantidade + ")";
-                    return (tmp.push(item));
+                    item.rotulo = (shortName[0] || item.sabor) + " " + item.marca + " (" + item.quantidade + ")";
+                    return (arr.push(item));
                 })
                 this.setState({
-                    products: tmp
+                    products: arr
                 })
             })
         )

@@ -6,12 +6,17 @@ import '../assets/scss/Modal.scss';
 // Components Childs
 import Logo from '../components/Logo';
 
+import Option from 'muicss/lib/react/option';
+import Select from 'muicss/lib/react/select';
+
 const initForm = {
     seleted: 0,
     amount: 1,
     value: 0,
     total: 0
 }
+
+
 
 export default class Modal extends React.Component
 {
@@ -25,6 +30,12 @@ export default class Modal extends React.Component
             ...initForm,
         }
     }
+
+    handleChange = (name, event) =>
+    {
+        // setValues({ ...values, [name]: event.target.value });
+        this.setState(prevState => ({ ...prevState, [name]: event.target.value }))
+    };
 
     /**
      * @param {{ target: { value: { replace: (arg0: RegExp, arg1: string) => string; }; }; }} event
@@ -89,15 +100,14 @@ export default class Modal extends React.Component
 
     renderOptions = () => 
     {
-        /**
-        * @param {{ id: string | number; label: React.ReactNode; }} item
-        * @param {string | number | string[]} index
-        */
         return (
-            // this.calcTotal(),
+            /**
+            * @param {{ id: string | number; label: React.ReactNode; }} item
+            * @param {string | number | string[]} index
+            */
             this.props.products.map((item, index) =>
             {
-                return (<option key={item.id} value={index}>{item.label}</option>)
+                return (<Option key={item.id} value={index}>{item.rotulo}</Option>)
             })
         )
     }
@@ -106,37 +116,49 @@ export default class Modal extends React.Component
     {
         return (
             <div className={this.props.visibility ? "modal" : "d-none"}>
-                <div className="modal-main p-4">
+                <div className="modal-main">
                     <div className="modal-head">
                         <Logo />
                         <span>campos marcados com * são obrigatórios</span>
                     </div>
                     <div className="modal-body form">
-                        <div className="form-group">
+
+                        <div className="group">
                             <label>refrigerante *</label>
-                            <select
-                                required
-                                value="rola"
-                                onChange={(e) => this.selectionField(e)}
-                            >
-                                {this.renderOptions()}
-                            </select>
+                            {/* <Select
+                                    value={this.state.seleted}
+                                    onChange={(e) => this.selectionField(e)}
+                                >
+                                    {this.renderOptions()}
+                                </Select> */}
+                            {/* <div className="select_arrow" /> */}
+
+                            <Select defaultValue="option2">
+                                {
+                                    this.props.products.map(function (option, i)
+                                    {
+                                        return <Option key={i} value={option.id} label={option.rotulo} />;
+                                    })
+                                }
+                            </Select>
+
                         </div>
-                        <div className="form-group">
+
+                        <div className="group">
                             <label>quantidade *</label>
                             <input
-                                required
                                 type="text"
                                 name="amount"
                                 value={this.state.amount}
-                                onChange={e => this.amountField(e)}
+                                onChange={(e) => this.amountField(e)}
                             />
                         </div>
-                        <div className="form-group left">
+
+                        <div className="group left">
                             <label>Preço p/ unidade</label>
                             <dd>{this.state.value}</dd>
                         </div>
-                        <div className="form-group right">
+                        <div className="group right">
                             <label>Valor Total</label>
                             <dd>{this.state.total}</dd>
                         </div>

@@ -58,12 +58,11 @@ export default class Table extends React.Component
 
     calcTotal = () =>
     {
-        // let amount, value = 0;
-        // let value = 0;
-
         this.state.cart.map((item, index) =>
         {
-            debugger
+            /**
+             * @param {{ totalAmount: any; totalValue: any; }} prevState
+             */
             return this.setState(prevState => ({
                 totalAmount: (!index ? 0 : prevState.totalAmount) + item.quantidadeCompra,
                 totalValue: (!index ? 0 : prevState.totalValue) + item.valorCompra
@@ -108,7 +107,7 @@ export default class Table extends React.Component
                     <tr>
                         <th className="left">Descrição</th>
                         <th>Preço</th>
-                        <th>Qtd</th>
+                        <th>Un.</th>
                         <th>Total</th>
                         <th className="actions">Ações</th>
                     </tr>
