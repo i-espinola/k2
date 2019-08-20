@@ -5,18 +5,14 @@ import '../assets/scss/Modal.scss';
 
 // Components Childs
 import Logo from '../components/Logo';
-
 import Option from 'muicss/lib/react/option';
 import Select from 'muicss/lib/react/select';
 
 const initForm = {
-    seleted: 0,
-    amount: 1,
+    amount: 0,
     value: 0,
     total: 0
 }
-
-
 
 export default class Modal extends React.Component
 {
@@ -28,14 +24,9 @@ export default class Modal extends React.Component
         super(props);
         this.state = {
             ...initForm,
+            seleted: undefined,
         }
     }
-
-    handleChange = (name, event) =>
-    {
-        // setValues({ ...values, [name]: event.target.value });
-        this.setState(prevState => ({ ...prevState, [name]: event.target.value }))
-    };
 
     /**
      * @param {{ target: { value: { replace: (arg0: RegExp, arg1: string) => string; }; }; }} event
@@ -48,26 +39,26 @@ export default class Modal extends React.Component
         {
             this.setState({
                 amount: amount
-            }, () => { this.calcTotal() })
+            }, () => { this.calculator() })
         }
     }
 
     /**
-     * @param {{ target: { selectedIndex: any; }; }} event
+     * @param {{ target: { value: any; }; }} event
      */
     selectionField = (event) =>
     {
         this.setState({
-            seleted: event.target.selectedIndex,
-        }, () => { this.calcTotal() })
+            seleted: parseInt(event.target.value),
+        }, () => { this.calculator() })
     }
 
-    calcTotal = () =>
+    calculator = () =>
     {
-        if (this.props.products)
+        if (this.props.products.length && this.state.seleted && this.state.amount)
         {
-            const seleted = this.state.seleted;
-            const item = this.props.products[seleted];
+            const id = this.state.seleted;
+            const item = this.props.products.filter(item => item.id === id)[0];
             this.setState({
                 value: item.valor,
                 total: item.valor * this.state.amount
@@ -75,11 +66,11 @@ export default class Modal extends React.Component
         }
     }
 
-    cleanForm = () => { this.setState({ ...initForm }) }
+    resetState = () => { this.setState({ ...initForm }) }
 
     close = () => 
     {
-        this.cleanForm();
+        this.resetState();
         this.props.toggle();
     }
 
@@ -88,27 +79,32 @@ export default class Modal extends React.Component
         if (this.state.amount && this.state.seleted)
         {
             const id = this.state.seleted;
-            let item = Object.create(this.props.products[id]);
+            let item = Object.create(this.props.products.filter(item => item.id === id)[0]);
             item.quantidadeCompra = this.state.amount;
             item.valorCompra = this.state.total;
 
-            this.cleanForm();
+            this.resetState();
             this.props.cart(item);
             this.props.toggle();
         }
     }
 
-    renderOptions = () => 
+    renderSelect = () => 
     {
+        /**
+        * @param {{ id: string | number; label: React.ReactNode; }} item
+        * @param {string | number | string[]} index
+        */
         return (
-            /**
-            * @param {{ id: string | number; label: React.ReactNode; }} item
-            * @param {string | number | string[]} index
-            */
-            this.props.products.map((item, index) =>
-            {
-                return (<Option key={item.id} value={index}>{item.rotulo}</Option>)
-            })
+            <Select onChange={(e) => this.selectionField(e)} defaultValue="0">
+                <Option value="0" label="Nenhum" />
+                {this.props.products.map((option, index) =>
+                {
+                    return (<Option key={option.id} value={option.id} label={option.rotulo} />)
+                })}
+
+            </Select>
+
         )
     }
 
@@ -122,29 +118,15 @@ export default class Modal extends React.Component
                         <span>campos marcados com * são obrigatórios</span>
                     </div>
                     <div className="modal-body form">
-
-                        <div className="group">
+                        <div className="field-group">
                             <label>refrigerante *</label>
-                            {/* <Select
-                                    value={this.state.seleted}
-                                    onChange={(e) => this.selectionField(e)}
-                                >
-                                    {this.renderOptions()}
-                                </Select> */}
-                            {/* <div className="select_arrow" /> */}
-
-                            <Select defaultValue="option2">
-                                {
-                                    this.props.products.map(function (option, i)
-                                    {
-                                        return <Option key={i} value={option.id} label={option.rotulo} />;
-                                    })
-                                }
-                            </Select>
-
+                            {/* <Select onChange={(e) => this.selectionField(e)} defaultValue={undefined} > */}
+                            {/* <Select onChange={(e) => this.selectionField(e)} defaultValue="1"> */}
+                            {/* <Option value={undefined} label="Nenhum" /> */}
+                            {this.renderSelect()}
+                            {/* </Select> */}
                         </div>
-
-                        <div className="group">
+                        <div className="field-group">
                             <label>quantidade *</label>
                             <input
                                 type="text"
@@ -153,12 +135,11 @@ export default class Modal extends React.Component
                                 onChange={(e) => this.amountField(e)}
                             />
                         </div>
-
-                        <div className="group left">
+                        <div className="field-group left">
                             <label>Preço p/ unidade</label>
                             <dd>{this.state.value}</dd>
                         </div>
-                        <div className="group right">
+                        <div className="field-group right">
                             <label>Valor Total</label>
                             <dd>{this.state.total}</dd>
                         </div>

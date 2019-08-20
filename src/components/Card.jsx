@@ -56,7 +56,7 @@ export default class Card extends React.Component
                 response.data.map(item =>
                 {
                     const shortName = item.sabor === item.marca ? item.sabor.split("-") : "";
-                    item.rotulo = (shortName[0] || item.sabor) + " " + item.marca + " (" + item.quantidade + ")";
+                    item.rotulo = item.marca + " " + (shortName[0] || item.sabor) + " (" + item.quantidade + ")";
                     return (arr.push(item));
                 })
                 this.setState({

@@ -29,7 +29,6 @@ export default class Table extends React.Component
      */
     componentDidUpdate = (prevProps) =>
     {
-        debugger
         if (prevProps.cart !== this.props.cart)
         {
             this.setState({ cart: this.props.cart }, () => this.calcTotal())
@@ -76,16 +75,11 @@ export default class Table extends React.Component
         {
             return (
                 <tr key={index}>
-                    <td className="left">{item.label}</td>
+                    <td className="left">{item.rotulo}</td>
                     <td className="currency">{item.valor}</td>
                     <td>{item.quantidadeCompra}</td>
                     <td className="currency">{item.valorCompra}</td>
                     <td className="actions">
-                        <button
-                            className="btn btn-edit"
-                        >
-                            <i className="fa fa-pencil"></i>
-                        </button>
                         <button
                             data-item={index}
                             className="btn btn-dele"
@@ -109,7 +103,7 @@ export default class Table extends React.Component
                         <th>Preço</th>
                         <th>Un.</th>
                         <th>Total</th>
-                        <th className="actions">Ações</th>
+                        <th className="actions"></th>
                     </tr>
                 </thead>
                 <tbody>

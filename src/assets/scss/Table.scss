@@ -20,6 +20,7 @@ table {
 
     >tfoot {
         font-weight: bold;
+        color: $color-primary;
     }
 
     thead,
@@ -30,9 +31,10 @@ table {
             line-height: 40px;
             font-size: .735rem;
 
+
             th {
-                border-top: 2px solid $color-primary;
-                border-bottom: 2px solid $color-primary;
+                border-top: 2px solid $color-grey;
+                border-bottom: 2px solid $color-grey;
                 text-transform: uppercase;
                 letter-spacing: 1px;
                 padding: 5px 15px;
@@ -63,27 +65,12 @@ table {
                     border-radius: $radius;
                     color: $color-grey;
                     padding: 7px 15px;
-
-                    &.btn-edit {
-                        border-right: 0;
-                        border-radius: $radius 0 0 $radius;
-
-                        &:focus,
-                        &:active,
-                        &:hover {
-                            background: $orange;
-                            border-color: $orange;
-                            box-shadow: 0 0 5px 5px rgba(209, 147, 65, 0.5);
-
-                            i {
-                                color: #fff;
-                            }
-                        }
-                    }
+                    transition: all .2s ease-in;
+                    -o-transition: all .2s ease-in;
+                    -moz-transition: all .2s ease-in;
+                    -webkit-transition: all .2s ease-in;
 
                     &.btn-dele {
-                        border-left: 0;
-                        border-radius: 0 $radius $radius 0;
 
                         &:focus,
                         &:active,
