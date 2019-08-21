@@ -1,0 +1,5374 @@
+    1  <option name="EFFECT_COLOR" value="6699ff"/>
+    2  <option name="EFFECT_TYPE" value="1"/>
+    3  <option name="ERROR_STRIPE_COLOR"/>
+    4  </value>
+    5  </option>
+    6  <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+    7  <value>
+    8  <option name="FOREGROUND"/>
+    9  <option name="BACKGROUND" value="213861"/>
+   10  <option name="FONT_TYPE" value="0"/>
+   11  <option name="EFFECT_COLOR"/>
+   12  <option name="EFFECT_TYPE" value="0"/>
+   13  <option name="ERROR_STRIPE_COLOR" value="cc00cc"/>
+   14  </value>
+   15  </option>
+   16  <option name="INCLUDE_JAVA_CALL">
+   17  <value>
+   18  <option name="FOREGROUND" value="c0c0c0"/>
+   19  <option name="BACKGROUND" value="f7b891"/>
+   20  <option name="FONT_TYPE" value="0"/>
+   21  <option name="EFFECT_COLOR"/>
+   22  <option name="EFFECT_TYPE" value="0"/>
+   23  <option name="ERROR_STRIPE_COLOR"/>
+   24  </value>
+   25  </option>
+   26  <option name="INFO_ATTRIBUTES">
+   27  <value>
+   28  <option name="FOREGROUND"/>
+   29  <option name="BACKGROUND"/>
+   30  <option name="FONT_TYPE" value="0"/>
+   31  <option name="EFFECT_COLOR" value="c0c0c0"/>
+   32  <option name="EFFECT_TYPE" value="2"/>
+   33  <option name="ERROR_STRIPE_COLOR" value="ffffcc"/>
+   34  </value>
+   35  </option>
+   36  <option name="INJECTED_LANGUAGE_FRAGMENT">
+   37  <value>
+   38  <option name="FOREGROUND"/>
+   39  <option name="BACKGROUND"/>
+   40  <option name="FONT_TYPE" value="0"/>
+   41  <option name="EFFECT_COLOR"/>
+   42  <option name="EFFECT_TYPE" value="0"/>
+   43  <option name="ERROR_STRIPE_COLOR"/>
+   44  </value>
+   45  </option>
+   46  <option name="JS.ATTRIBUTE">
+   47  <value>
+   48  <option name="FOREGROUND" value="ffffff"/>
+   49  <option name="BACKGROUND"/>
+   50  <option name="FONT_TYPE" value="0"/>
+   51  <option name="EFFECT_COLOR"/>
+   52  <option name="EFFECT_TYPE" value="-1"/>
+   53  <option name="ERROR_STRIPE_COLOR"/>
+   54  </value>
+   55  </option>
+   56  <option name="JS.BADCHARACTER">
+   57  <value>
+   58  <option name="FOREGROUND"/>
+   59  <option name="BACKGROUND"/>
+   60  <option name="FONT_TYPE" value="0"/>
+   61  <option name="EFFECT_COLOR" value="ff0000"/>
+   62  <option name="EFFECT_TYPE" value="1"/>
+   63  <option name="ERROR_STRIPE_COLOR"/>
+   64  </value>
+   65  </option>
+   66  <option name="JS.DOC_TAG">
+   67  <value>
+   68  <option name="FOREGROUND"/>
+   69  <option name="BACKGROUND"/>
+   70  <option name="FONT_TYPE" value="0"/>
+   71  <option name="EFFECT_COLOR" value="808080"/>
+   72  <option name="EFFECT_TYPE" value="1"/>
+   73  <option name="ERROR_STRIPE_COLOR"/>
+   74  </value>
+   75  </option>
+   76  <option name="JS.GLOBAL_FUNCTION">
+   77  <value>
+   78  <option name="FOREGROUND" value="f0eba0"/>
+   79  <option name="BACKGROUND"/>
+   80  <option name="FONT_TYPE" value="2"/>
+   81  <option name="EFFECT_COLOR"/>
+   82  <option name="EFFECT_TYPE" value="0"/>
+   83  <option name="ERROR_STRIPE_COLOR"/>
+   84  </value>
+   85  </option>
+   86  <option name="JS.GLOBAL_VARIABLE">
+   87  <value>
+   88  <option name="FOREGROUND" value="f0eba0"/>
+   89  <option name="BACKGROUND"/>
+   90  <option name="FONT_TYPE" value="2"/>
+   91  <option name="EFFECT_COLOR"/>
+   92  <option name="EFFECT_TYPE" value="0"/>
+   93  <option name="ERROR_STRIPE_COLOR"/>
+   94  </value>
+   95  </option>
+   96  <option name="JS.INSTANCE_MEMBER_FUNCTION">
+   97  <value>
+   98  <option name="FOREGROUND" value="f0eba0"/>
+   99  <option name="BACKGROUND"/>
+  100  <option name="FONT_TYPE" value="0"/>
+  101  <option name="EFFECT_COLOR"/>
+  102  <option name="EFFECT_TYPE" value="-1"/>
+  103  <option name="ERROR_STRIPE_COLOR"/>
+  104  </value>
+  105  </option>
+  106  <option name="JS.INSTANCE_MEMBER_VARIABLE">
+  107  <value>
+  108  <option name="FOREGROUND" value="f0eba0"/>
+  109  <option name="BACKGROUND"/>
+  110  <option name="FONT_TYPE" value="0"/>
+  111  <option name="EFFECT_COLOR"/>
+  112  <option name="EFFECT_TYPE" value="0"/>
+  113  <option name="ERROR_STRIPE_COLOR"/>
+  114  </value>
+  115  </option>
+  116  <option name="JS.INVALID_STRING_ESCAPE">
+  117  <value>
+  118  <option name="FOREGROUND" value="e77e6a"/>
+  119  <option name="BACKGROUND"/>
+  120  <option name="FONT_TYPE" value="0"/>
+  121  <option name="EFFECT_COLOR"/>
+  122  <option name="EFFECT_TYPE" value="0"/>
+  123  <option name="ERROR_STRIPE_COLOR"/>
+  124  </value>
+  125  </option>
+  126  <option name="JS.KEYWORD">
+  127  <value>
+  128  <option name="FOREGROUND" value="8fe276"/>
+  129  <option name="BACKGROUND"/>
+  130  <option name="FONT_TYPE" value="0"/>
+  131  <option name="EFFECT_COLOR"/>
+  132  <option name="EFFECT_TYPE" value="0"/>
+  133  <option name="ERROR_STRIPE_COLOR"/>
+  134  </value>
+  135  </option>
+  136  <option name="JS.LOCAL_VARIABLE">
+  137  <value>
+  138  <option name="FOREGROUND" value="f0eba0"/>
+  139  <option name="BACKGROUND"/>
+  140  <option name="FONT_TYPE" value="0"/>
+  141  <option name="EFFECT_COLOR"/>
+  142  <option name="EFFECT_TYPE" value="-1"/>
+  143  <option name="ERROR_STRIPE_COLOR"/>
+  144  </value>
+  145  </option>
+  146  <option name="JS.NUMBER">
+  147  <value>
+  148  <option name="FOREGROUND" value="99ff33"/>
+  149  <option name="BACKGROUND"/>
+  150  <option name="FONT_TYPE" value="0"/>
+  151  <option name="EFFECT_COLOR"/>
+  152  <option name="EFFECT_TYPE" value="0"/>
+  153  <option name="ERROR_STRIPE_COLOR"/>
+  154  </value>
+  155  </option>
+  156  <option name="JS.PARAMETER">
+  157  <value>
+  158  <option name="FOREGROUND" value="f0eba0"/>
+  159  <option name="BACKGROUND"/>
+  160  <option name="FONT_TYPE" value="0"/>
+  161  <option name="EFFECT_COLOR" value="0"/>
+  162  <option name="EFFECT_TYPE" value="1"/>
+  163  <option name="ERROR_STRIPE_COLOR"/>
+  164  </value>
+  165  </option>
+  166  <option name="JS.REGEXP">
+  167  <value>
+  168  <option name="FOREGROUND" value="7cb7f1"/>
+  169  <option name="BACKGROUND"/>
+  170  <option name="FONT_TYPE" value="0"/>
+  171  <option name="EFFECT_COLOR"/>
+  172  <option name="EFFECT_TYPE" value="-1"/>
+  173  <option name="ERROR_STRIPE_COLOR"/>
+  174  </value>
+  175  </option>
+  176  <option name="JS.STATIC_MEMBER_VARIABLE">
+  177  <value>
+  178  <option name="FOREGROUND" value="f0eba0"/>
+  179  <option name="BACKGROUND"/>
+  180  <option name="FONT_TYPE" value="2"/>
+  181  <option name="EFFECT_COLOR"/>
+  182  <option name="EFFECT_TYPE" value="0"/>
+  183  <option name="ERROR_STRIPE_COLOR"/>
+  184  </value>
+  185  </option>
+  186  <option name="JS.STRING">
+  187  <value>
+  188  <option name="FOREGROUND" value="ff6600"/>
+  189  <option name="BACKGROUND"/>
+  190  <option name="FONT_TYPE" value="0"/>
+  191  <option name="EFFECT_COLOR"/>
+  192  <option name="EFFECT_TYPE" value="0"/>
+  193  <option name="ERROR_STRIPE_COLOR"/>
+  194  </value>
+  195  </option>
+  196  <option name="JS.VALID_STRING_ESCAPE">
+  197  <value>
+  198  <option name="FOREGROUND" value="7cb7f1"/>
+  199  <option name="BACKGROUND"/>
+  200  <option name="FONT_TYPE" value="0"/>
+  201  <option name="EFFECT_COLOR"/>
+  202  <option name="EFFECT_TYPE" value="0"/>
+  203  <option name="ERROR_STRIPE_COLOR"/>
+  204  </value>
+  205  </option>
+  206  <option name="NOT_USED_ELEMENT_ATTRIBUTES">
+  207  <value>
+  208  <option name="FOREGROUND" value="f5e5f5"/>
+  209  <option name="BACKGROUND" value="322141"/>
+  210  <option name="FONT_TYPE" value="0"/>
+  211  <option name="EFFECT_COLOR"/>
+  212  <option name="EFFECT_TYPE" value="0"/>
+  213  <option name="ERROR_STRIPE_COLOR"/>
+  214  </value>
+  215  </option>
+  216  <option name="PHP_BAD_CHARACTER">
+  217  <value>
+  218  <option name="FOREGROUND"/>
+  219  <option name="BACKGROUND"/>
+  220  <option name="FONT_TYPE" value="0"/>
+  221  <option name="EFFECT_COLOR"/>
+  222  <option name="EFFECT_TYPE" value="0"/>
+  223  <option name="ERROR_STRIPE_COLOR" value="ff00cc"/>
+  224  </value>
+  225  </option>
+  226  <option name="PHP_BRACKETS">
+  227  <value>
+  228  <option name="FOREGROUND"/>
+  229  <option name="BACKGROUND"/>
+  230  <option name="FONT_TYPE" value="0"/>
+  231  <option name="EFFECT_COLOR"/>
+  232  <option name="EFFECT_TYPE" value="1"/>
+  233  <option name="ERROR_STRIPE_COLOR"/>
+  234  </value>
+  235  </option>
+  236  <option name="PHP_CONSTANT">
+  237  <value>
+  238  <option name="FOREGROUND" value="f0ecef"/>
+  239  <option name="BACKGROUND"/>
+  240  <option name="FONT_TYPE" value="0"/>
+  241  <option name="EFFECT_COLOR"/>
+  242  <option name="EFFECT_TYPE" value="0"/>
+  243  <option name="ERROR_STRIPE_COLOR"/>
+  244  </value>
+  245  </option>
+  246  <option name="PHP_HEREDOC_CONTENT">
+  247  <value>
+  248  <option name="FOREGROUND" value="99ff99"/>
+  249  <option name="BACKGROUND"/>
+  250  <option name="FONT_TYPE" value="1"/>
+  251  <option name="EFFECT_COLOR"/>
+  252  <option name="EFFECT_TYPE" value="0"/>
+  253  <option name="ERROR_STRIPE_COLOR"/>
+  254  </value>
+  255  </option>
+  256  <option name="PHP_IDENTIFIER">
+  257  <value>
+  258  <option name="FOREGROUND" value="f0ecef"/>
+  259  <option name="BACKGROUND"/>
+  260  <option name="FONT_TYPE" value="0"/>
+  261  <option name="EFFECT_COLOR"/>
+  262  <option name="EFFECT_TYPE" value="0"/>
+  263  <option name="ERROR_STRIPE_COLOR"/>
+  264  </value>
+  265  </option>
+  266  <option name="PHP_KEYWORD">
+  267  <value>
+  268  <option name="FOREGROUND" value="388fff"/>
+  269  <option name="BACKGROUND"/>
+  270  <option name="FONT_TYPE" value="0"/>
+  271  <option name="EFFECT_COLOR"/>
+  272  <option name="EFFECT_TYPE" value="0"/>
+  273  <option name="ERROR_STRIPE_COLOR"/>
+  274  </value>
+  275  </option>
+  276  <option name="PHP_MARKUP_ID">
+  277  <value>
+  278  <option name="FOREGROUND"/>
+  279  <option name="BACKGROUND"/>
+  280  <option name="FONT_TYPE" value="0"/>
+  281  <option name="EFFECT_COLOR" value="ccffcc"/>
+  282  <option name="EFFECT_TYPE" value="0"/>
+  283  <option name="ERROR_STRIPE_COLOR"/>
+  284  </value>
+  285  </option>
+  286  <option name="PHP_NUMBER">
+  287  <value>
+  288  <option name="FOREGROUND" value="66ff00"/>
+  289  <option name="BACKGROUND"/>
+  290  <option name="FONT_TYPE" value="2"/>
+  291  <option name="EFFECT_COLOR"/>
+  292  <option name="EFFECT_TYPE" value="1"/>
+  293  <option name="ERROR_STRIPE_COLOR"/>
+  294  </value>
+  295  </option>
+  296  <option name="PHP_OPERATION_SIGN">
+  297  <value>
+  298  <option name="FOREGROUND" value="ffff33"/>
+  299  <option name="BACKGROUND"/>
+  300  <option name="FONT_TYPE" value="0"/>
+  301  <option name="EFFECT_COLOR"/>
+  302  <option name="EFFECT_TYPE" value="0"/>
+  303  <option name="ERROR_STRIPE_COLOR"/>
+  304  </value>
+  305  </option>
+  306  <option name="PHP_PREDEFINED SYMBOL">
+  307  <value>
+  308  <option name="FOREGROUND" value="f0ecef"/>
+  309  <option name="BACKGROUND"/>
+  310  <option name="FONT_TYPE" value="2"/>
+  311  <option name="EFFECT_COLOR"/>
+  312  <option name="EFFECT_TYPE" value="0"/>
+  313  <option name="ERROR_STRIPE_COLOR"/>
+  314  </value>
+  315  </option>
+  316  <option name="PHP_SCRIPTING_BACKGROUND">
+  317  <value>
+  318  <option name="FOREGROUND" value="f0ecef"/>
+  319  <option name="BACKGROUND"/>
+  320  <option name="FONT_TYPE" value="0"/>
+  321  <option name="EFFECT_COLOR"/>
+  322  <option name="EFFECT_TYPE" value="0"/>
+  323  <option name="ERROR_STRIPE_COLOR"/>
+  324  </value>
+  325  </option>
+  326  <option name="PHP_STRING">
+  327  <value>
+  328  <option name="FOREGROUND" value="ff9933"/>
+  329  <option name="BACKGROUND"/>
+  330  <option name="FONT_TYPE" value="0"/>
+  331  <option name="EFFECT_COLOR"/>
+  332  <option name="EFFECT_TYPE" value="0"/>
+  333  <option name="ERROR_STRIPE_COLOR"/>
+  334  </value>
+  335  </option>
+  336  <option name="PHP_TAG">
+  337  <value>
+  338  <option name="FOREGROUND" value="ff3333"/>
+  339  <option name="BACKGROUND"/>
+  340  <option name="FONT_TYPE" value="1"/>
+  341  <option name="EFFECT_COLOR"/>
+  342  <option name="EFFECT_TYPE" value="0"/>
+  343  <option name="ERROR_STRIPE_COLOR"/>
+  344  </value>
+  345  </option>
+  346  <option name="PHP_VAR">
+  347  <value>
+  348  <option name="FOREGROUND" value="66ff66"/>
+  349  <option name="BACKGROUND"/>
+  350  <option name="FONT_TYPE" value="0"/>
+  351  <option name="EFFECT_COLOR"/>
+  352  <option name="EFFECT_TYPE" value="0"/>
+  353  <option name="ERROR_STRIPE_COLOR"/>
+  354  </value>
+  355  </option>
+  356  <option name="REQUIRE_GEM_CALL">
+  357  <value>
+  358  <option name="FOREGROUND" value="c0c0c0"/>
+  359  <option name="BACKGROUND"/>
+  360  <option name="FONT_TYPE" value="0"/>
+  361  <option name="EFFECT_COLOR"/>
+  362  <option name="EFFECT_TYPE" value="0"/>
+  363  <option name="ERROR_STRIPE_COLOR"/>
+  364  </value>
+  365  </option>
+  366  <option name="RHTML_COMMENT_ID">
+  367  <value>
+  368  <option name="FOREGROUND" value="7f7561"/>
+  369  <option name="BACKGROUND" value="3f3f3f"/>
+  370  <option name="FONT_TYPE" value="2"/>
+  371  <option name="EFFECT_COLOR"/>
+  372  <option name="EFFECT_TYPE" value="0"/>
+  373  <option name="ERROR_STRIPE_COLOR"/>
+  374  </value>
+  375  </option>
+  376  <option name="RHTML_EXPRESSION_END_ID">
+  377  <value>
+  378  <option name="FOREGROUND" value="e77e7e"/>
+  379  <option name="BACKGROUND" value="3f3f3f"/>
+  380  <option name="FONT_TYPE" value="0"/>
+  381  <option name="EFFECT_COLOR"/>
+  382  <option name="EFFECT_TYPE" value="0"/>
+  383  <option name="ERROR_STRIPE_COLOR"/>
+  384  </value>
+  385  </option>
+  386  <option name="RHTML_EXPRESSION_START_ID">
+  387  <value>
+  388  <option name="FOREGROUND" value="e77e7e"/>
+  389  <option name="BACKGROUND" value="3f3f3f"/>
+  390  <option name="FONT_TYPE" value="0"/>
+  391  <option name="EFFECT_COLOR"/>
+  392  <option name="EFFECT_TYPE" value="0"/>
+  393  <option name="ERROR_STRIPE_COLOR"/>
+  394  </value>
+  395  </option>
+  396  <option name="RHTML_OMIT_NEW_LINE_ID">
+  397  <value>
+  398  <option name="FOREGROUND" value="e77e7e"/>
+  399  <option name="BACKGROUND" value="3f3f3f"/>
+  400  <option name="FONT_TYPE" value="0"/>
+  401  <option name="EFFECT_COLOR"/>
+  402  <option name="EFFECT_TYPE" value="0"/>
+  403  <option name="ERROR_STRIPE_COLOR"/>
+  404  </value>
+  405  </option>
+  406  <option name="RHTML_SCRIPTING_BACKGROUND_ID">
+  407  <value>
+  408  <option name="FOREGROUND"/>
+  409  <option name="BACKGROUND" value="3f3f3f"/>
+  410  <option name="FONT_TYPE" value="0"/>
+  411  <option name="EFFECT_COLOR"/>
+  412  <option name="EFFECT_TYPE" value="0"/>
+  413  <option name="ERROR_STRIPE_COLOR"/>
+  414  </value>
+  415  </option>
+  416  <option name="RHTML_SCRIPTLET_END_ID">
+  417  <value>
+  418  <option name="FOREGROUND" value="e77e7e"/>
+  419  <option name="BACKGROUND" value="3f3f3f"/>
+  420  <option name="FONT_TYPE" value="0"/>
+  421  <option name="EFFECT_COLOR"/>
+  422  <option name="EFFECT_TYPE" value="1"/>
+  423  <option name="ERROR_STRIPE_COLOR"/>
+  424  </value>
+  425  </option>
+  426  <option name="RHTML_SCRIPTLET_START_ID">
+  427  <value>
+  428  <option name="FOREGROUND" value="e77e7e"/>
+  429  <option name="BACKGROUND" value="3f3f3f"/>
+  430  <option name="FONT_TYPE" value="0"/>
+  431  <option name="EFFECT_COLOR"/>
+  432  <option name="EFFECT_TYPE" value="0"/>
+  433  <option name="ERROR_STRIPE_COLOR"/>
+  434  </value>
+  435  </option>
+  436  <option name="RUBY_ATTR_ACCESSOR_CALL">
+  437  <value>
+  438  <option name="FOREGROUND" value="c0c0c0"/>
+  439  <option name="BACKGROUND" value="3f3f3f"/>
+  440  <option name="FONT_TYPE" value="0"/>
+  441  <option name="EFFECT_COLOR"/>
+  442  <option name="EFFECT_TYPE" value="0"/>
+  443  <option name="ERROR_STRIPE_COLOR"/>
+  444  </value>
+  445  </option>
+  446  <option name="RUBY_ATTR_READER_CALL">
+  447  <value>
+  448  <option name="FOREGROUND" value="c0c0c0"/>
+  449  <option name="BACKGROUND" value="3f3f3f"/>
+  450  <option name="FONT_TYPE" value="0"/>
+  451  <option name="EFFECT_COLOR"/>
+  452  <option name="EFFECT_TYPE" value="0"/>
+  453  <option name="ERROR_STRIPE_COLOR"/>
+  454  </value>
+  455  </option>
+  456  <option name="RUBY_ATTR_WRITER_CALL">
+  457  <value>
+  458  <option name="FOREGROUND" value="c0c0c0"/>
+  459  <option name="BACKGROUND" value="3f3f3f"/>
+  460  <option name="FONT_TYPE" value="0"/>
+  461  <option name="EFFECT_COLOR"/>
+  462  <option name="EFFECT_TYPE" value="0"/>
+  463  <option name="ERROR_STRIPE_COLOR"/>
+  464  </value>
+  465  </option>
+  466  <option name="RUBY_BACK_REF">
+  467  <value>
+  468  <option name="FOREGROUND" value="8fe276"/>
+  469  <option name="BACKGROUND" value="3e3e3e"/>
+  470  <option name="FONT_TYPE" value="0"/>
+  471  <option name="EFFECT_COLOR"/>
+  472  <option name="EFFECT_TYPE" value="0"/>
+  473  <option name="ERROR_STRIPE_COLOR"/>
+  474  </value>
+  475  </option>
+  476  <option name="RUBY_BAD_CHARACTER">
+  477  <value>
+  478  <option name="FOREGROUND"/>
+  479  <option name="BACKGROUND" value="990000"/>
+  480  <option name="FONT_TYPE" value="0"/>
+  481  <option name="EFFECT_COLOR"/>
+  482  <option name="EFFECT_TYPE" value="0"/>
+  483  <option name="ERROR_STRIPE_COLOR"/>
+  484  </value>
+  485  </option>
+  486  <option name="RUBY_BRACKETS">
+  487  <value>
+  488  <option name="FOREGROUND" value="f0ecef"/>
+  489  <option name="BACKGROUND" value="3e3e3e"/>
+  490  <option name="FONT_TYPE" value="0"/>
+  491  <option name="EFFECT_COLOR"/>
+  492  <option name="EFFECT_TYPE" value="0"/>
+  493  <option name="ERROR_STRIPE_COLOR"/>
+  494  </value>
+  495  </option>
+  496  <option name="RUBY_COMMA">
+  497  <value>
+  498  <option name="FOREGROUND" value="ffffff"/>
+  499  <option name="BACKGROUND"/>
+  500  <option name="FONT_TYPE" value="0"/>
+  501  <option name="EFFECT_COLOR"/>
+  502  <option name="EFFECT_TYPE" value="0"/>
+  503  <option name="ERROR_STRIPE_COLOR"/>
+  504  </value>
+  505  </option>
+  506  <option name="RUBY_COMMENT">
+  507  <value>
+  508  <option name="FOREGROUND" value="7f7561"/>
+  509  <option name="BACKGROUND"/>
+  510  <option name="FONT_TYPE" value="2"/>
+  511  <option name="EFFECT_COLOR"/>
+  512  <option name="EFFECT_TYPE" value="0"/>
+  513  <option name="ERROR_STRIPE_COLOR"/>
+  514  </value>
+  515  </option>
+  516  <option name="RUBY_CONSTANT">
+  517  <value>
+  518  <option name="FOREGROUND" value="f0eba0"/>
+  519  <option name="BACKGROUND"/>
+  520  <option name="FONT_TYPE" value="0"/>
+  521  <option name="EFFECT_COLOR"/>
+  522  <option name="EFFECT_TYPE" value="0"/>
+  523  <option name="ERROR_STRIPE_COLOR"/>
+  524  </value>
+  525  </option>
+  526  <option name="RUBY_CONSTANT_DEF_ID">
+  527  <value>
+  528  <option name="FOREGROUND" value="b83636"/>
+  529  <option name="BACKGROUND"/>
+  530  <option name="FONT_TYPE" value="2"/>
+  531  <option name="EFFECT_COLOR"/>
+  532  <option name="EFFECT_TYPE" value="0"/>
+  533  <option name="ERROR_STRIPE_COLOR"/>
+  534  </value>
+  535  </option>
+  536  <option name="RUBY_CVAR">
+  537  <value>
+  538  <option name="FOREGROUND" value="8fe276"/>
+  539  <option name="BACKGROUND"/>
+  540  <option name="FONT_TYPE" value="2"/>
+  541  <option name="EFFECT_COLOR"/>
+  542  <option name="EFFECT_TYPE" value="0"/>
+  543  <option name="ERROR_STRIPE_COLOR"/>
+  544  </value>
+  545  </option>
+  546  <option name="RUBY_ESCAPE_SEQUENCE">
+  547  <value>
+  548  <option name="FOREGROUND" value="80"/>
+  549  <option name="BACKGROUND"/>
+  550  <option name="FONT_TYPE" value="0"/>
+  551  <option name="EFFECT_COLOR"/>
+  552  <option name="EFFECT_TYPE" value="0"/>
+  553  <option name="ERROR_STRIPE_COLOR"/>
+  554  </value>
+  555  </option>
+  556  <option name="RUBY_EXPR_IN_STRING">
+  557  <value>
+  558  <option name="FOREGROUND" value="e77e7e"/>
+  559  <option name="BACKGROUND"/>
+  560  <option name="FONT_TYPE" value="0"/>
+  561  <option name="EFFECT_COLOR"/>
+  562  <option name="EFFECT_TYPE" value="0"/>
+  563  <option name="ERROR_STRIPE_COLOR"/>
+  564  </value>
+  565  </option>
+  566  <option name="RUBY_GVAR">
+  567  <value>
+  568  <option name="FOREGROUND" value="8fe276"/>
+  569  <option name="BACKGROUND" value="3e3e3e"/>
+  570  <option name="FONT_TYPE" value="0"/>
+  571  <option name="EFFECT_COLOR"/>
+  572  <option name="EFFECT_TYPE" value="0"/>
+  573  <option name="ERROR_STRIPE_COLOR"/>
+  574  </value>
+  575  </option>
+  576  <option name="RUBY_HASH_ASSOC">
+  577  <value>
+  578  <option name="FOREGROUND" value="ffffff"/>
+  579  <option name="BACKGROUND"/>
+  580  <option name="FONT_TYPE" value="0"/>
+  581  <option name="EFFECT_COLOR"/>
+  582  <option name="EFFECT_TYPE" value="0"/>
+  583  <option name="ERROR_STRIPE_COLOR"/>
+  584  </value>
+  585  </option>
+  586  <option name="RUBY_HEREDOC_CONTENT">
+  587  <value>
+  588  <option name="FOREGROUND" value="7cb7f1"/>
+  589  <option name="BACKGROUND"/>
+  590  <option name="FONT_TYPE" value="0"/>
+  591  <option name="EFFECT_COLOR"/>
+  592  <option name="EFFECT_TYPE" value="0"/>
+  593  <option name="ERROR_STRIPE_COLOR"/>
+  594  </value>
+  595  </option>
+  596  <option name="RUBY_HEREDOC_ID">
+  597  <value>
+  598  <option name="FOREGROUND" value="d782d7"/>
+  599  <option name="BACKGROUND"/>
+  600  <option name="FONT_TYPE" value="0"/>
+  601  <option name="EFFECT_COLOR" value="7cb7f1"/>
+  602  <option name="EFFECT_TYPE" value="1"/>
+  603  <option name="ERROR_STRIPE_COLOR"/>
+  604  </value>
+  605  </option>
+  606  <option name="RUBY_IDENTIFIER">
+  607  <value>
+  608  <option name="FOREGROUND" value="f0eba0"/>
+  609  <option name="BACKGROUND"/>
+  610  <option name="FONT_TYPE" value="0"/>
+  611  <option name="EFFECT_COLOR"/>
+  612  <option name="EFFECT_TYPE" value="0"/>
+  613  <option name="ERROR_STRIPE_COLOR"/>
+  614  </value>
+  615  </option>
+  616  <option name="RUBY_IMPORT_CALL">
+  617  <value>
+  618  <option name="FOREGROUND" value="c0c0c0"/>
+  619  <option name="BACKGROUND"/>
+  620  <option name="FONT_TYPE" value="0"/>
+  621  <option name="EFFECT_COLOR"/>
+  622  <option name="EFFECT_TYPE" value="0"/>
+  623  <option name="ERROR_STRIPE_COLOR"/>
+  624  </value>
+  625  </option>
+  626  <option name="RUBY_IVAR">
+  627  <value>
+  628  <option name="FOREGROUND" value="8fe276"/>
+  629  <option name="BACKGROUND"/>
+  630  <option name="FONT_TYPE" value="0"/>
+  631  <option name="EFFECT_COLOR"/>
+  632  <option name="EFFECT_TYPE" value="0"/>
+  633  <option name="ERROR_STRIPE_COLOR"/>
+  634  </value>
+  635  </option>
+  636  <option name="RUBY_KEYWORD">
+  637  <value>
+  638  <option name="FOREGROUND" value="e77e7e"/>
+  639  <option name="BACKGROUND"/>
+  640  <option name="FONT_TYPE" value="0"/>
+  641  <option name="EFFECT_COLOR"/>
+  642  <option name="EFFECT_TYPE" value="1"/>
+  643  <option name="ERROR_STRIPE_COLOR"/>
+  644  </value>
+  645  </option>
+  646  <option name="RUBY_LINE_CONTINUATION">
+  647  <value>
+  648  <option name="FOREGROUND"/>
+  649  <option name="BACKGROUND" value="808080"/>
+  650  <option name="FONT_TYPE" value="0"/>
+  651  <option name="EFFECT_COLOR"/>
+  652  <option name="EFFECT_TYPE" value="0"/>
+  653  <option name="ERROR_STRIPE_COLOR"/>
+  654  </value>
+  655  </option>
+  656  <option name="RUBY_LOCAL_VAR_ID">
+  657  <value>
+  658  <option name="FOREGROUND" value="f59a38"/>
+  659  <option name="BACKGROUND"/>
+  660  <option name="FONT_TYPE" value="2"/>
+  661  <option name="EFFECT_COLOR"/>
+  662  <option name="EFFECT_TYPE" value="0"/>
+  663  <option name="ERROR_STRIPE_COLOR"/>
+  664  </value>
+  665  </option>
+  666  <option name="RUBY_METHOD_NAME">
+  667  <value>
+  668  <option name="FOREGROUND" value="f0eba0"/>
+  669  <option name="BACKGROUND"/>
+  670  <option name="FONT_TYPE" value="0"/>
+  671  <option name="EFFECT_COLOR"/>
+  672  <option name="EFFECT_TYPE" value="0"/>
+  673  <option name="ERROR_STRIPE_COLOR"/>
+  674  </value>
+  675  </option>
+  676  <option name="RUBY_NTH_REF">
+  677  <value>
+  678  <option name="FOREGROUND" value="0"/>
+  679  <option name="BACKGROUND" value="3e3e3e"/>
+  680  <option name="FONT_TYPE" value="0"/>
+  681  <option name="EFFECT_COLOR"/>
+  682  <option name="EFFECT_TYPE" value="0"/>
+  683  <option name="ERROR_STRIPE_COLOR"/>
+  684  </value>
+  685  </option>
+  686  <option name="RUBY_NUMBER">
+  687  <value>
+  688  <option name="FOREGROUND" value="e77e7e"/>
+  689  <option name="BACKGROUND"/>
+  690  <option name="FONT_TYPE" value="0"/>
+  691  <option name="EFFECT_COLOR"/>
+  692  <option name="EFFECT_TYPE" value="0"/>
+  693  <option name="ERROR_STRIPE_COLOR"/>
+  694  </value>
+  695  </option>
+  696  <option name="RUBY_OPERATION_SIGN">
+  697  <value>
+  698  <option name="FOREGROUND" value="f0eba0"/>
+  699  <option name="BACKGROUND"/>
+  700  <option name="FONT_TYPE" value="0"/>
+  701  <option name="EFFECT_COLOR"/>
+  702  <option name="EFFECT_TYPE" value="0"/>
+  703  <option name="ERROR_STRIPE_COLOR"/>
+  704  </value>
+  705  </option>
+  706  <option name="RUBY_PARAMETER_ID">
+  707  <value>
+  708  <option name="FOREGROUND" value="f59a38"/>
+  709  <option name="BACKGROUND"/>
+  710  <option name="FONT_TYPE" value="2"/>
+  711  <option name="EFFECT_COLOR"/>
+  712  <option name="EFFECT_TYPE" value="0"/>
+  713  <option name="ERROR_STRIPE_COLOR"/>
+  714  </value>
+  715  </option>
+  716  <option name="RUBY_PRIVATE_CALL">
+  717  <value>
+  718  <option name="FOREGROUND" value="f0ecef"/>
+  719  <option name="BACKGROUND" value="3e3e3e"/>
+  720  <option name="FONT_TYPE" value="0"/>
+  721  <option name="EFFECT_COLOR"/>
+  722  <option name="EFFECT_TYPE" value="0"/>
+  723  <option name="ERROR_STRIPE_COLOR"/>
+  724  </value>
+  725  </option>
+  726  <option name="RUBY_PROTECTED_CALL">
+  727  <value>
+  728  <option name="FOREGROUND" value="f0ecef"/>
+  729  <option name="BACKGROUND" value="3e3e3e"/>
+  730  <option name="FONT_TYPE" value="0"/>
+  731  <option name="EFFECT_COLOR"/>
+  732  <option name="EFFECT_TYPE" value="0"/>
+  733  <option name="ERROR_STRIPE_COLOR"/>
+  734  </value>
+  735  </option>
+  736  <option name="RUBY_PUBLIC_CALL">
+  737  <value>
+  738  <option name="FOREGROUND" value="f0ecef"/>
+  739  <option name="BACKGROUND" value="3e3e3e"/>
+  740  <option name="FONT_TYPE" value="0"/>
+  741  <option name="EFFECT_COLOR"/>
+  742  <option name="EFFECT_TYPE" value="0"/>
+  743  <option name="ERROR_STRIPE_COLOR"/>
+  744  </value>
+  745  </option>
+  746  <option name="RUBY_REGEXP">
+  747  <value>
+  748  <option name="FOREGROUND" value="800000"/>
+  749  <option name="BACKGROUND" value="3e3e3e"/>
+  750  <option name="FONT_TYPE" value="0"/>
+  751  <option name="EFFECT_COLOR"/>
+  752  <option name="EFFECT_TYPE" value="0"/>
+  753  <option name="ERROR_STRIPE_COLOR"/>
+  754  </value>
+  755  </option>
+  756  <option name="RUBY_REQUIRE_ARG_CALL">
+  757  <value>
+  758  <option name="FOREGROUND"/>
+  759  <option name="BACKGROUND"/>
+  760  <option name="FONT_TYPE" value="0"/>
+  761  <option name="EFFECT_COLOR"/>
+  762  <option name="EFFECT_TYPE" value="0"/>
+  763  <option name="ERROR_STRIPE_COLOR"/>
+  764  </value>
+  765  </option>
+  766  <option name="RUBY_SEMICOLON">
+  767  <value>
+  768  <option name="FOREGROUND" value="ffffff"/>
+  769  <option name="BACKGROUND"/>
+  770  <option name="FONT_TYPE" value="0"/>
+  771  <option name="EFFECT_COLOR"/>
+  772  <option name="EFFECT_TYPE" value="0"/>
+  773  <option name="ERROR_STRIPE_COLOR"/>
+  774  </value>
+  775  </option>
+  776  <option name="RUBY_STRING">
+  777  <value>
+  778  <option name="FOREGROUND" value="7cb7f1"/>
+  779  <option name="BACKGROUND"/>
+  780  <option name="FONT_TYPE" value="0"/>
+  781  <option name="EFFECT_COLOR"/>
+  782  <option name="EFFECT_TYPE" value="0"/>
+  783  <option name="ERROR_STRIPE_COLOR"/>
+  784  </value>
+  785  </option>
+  786  <option name="RUBY_SYMBOL">
+  787  <value>
+  788  <option name="FOREGROUND" value="e77e7e"/>
+  789  <option name="BACKGROUND"/>
+  790  <option name="FONT_TYPE" value="0"/>
+  791  <option name="EFFECT_COLOR"/>
+  792  <option name="EFFECT_TYPE" value="0"/>
+  793  <option name="ERROR_STRIPE_COLOR"/>
+  794  </value>
+  795  </option>
+  796  <option name="RUBY_WORDS">
+  797  <value>
+  798  <option name="FOREGROUND" value="8080"/>
+  799  <option name="BACKGROUND" value="3e3e3e"/>
+  800  <option name="FONT_TYPE" value="0"/>
+  801  <option name="EFFECT_COLOR"/>
+  802  <option name="EFFECT_TYPE" value="0"/>
+  803  <option name="ERROR_STRIPE_COLOR"/>
+  804  </value>
+  805  </option>
+  806  <option name="SCOPE_KEY_All">
+  807  <value>
+  808  <option name="FOREGROUND" value="ffffff"/>
+  809  <option name="BACKGROUND" value="0"/>
+  810  <option name="FONT_TYPE" value="0"/>
+  811  <option name="EFFECT_COLOR"/>
+  812  <option name="EFFECT_TYPE" value="0"/>
+  813  <option name="ERROR_STRIPE_COLOR"/>
+  814  </value>
+  815  </option>
+  816  <option name="SCOPE_KEY_Non-Project Files">
+  817  <value>
+  818  <option name="FOREGROUND"/>
+  819  <option name="BACKGROUND"/>
+  820  <option name="FONT_TYPE" value="0"/>
+  821  <option name="EFFECT_COLOR"/>
+  822  <option name="EFFECT_TYPE" value="0"/>
+  823  <option name="ERROR_STRIPE_COLOR"/>
+  824  </value>
+  825  </option>
+  826  <option name="SCOPE_KEY_Problems">
+  827  <value>
+  828  <option name="FOREGROUND" value="ffffff"/>
+  829  <option name="BACKGROUND" value="0"/>
+  830  <option name="FONT_TYPE" value="0"/>
+  831  <option name="EFFECT_COLOR"/>
+  832  <option name="EFFECT_TYPE" value="0"/>
+  833  <option name="ERROR_STRIPE_COLOR"/>
+  834  </value>
+  835  </option>
+  836  <option name="SCOPE_KEY_Project Files">
+  837  <value>
+  838  <option name="FOREGROUND"/>
+  839  <option name="BACKGROUND"/>
+  840  <option name="FONT_TYPE" value="0"/>
+  841  <option name="EFFECT_COLOR"/>
+  842  <option name="EFFECT_TYPE" value="0"/>
+  843  <option name="ERROR_STRIPE_COLOR"/>
+  844  </value>
+  845  </option>
+  846  <option name="SCOPE_KEY_Tests">
+  847  <value>
+  848  <option name="FOREGROUND"/>
+  849  <option name="BACKGROUND"/>
+  850  <option name="FONT_TYPE" value="0"/>
+  851  <option name="EFFECT_COLOR"/>
+  852  <option name="EFFECT_TYPE" value="0"/>
+  853  <option name="ERROR_STRIPE_COLOR"/>
+  854  </value>
+  855  </option>
+  856  <option name="SEARCH_RESULT_ATTRIBUTES">
+  857  <value>
+  858  <option name="FOREGROUND" value="ffffff"/>
+  859  <option name="BACKGROUND" value="0"/>
+  860  <option name="FONT_TYPE" value="0"/>
+  861  <option name="EFFECT_COLOR"/>
+  862  <option name="EFFECT_TYPE" value="0"/>
+  863  <option name="ERROR_STRIPE_COLOR"/>
+  864  </value>
+  865  </option>
+  866  <option name="SQL_COLUMN">
+  867  <value>
+  868  <option name="FOREGROUND" value="3399ff"/>
+  869  <option name="BACKGROUND"/>
+  870  <option name="FONT_TYPE" value="1"/>
+  871  <option name="EFFECT_COLOR"/>
+  872  <option name="EFFECT_TYPE" value="0"/>
+  873  <option name="ERROR_STRIPE_COLOR"/>
+  874  </value>
+  875  </option>
+  876  <option name="SQL_KEYWORD">
+  877  <value>
+  878  <option name="FOREGROUND" value="cc00cc"/>
+  879  <option name="BACKGROUND"/>
+  880  <option name="FONT_TYPE" value="1"/>
+  881  <option name="EFFECT_COLOR"/>
+  882  <option name="EFFECT_TYPE" value="0"/>
+  883  <option name="ERROR_STRIPE_COLOR"/>
+  884  </value>
+  885  </option>
+  886  <option name="SQL_NUMBER">
+  887  <value>
+  888  <option name="FOREGROUND" value="99ff00"/>
+  889  <option name="BACKGROUND"/>
+  890  <option name="FONT_TYPE" value="0"/>
+  891  <option name="EFFECT_COLOR"/>
+  892  <option name="EFFECT_TYPE" value="0"/>
+  893  <option name="ERROR_STRIPE_COLOR"/>
+  894  </value>
+  895  </option>
+  896  <option name="SQL_STRING">
+  897  <value>
+  898  <option name="FOREGROUND" value="ff9900"/>
+  899  <option name="BACKGROUND"/>
+  900  <option name="FONT_TYPE" value="1"/>
+  901  <option name="EFFECT_COLOR"/>
+  902  <option name="EFFECT_TYPE" value="0"/>
+  903  <option name="ERROR_STRIPE_COLOR"/>
+  904  </value>
+  905  </option>
+  906  <option name="TEXT">
+  907  <value>
+  908  <option name="FOREGROUND" value="f0ecef"/>
+  909  <option name="BACKGROUND" value="242323"/>
+  910  <option name="FONT_TYPE" value="0"/>
+  911  <option name="EFFECT_COLOR"/>
+  912  <option name="EFFECT_TYPE" value="0"/>
+  913  <option name="ERROR_STRIPE_COLOR"/>
+  914  </value>
+  915  </option>
+  916  <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
+  917  <value>
+  918  <option name="FOREGROUND" value="ff0000"/>
+  919  <option name="BACKGROUND" value="ffff00"/>
+  920  <option name="FONT_TYPE" value="0"/>
+  921  <option name="EFFECT_COLOR"/>
+  922  <option name="EFFECT_TYPE" value="0"/>
+  923  <option name="ERROR_STRIPE_COLOR" value="ff00"/>
+  924  </value>
+  925  </option>
+  926  <option name="TODO_DEFAULT_ATTRIBUTES">
+  927  <value>
+  928  <option name="FOREGROUND" value="3366ff"/>
+  929  <option name="BACKGROUND"/>
+  930  <option name="FONT_TYPE" value="3"/>
+  931  <option name="EFFECT_COLOR"/>
+  932  <option name="EFFECT_TYPE" value="1"/>
+  933  <option name="ERROR_STRIPE_COLOR" value="3366ff"/>
+  934  </value>
+  935  </option>
+  936  <option name="WARNING_ATTRIBUTES">
+  937  <value>
+  938  <option name="FOREGROUND"/>
+  939  <option name="BACKGROUND"/>
+  940  <option name="FONT_TYPE" value="0"/>
+  941  <option name="EFFECT_COLOR" value="ff0000"/>
+  942  <option name="EFFECT_TYPE" value="4"/>
+  943  <option name="ERROR_STRIPE_COLOR" value="ffff00"/>
+  944  </value>
+  945  </option>
+  946  <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+  947  <value>
+  948  <option name="FOREGROUND"/>
+  949  <option name="BACKGROUND" value="3d5036"/>
+  950  <option name="FONT_TYPE" value="0"/>
+  951  <option name="EFFECT_COLOR"/>
+  952  <option name="EFFECT_TYPE" value="0"/>
+  953  <option name="ERROR_STRIPE_COLOR" value="ffcdff"/>
+  954  </value>
+  955  </option>
+  956  <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
+  957  <value>
+  958  <option name="FOREGROUND" value="0"/>
+  959  <option name="BACKGROUND" value="35520e"/>
+  960  <option name="FONT_TYPE" value="0"/>
+  961  <option name="EFFECT_COLOR"/>
+  962  <option name="EFFECT_TYPE" value="0"/>
+  963  <option name="ERROR_STRIPE_COLOR"/>
+  964  </value>
+  965  </option>
+  966  <option name="XML_ATTRIBUTE_NAME">
+  967  <value>
+  968  <option name="FOREGROUND" value="f0eba0"/>
+  969  <option name="BACKGROUND"/>
+  970  <option name="FONT_TYPE" value="0"/>
+  971  <option name="EFFECT_COLOR"/>
+  972  <option name="EFFECT_TYPE" value="0"/>
+  973  <option name="ERROR_STRIPE_COLOR"/>
+  974  </value>
+  975  </option>
+  976  <option name="XML_ATTRIBUTE_VALUE">
+  977  <value>
+  978  <option name="FOREGROUND" value="7cb7f1"/>
+  979  <option name="BACKGROUND"/>
+  980  <option name="FONT_TYPE" value="0"/>
+  981  <option name="EFFECT_COLOR"/>
+  982  <option name="EFFECT_TYPE" value="0"/>
+  983  <option name="ERROR_STRIPE_COLOR"/>
+  984  </value>
+  985  </option>
+  986  <option name="XML_COMMENT">
+  987  <value>
+  988  <option name="FOREGROUND" value="808080"/>
+  989  <option name="BACKGROUND"/>
+  990  <option name="FONT_TYPE" value="2"/>
+  991  <option name="EFFECT_COLOR"/>
+  992  <option name="EFFECT_TYPE" value="1"/>
+  993  <option name="ERROR_STRIPE_COLOR"/>
+  994  </value>
+  995  </option>
+  996  <option name="XML_ENTITY_REFERENCE">
+  997  <value>
+  998  <option name="FOREGROUND" value="c0c0c0"/>
+  999  <option name="BACKGROUND"/>
+ 1000  <option name="FONT_TYPE" value="0"/>
+ 1001  <option name="EFFECT_COLOR"/>
+ 1002  <option name="EFFECT_TYPE" value="0"/>
+ 1003  <option name="ERROR_STRIPE_COLOR"/>
+ 1004  </value>
+ 1005  </option>
+ 1006  <option name="XML_TAG">
+ 1007  <value>
+ 1008  <option name="FOREGROUND" value="8fe276"/>
+ 1009  <option name="BACKGROUND"/>
+ 1010  <option name="FONT_TYPE" value="0"/>
+ 1011  <option name="EFFECT_COLOR"/>
+ 1012  <option name="EFFECT_TYPE" value="0"/>
+ 1013  <option name="ERROR_STRIPE_COLOR"/>
+ 1014  </value>
+ 1015  </option>
+ 1016  <option name="XML_TAG_DATA">
+ 1017  <value>
+ 1018  <option name="FOREGROUND" value="c0c0c0"/>
+ 1019  <option name="BACKGROUND"/>
+ 1020  <option name="FONT_TYPE" value="0"/>
+ 1021  <option name="EFFECT_COLOR"/>
+ 1022  <option name="EFFECT_TYPE" value="0"/>
+ 1023  <option name="ERROR_STRIPE_COLOR"/>
+ 1024  </value>
+ 1025  </option>
+ 1026  <option name="XML_TAG_NAME">
+ 1027  <value>
+ 1028  <option name="FOREGROUND" value="8fe276"/>
+ 1029  <option name="BACKGROUND"/>
+ 1030  <option name="FONT_TYPE" value="0"/>
+ 1031  <option name="EFFECT_COLOR"/>
+ 1032  <option name="EFFECT_TYPE" value="0"/>
+ 1033  <option name="ERROR_STRIPE_COLOR"/>
+ 1034  </value>
+ 1035  </option>
+ 1036  <option name="XPATH.KEYWORD">
+ 1037  <value>
+ 1038  <option name="FOREGROUND" value="ffff00"/>
+ 1039  <option name="BACKGROUND"/>
+ 1040  <option name="FONT_TYPE" value="1"/>
+ 1041  <option name="EFFECT_COLOR"/>
+ 1042  <option name="EFFECT_TYPE" value="0"/>
+ 1043  <option name="ERROR_STRIPE_COLOR"/>
+ 1044  </value>
+ 1045  </option>
+ 1046  <option name="XPATH.NUMBER">
+ 1047  <value>
+ 1048  <option name="FOREGROUND" value="ff00"/>
+ 1049  <option name="BACKGROUND"/>
+ 1050  <option name="FONT_TYPE" value="0"/>
+ 1051  <option name="EFFECT_COLOR"/>
+ 1052  <option name="EFFECT_TYPE" value="0"/>
+ 1053  <option name="ERROR_STRIPE_COLOR"/>
+ 1054  </value>
+ 1055  </option>
+ 1056  <option name="XPATH.XPATH_VARIABLE">
+ 1057  <value>
+ 1058  <option name="FOREGROUND" value="ff00ff"/>
+ 1059  <option name="BACKGROUND"/>
+ 1060  <option name="FONT_TYPE" value="1"/>
+ 1061  <option name="EFFECT_COLOR"/>
+ 1062  <option name="EFFECT_TYPE" value="0"/>
+ 1063  <option name="ERROR_STRIPE_COLOR"/>
+ 1064  </value>
+ 1065  </option>
+ 1066  <option name="YAML_SCALAR_DSTRING">
+ 1067  <value>
+ 1068  <option name="FOREGROUND" value="8000"/>
+ 1069  <option name="BACKGROUND" value="3e3e3e"/>
+ 1070  <option name="FONT_TYPE" value="0"/>
+ 1071  <option name="EFFECT_COLOR"/>
+ 1072  <option name="EFFECT_TYPE" value="0"/>
+ 1073  <option name="ERROR_STRIPE_COLOR"/>
+ 1074  </value>
+ 1075  </option>
+ 1076  <option name="YAML_SCALAR_KEY">
+ 1077  <value>
+ 1078  <option name="FOREGROUND" value="80"/>
+ 1079  <option name="BACKGROUND"/>
+ 1080  <option name="FONT_TYPE" value="0"/>
+ 1081  <option name="EFFECT_COLOR"/>
+ 1082  <option name="EFFECT_TYPE" value="0"/>
+ 1083  <option name="ERROR_STRIPE_COLOR"/>
+ 1084  </value>
+ 1085  </option>
+ 1086  <option name="YAML_SCALAR_STRING">
+ 1087  <value>
+ 1088  <option name="FOREGROUND" value="8080"/>
+ 1089  <option name="BACKGROUND" value="3e3e3e"/>
+ 1090  <option name="FONT_TYPE" value="0"/>
+ 1091  <option name="EFFECT_COLOR"/>
+ 1092  <option name="EFFECT_TYPE" value="0"/>
+ 1093  <option name="ERROR_STRIPE_COLOR"/>
+ 1094  </value>
+ 1095  </option>
+ 1096  <option name="YAML_VALUE">
+ 1097  <value>
+ 1098  <option name="FOREGROUND" value="80"/>
+ 1099  <option name="BACKGROUND"/>
+ 1100  <option name="FONT_TYPE" value="0"/>
+ 1101  <option name="EFFECT_COLOR"/>
+ 1102  <option name="EFFECT_TYPE" value="0"/>
+ 1103  <option name="ERROR_STRIPE_COLOR"/>
+ 1104  </value>
+ 1105  </option>
+ 1106  </attributes>
+ 1107  ls
+ 1108  nano Elis-dark.xml
+ 1109  nano Herokoon.xml
+ 1110  rm help
+ 1111  rm --help
+ 1112  rv --hepl
+ 1113  ls
+ 1114  mv Elis-dark.xml Elis-dark.icls
+ 1115  ls
+ 1116  mv Herokoon.xml Herokoon.icls
+ 1117  nano Amazing.icls
+ 1118  nano DarkeBlue.icls
+ 1119  nano Monokay.icls
+ 1120  git pull gulpfile.babel.js
+ 1121  git pull gulp-dep
+ 1122  git status
+ 1123  git pull 
+ 1124  git status
+ 1125  git checkout .
+ 1126  git tatus
+ 1127  git sttus
+ 1128  git status
+ 1129  git pull remote gulp-dep
+ 1130  git status
+ 1131  git reset .
+ 1132  git status
+ 1133  gulp
+ 1134  gulp server
+ 1135  gulp serve
+ 1136  build
+ 1137  gulp build
+ 1138  npm i -D gulp-babel gulp-concat gulp-uglify gulp-rename gulp-clean-css del
+ 1139  npm install --save-dev @babel/register @babel/core @babel/preset-env
+ 1140  mkdir ./app/assets/css
+ 1141  cd app/assets/
+ 1142  mkdir css
+ 1143  gulp
+ 1144  gulp scripts
+ 1145  gulp log
+ 1146  gulp
+ 1147  gulp watch
+ 1148  gulp --version
+ 1149  cd ..
+ 1150  gulp
+ 1151  gulp testee
+ 1152  gulp styles
+ 1153  gulp server
+ 1154  npm uninstall @babel/register @babel/core @babel/preset-env
+ 1155  npm install -D @babel/register @babel/core @babel/preset-env
+ 1156  gulp server
+ 1157  gulp clean
+ 1158  gulp server
+ 1159  gulp tt
+ 1160  gulp server
+ 1161  gulp tt
+ 1162  gulp clean
+ 1163  gulp scritp
+ 1164  gulp script
+ 1165  gulp scripts
+ 1166  gulp clean
+ 1167  gulp server
+ 1168  gulp clean
+ 1169  gulp server
+ 1170  gulp clean
+ 1171  gulp server
+ 1172  npm i -D gulp-html
+ 1173  gulp server
+ 1174  gulp html
+ 1175  gulp 
+ 1176  gulp server
+ 1177  npm i -D gulp-htmlmin
+ 1178  gulp server
+ 1179  gulp html
+ 1180  gulp server
+ 1181  gulp html
+ 1182  gulp server
+ 1183  gulp clean
+ 1184  gulp server
+ 1185  gulp html
+ 1186  gulp server
+ 1187  git status
+ 1188  git add .
+ 1189  git commit -am 'gulp done'
+ 1190  git push origin gulp-dep 
+ 1191  sudo shutdown now
+ 1192  exit
+ 1193  cd Downloads/
+ 1194  cp aula06-DOM-1-original.html ~/WorkStation/js/
+ 1195  ls ~/WorkStation/js
+ 1196  rm -R *.html
+ 1197  ls
+ 1198  cd
+ 1199  cp -R *.html ~/WorkStation/js/
+ 1200  cp -R ~/Downloads/*.html ~/WorkStation/js/
+ 1201  rm -R ~/Downloads/*.html
+ 1202  ls ~/WorkStation/js
+ 1203  ls ~/Downloads/js
+ 1204  ls ~/Downloads
+ 1205  cp -R ~/Downloads/*.js ~/WorkStation/js/
+ 1206  cp -R ~/Downloads/*.zip ~/WorkStation/js/
+ 1207  rm -R ~/Downloads/*.js
+ 1208  rm -R ~/Downloads/*.zip
+ 1209  ls ~/Downloads
+ 1210  sudo WorkStation/os_up.sh start
+ 1211  sudo reboot
+ 1212  apm install intellij-idea-keymap
+ 1213  cp -R ~/Downloads/*.html ~/WorkStation/js/
+ 1214  rm -R ~/Downloads/*.html
+ 1215  exit
+ 1216  cp -R ~/Downloads/*.html ~/WorkStation/js/
+ 1217  rm -R ~/Downloads/*.html
+ 1218  exit
+ 1219  xrandr -o inverted
+ 1220  xrandr -o left
+ 1221  xrandr -o right
+ 1222  xrandr -o inverted
+ 1223  xrandr -o right
+ 1224  exit
+ 1225  xrandr -o normal
+ 1226  xrandr -o inverted
+ 1227  linux --help
+ 1228  php --v
+ 1229  lsb_release
+ 1230  cat /etc/os-release
+ 1231  uname -r
+ 1232  onboard-settings 
+ 1233  onboard --help
+ 1234  /usr/bin/onboard-indicator
+ 1235  find onboard-indicator
+ 1236  find dub
+ 1237  find github
+ 1238  find --help
+ 1239  cd ..
+ 1240  cd
+ 1241  ls
+ 1242  cd /
+ 1243  ls
+ 1244  find onboard-indicator
+ 1245  onboard
+ 1246  onboard --help
+ 1247  onboard -e
+ 1248  onboard --xid
+ 1249  onboard-settings 
+ 1250  KKKKkkkkjjjjjJJJJ''''
+ 1251  sudo WorkStation/os_up.sh 
+ 1252  sudo shutdown now
+ 1253  cd --help
+ 1254  cp --help
+ 1255  cp -Rv /home/logan /media/logan/bkp.safe/logan
+ 1256  sudo WorkStation/os_up.sh 
+ 1257  vscode
+ 1258  cp -R .gitignore ~/github/OnsignTV/ 
+ 1259  cp -R LICENSE.md ~/github/OnsignTV/ 
+ 1260  cp -R package-lock.json ~/github/OnsignTV/ 
+ 1261  cp -R README.md ~/github/OnsignTV/ 
+ 1262  cp -R app ~/github/OnsignTV/ 
+ 1263  cp -R build ~/github/OnsignTV/ 
+ 1264  cp -R .babelrc ~/github/OnsignTV/ 
+ 1265  cp -R gulpfile.babel.js ~/github/OnsignTV/ 
+ 1266  git init
+ 1267  mkdir assets
+ 1268  mkdir assets/scss
+ 1269  mkdir assets/libs
+ 1270  mkdir assets/css
+ 1271  mkdir assets/js
+ 1272  cp index.html
+ 1273  cp ~/index.html
+ 1274  index.html
+ 1275  nano index.html
+ 1276  npm install
+ 1277  npm index.html -g npm
+ 1278  npm i -g npm
+ 1279  sudo npm i -g npm
+ 1280  npm i -g npm
+ 1281  npm install
+ 1282  touch README
+ 1283  touch package.json
+ 1284  rm -R package.json
+ 1285  git config --global user.name "Ivan Espinola G."
+ 1286  git config --global user.email "ivan.espinola@live.com"
+ 1287  git config --global vscode.editor vim
+ 1288  git config --list
+ 1289  git config --global core.excludesfile ~/.gitignore
+ 1290  git status
+ 1291  cp -R package-lock.json package.json 
+ 1292  cd ..
+ 1293  ls
+ 1294  cd takeoff/
+ 1295  ls
+ 1296  cd site
+ 1297  ls
+ 1298  cp -R package.json ~/github/OnsignTV/
+ 1299  cp -R package
+ 1300  git clone git@github.com:i-espinola/OnSignTV.git
+ 1301  ls
+ 1302  cd ..
+ 1303  ls
+ 1304  cd OnsignTV/
+ 1305  ls
+ 1306  git clone git@github.com:i-espinola/OnSignTV.git
+ 1307  git pull remote master
+ 1308  git status
+ 1309  cd ..
+ 1310  rv --hrlp
+ 1311  vm 
+ 1312  rm --help
+ 1313  mv --help
+ 1314  mv OnsignTV OnSignTV
+ 1315  ls
+ 1316  git clone git@github.com:i-espinola/OnSignTV.git
+ 1317  mv OnSignTV OnsignTV
+ 1318  git clone git@github.com:i-espinola/OnSignTV.git
+ 1319  cp -R OnsignTV/* OnSignTV/
+ 1320  cd OnSignTV/
+ 1321  ls
+ 1322  cd ..
+ 1323  cp -R OnsignTV/* OnSignTV
+ 1324  ls OnSignTV/
+ 1325  ls OnsignTV/
+ 1326  cd OnSignTV/
+ 1327  ls
+ 1328  gulp server
+ 1329  touch index.html
+ 1330  touch main.js
+ 1331  touch style.css
+ 1332  cp -R ../OnsignTV/.babelrc ~/github/OnSignTV/
+ 1333  rm -R ../OnsignTV
+ 1334  npm init
+ 1335  cp -R ~/github/takeoff/site/app ~/github/OnSignTV/
+ 1336  cp -R ~/github/takeoff/site/build ~/github/OnSignTV/
+ 1337  mv app src
+ 1338  rm -R build/scss/*
+ 1339  rmrf -R build/scss/*
+ 1340  rm -R build/scss/*
+ 1341  rm -R src/scss/*
+ 1342  rm -R src/assets/scss/*
+ 1343  cp src/assets/* src
+ 1344  cp -R src/assets/* src
+ 1345  rm -R src/assets
+ 1346  rm -R src/css
+ 1347  npm i bootstrap
+ 1348  npm uninstall bootstrap
+ 1349  npm i bootstrap -d
+ 1350  npm uninstall bootstrap
+ 1351  npm i bootstrap --save-dev
+ 1352  npm i jquery@1.9.1 --save-dev
+ 1353  npm  audit fix
+ 1354  touch build/index.html
+ 1355  mkdir build/assets/libs
+ 1356  mkdir build/assets/scripts
+ 1357  npm uninstall bootstrap
+ 1358  npm install bootstrap --save-dev
+ 1359  npm  audit fix
+ 1360  npm audit
+ 1361  npm install
+ 1362  npm  audit fix
+ 1363  npm  audit fix --force
+ 1364  npm audit
+ 1365  npm update
+ 1366  gulp server
+ 1367  npm uninstall gulp-htmlmin
+ 1368  npm install gulp-htmlmin
+ 1369  npm install browser-sync
+ 1370  npm audit
+ 1371  npm uninstall browser-sync
+ 1372  npm uninstall gulp-htmlmin
+ 1373  gulp server
+ 1374  npm install browser-sync --save-dev
+ 1375  npm audit
+ 1376  npm update braces
+ 1377  npm audit
+ 1378  npm audit fix --force
+ 1379  gulp server
+ 1380  npm i gulp-htmlmin --save-dev
+ 1381  gulp server
+ 1382  npm start
+ 1383  npm test
+ 1384  npm install && npm update
+ 1385  gulp server
+ 1386  npm i gulp-concat --save-dev
+ 1387  gulp server
+ 1388  npm install && npm update
+ 1389  npm audit
+ 1390  gulp server
+ 1391  npm uninstall mateiral-kit gulp-htmlmin gulp-html node-sass
+ 1392  gulp
+ 1393  gulp server
+ 1394  gulp
+ 1395  npm uninstall material-kit
+ 1396  npm i popper.js@^1.14.7 --save-dev
+ 1397  npm audit fis --force
+ 1398  npm audit fix --force
+ 1399  npm audit fix
+ 1400  npm audir
+ 1401  npm audit
+ 1402  gulp server
+ 1403  gulp
+ 1404  gulp server
+ 1405  gulp
+ 1406  gulp server
+ 1407  git add .
+ 1408  git commit -am "layout + geoCodingAPI"
+ 1409  git push origin master
+ 1410  gulp server
+ 1411  git add .
+ 1412  git commit -am "wtf"
+ 1413  git push origin master
+ 1414  git status
+ 1415  sudo shutdown now
+ 1416  kbdrate
+ 1417  sudo kbdrate
+ 1418  git status
+ 1419  git add .
+ 1420  git commit -am "js"
+ 1421  git push origin master
+ 1422  git status
+ 1423  git add src/js/app.js 
+ 1424  git commit -am "app.js"
+ 1425  git push --help
+ 1426  git push origin : master 
+ 1427  git add src/js/app.js 
+ 1428  git commit -am "app.js"
+ 1429  git push origin
+ 1430  git push origin -v
+ 1431  git add src/js/app.js 
+ 1432  git commit -am "app.js"
+ 1433  git commit -am "app.jssss"
+ 1434  git push origin -v
+ 1435  git status
+ 1436  git pull
+ 1437  git add .
+ 1438  git commit -am "app.jssssss"
+ 1439  gulp
+ 1440  git add .
+ 1441  git status
+ 1442  git add .
+ 1443  git commit -am "app.js"
+ 1444  git push origin -v
+ 1445  gulp server
+ 1446  gulp
+ 1447  gulp clean
+ 1448  gulp
+ 1449  gulp server
+ 1450  gulp
+ 1451  gulp clean
+ 1452  gulp
+ 1453  gulp clean
+ 1454  gulp
+ 1455  gulp clean
+ 1456  gulp
+ 1457  gulp server
+ 1458  gulp clean
+ 1459  gulp
+ 1460  gulp server
+ 1461  gulp clean
+ 1462  gulp server
+ 1463  gulp clean
+ 1464  gulp server
+ 1465  gulp
+ 1466  gulp clean
+ 1467  gulp build
+ 1468  gulp clean
+ 1469  gulp clean
+ 1470  gulp build
+ 1471  gulp clen
+ 1472  gulp clean
+ 1473  gulp
+ 1474  gulp build
+ 1475  gulp builder
+ 1476  gulp build
+ 1477  gulp
+ 1478  gulp build
+ 1479  gulp styles
+ 1480  gulp clean
+ 1481  gulp styles
+ 1482  gulp clean
+ 1483  gulp styles
+ 1484  gulp scripts
+ 1485  gulp clean
+ 1486  gulp scripts
+ 1487  gulp clean
+ 1488  gulp styles
+ 1489  gulp clean
+ 1490  gulp styles
+ 1491  gulp clean
+ 1492  gulp styles
+ 1493  gulp clean
+ 1494  gulp scripts
+ 1495  gulp clean
+ 1496  gulp styles
+ 1497  gulp clean
+ 1498  gulp scripts
+ 1499  gulp clean
+ 1500  gulp scripts
+ 1501  gulp clean
+ 1502  gulp scripts
+ 1503  gulp clean
+ 1504  gulp scripts
+ 1505  gulp clean
+ 1506  gulp scripts
+ 1507  gulp clean
+ 1508  gulp build
+ 1509  gulp clean
+ 1510  gulp build
+ 1511  gulp clean
+ 1512  gulp build
+ 1513  gulp
+ 1514  gulp clean
+ 1515  gulp build
+ 1516  gulp
+ 1517  gulp clean
+ 1518  gulp build
+ 1519  gulp
+ 1520  gulp clean
+ 1521  gulp
+ 1522  gulp clean
+ 1523  gulp
+ 1524  gulp clean
+ 1525  gulp
+ 1526  gulp buld
+ 1527  gulp build
+ 1528  gulp
+ 1529  sudo sh ./WorkStation/os_up.sh 
+ 1530  gulp
+ 1531  git add.
+ 1532  git add .
+ 1533  git commit -am "Build version"
+ 1534  git push 
+ 1535  git push origin master 
+ 1536  tree
+ 1537  cd..
+ 1538  cd ..
+ 1539  tree OnSignTV/
+ 1540  cd OnSignTV/
+ 1541  tree build/
+ 1542  git pull remote
+ 1543  git pull 
+ 1544  gulp
+ 1545  git add .
+ 1546  git commit -am 'final version'
+ 1547  git push origin master 
+ 1548  git pull remote
+ 1549  git pull --help
+ 1550  git pull
+ 1551  gulp build
+ 1552  git add .
+ 1553  git commit -am 'final version'
+ 1554  git push origin master 
+ 1555  npm install & npm update
+ 1556  npm install && npm update
+ 1557  git status
+ 1558  gulp
+ 1559  gulp build
+ 1560  gulp builder
+ 1561  gulp server
+ 1562  npm update
+ 1563  npm audit
+ 1564  npm uninstall gulp-html
+ 1565  npm uninstall node-sass
+ 1566  npm audit fix 
+ 1567  npm uninstall fsevents@1.2.7
+ 1568  npm 
+ 1569  npm uninstall browser-sync
+ 1570  npm uninstall bootstrap
+ 1571  npm uninstall jquery
+ 1572  npm uninstall popper.js
+ 1573  npm install -d  bootstrap
+ 1574  npm uninstall bootstrap
+ 1575  npm install --save-dev  bootstrap
+ 1576  npm install --save-dev  jquery
+ 1577  npm install --save-dev  popper.js
+ 1578  npm install --save-dev browser-sync
+ 1579  npm fix
+ 1580  npm audit fix
+ 1581  npm uninstall fsevents
+ 1582  npm uninstall fsevents@1.2.7
+ 1583  npm audit
+ 1584  npm update braces
+ 1585  npm update
+ 1586  npm install
+ 1587  npm install --save-dev fsevents
+ 1588  nano /home/logan/.npm/_logs/2019-02-26T05_48_24_202Z-debug.log
+ 1589  gedit /home/logan/.npm/_logs/2019-02-26T05_48_24_202Z-debug.log
+ 1590  npm uninstall babel-core
+ 1591  npm uninstall --save-dev browser-sync
+ 1592  npm install --save-dev 
+ 1593  npm install --save-dev fsevents
+ 1594  npm uninstall --save-dev fsevents
+ 1595  npm uninstall --save-dev browser-sync
+ 1596  npm install --save-dev browser-sync
+ 1597  npm update
+ 1598  npm start
+ 1599  npm install
+ 1600  gulp builder
+ 1601  bulp
+ 1602  gulp
+ 1603  git status
+ 1604  git add .
+ 1605  sudo apt install kazam
+ 1606  gedit
+ 1607  exit
+ 1608  cp -R *.php ~/github/takeoff/hotsite/
+ 1609  sudo shutdown now
+ 1610  ping 189.9.80.52
+ 1611  ping google.com
+ 1612  ping agenciatakeoff.com.br
+ 1613  ping 189.9.80.52
+ 1614  ping 192.168.0.2
+ 1615  ping 192.168.0.4
+ 1616  ping 192.168.0.3
+ 1617  ping 192.168.0.10
+ 1618  ping 192.168.0.9
+ 1619  ping 192.168.0.7
+ 1620  ping 192.168.0.6
+ 1621  ping 192.168.0.5
+ 1622  ping 192.168.0.4
+ 1623  ping 192.168.0.2
+ 1624  npm start
+ 1625  npm install && npm update
+ 1626  npm audit fix
+ 1627  gulp clean
+ 1628  gulp build
+ 1629  gulp builder
+ 1630  gulp 
+ 1631  npm i argon-design-system-free
+ 1632  sudo sh ~/WorkStation/os_up.sh 
+ 1633  sudo reboot
+ 1634  sudo sh WorkStation/os_up.sh 
+ 1635  sudo rebooot
+ 1636  sudo reboot
+ 1637  git clone git@github.com:i-espinola/bdr-test.git
+ 1638  git status
+ 1639  git branch list
+ 1640  git branch --list
+ 1641  npm update
+ 1642  npm install
+ 1643  npm install && npm update
+ 1644  git status
+ 1645  git add .
+ 1646  git commit -am start_files
+ 1647  git push 
+ 1648  npm install && npm update
+ 1649  npm audit fix
+ 1650  git add .
+ 1651  git commit -am start_files
+ 1652  git push 
+ 1653  npm install && npm update
+ 1654  npm audit fix
+ 1655  apt-get install -y libjpeg libpng
+ 1656  sudo apt-get install -y libjpeg libpng
+ 1657  apt-get install -y libjpeg libpng
+ 1658  sudo apt-get install -y libjpeg libpng
+ 1659  sudo apt-get install -y libjpeg
+ 1660  sudo apt-get install libjpeg
+ 1661  sudo apt-get install -y libjpeg libpng
+ 1662  sudo apt-get install libjpeg-dev
+ 1663  sudo apt-get install libpng-dev
+ 1664  gulp build
+ 1665  npm uninstall
+ 1666  npm uninstall bootstrap
+ 1667  npm uninstall fsevents@1.2.7
+ 1668  npm install && npm update
+ 1669  npm uninstall fsevents
+ 1670  npm install && npm update
+ 1671  npm audit fix
+ 1672  npm uninstall fsevents
+ 1673  npm install fsevents@1.2.7 --dev-save
+ 1674  npm uninstall gulp-sass
+ 1675  npm uninstall popper
+ 1676  npm uninstall popper.js
+ 1677  npm uninstall gulp-rename
+ 1678  npm uninstall gulp-uglify
+ 1679  npm install && npm update
+ 1680  npm audit fix
+ 1681  npm install fsevents --save-dev
+ 1682  npm install && npm update
+ 1683  npm install fsevents --save-dev
+ 1684  npm install fsevents@1.2.7 --save-dev
+ 1685  npm uninstall fsevents@1.2.7
+ 1686  npm uninstall fsevents
+ 1687  npm uninstall browser-sync
+ 1688  npm install browser-sync --save-dev
+ 1689  npm uninstall browser-sync
+ 1690  npm install browser-sync --save-dev
+ 1691  npm audit
+ 1692  npm install braces@2.3.2 --save-dev
+ 1693  npm uninstall braces@2.3.1
+ 1694  npm install && npm update
+ 1695  npm install browser-sync --save-dev
+ 1696  npm uninstall browser-sync
+ 1697  npm install browser-sync --save-dev
+ 1698  npm install browser-sync@2.26.2 --save-dev
+ 1699  npm uninstall browser-sync
+ 1700  npm install browser-sync@2.26.1 --save-dev
+ 1701  nom audit
+ 1702  npm audit
+ 1703  npm install --save-dev browser-sync@2.26.3
+ 1704  npm audit
+ 1705  npm install --save-dev braces@2.3.2
+ 1706  npm audit
+ 1707  npm install --save-dev braces@2.3.0
+ 1708  npm install --save-dev braces@2.3.2
+ 1709  npm audit
+ 1710  npm uninstall browser-sync@2.26.1 --save-dev
+ 1711  npm uninstall browser-sync
+ 1712  npm install && npm update
+ 1713  npm i brower-sync --save-dev
+ 1714  npm i browser-sync --save-dev
+ 1715  npm uninstall
+ 1716  npm install && npm update
+ 1717  npm audit fix
+ 1718  gulp build
+ 1719  gulp
+ 1720  gulp clean
+ 1721  gulp build
+ 1722  npm install --save-dev gulp-image
+ 1723  npm uninstall gulp-image
+ 1724  npm install --save-dev gulp-image
+ 1725  npm uninstall gulp-image
+ 1726  npm install --save-dev gulp-image-optimization
+ 1727  npm uninstall gulp-image-optimization
+ 1728  npm install --save-dev gulp-imagemin
+ 1729  gulp clean
+ 1730  gulp build
+ 1731  gulp
+ 1732  gulp clean
+ 1733  gulp
+ 1734  gulp build
+ 1735  npm uninstall gulp-imagemin
+ 1736  npm install --save-dev gulp-image
+ 1737  npm uninstall --save-dev gulp-image
+ 1738  npm install && npm update
+ 1739  gulp clean
+ 1740  gulp build
+ 1741  npm install --save-dev gulp-imagemin
+ 1742  gulp clean
+ 1743  gulp build
+ 1744  gulp build
+ 1745  gulp clean
+ 1746  gulp build
+ 1747  gulp
+ 1748  gulp build
+ 1749  gulp
+ 1750  gulp build
+ 1751  gulp
+ 1752  gulp build
+ 1753  gulp
+ 1754  git .
+ 1755  git add .
+ 1756  git commit -am 'desk'
+ 1757  git push 
+ 1758  git add .
+ 1759  git commit -am 'desk'
+ 1760  git push 
+ 1761  gulp
+ 1762  gulp build
+ 1763  gulp
+ 1764  gulp build
+ 1765  gulp
+ 1766  git add .
+ 1767  git commit -am 'done : -mobile'
+ 1768  git push 
+ 1769  git add .
+ 1770  git commit -am 'done : -mobile'
+ 1771  git push 
+ 1772  sudo sh WorkStation/os_up.sh 
+ 1773  sudo shutdown now
+ 1774  gulp
+ 1775  gulp build
+ 1776  cd ..
+ 1777  ls 
+ 1778  tree BDR\ -\ teste/
+ 1779  npm install normalize.css
+ 1780  npm uninstall normalize.css
+ 1781  npm install -g npm
+ 1782  sudo npm install -g npm
+ 1783  npm install && npm update
+ 1784  exit
+ 1785  sudo logout
+ 1786  logout
+ 1787  gulp clean
+ 1788  gulp build
+ 1789  gulp
+ 1790  git add .
+ 1791  git commit -am 'grande final'
+ 1792  git push 
+ 1793  nano info.txt
+ 1794  git pull
+ 1795  sudo sh WorkStation/os_up.sh 
+ 1796  sudo reboot
+ 1797  apt list 
+ 1798  apt --help
+ 1799  apt search gitkraken
+ 1800  sudo apt -y install --reinstall gitkraken
+ 1801  snap install gitkraken
+ 1802  snap --help
+ 1803  snap remove gitkraken
+ 1804  snap install gitkraken
+ 1805  $XDG_CONFIG_HOME/
+ 1806  cd $XDG_CONFIG_HOME/
+ 1807  ls
+ 1808  find mailspring
+ 1809  find Mailspring
+ 1810  find --help
+ 1811  snap remove gitkraken
+ 1812  snap install --reinstall gitkraken
+ 1813  snap install -f gitkraken
+ 1814  snap install gitkraken
+ 1815  sudo sh WorkStation/os_up.sh 
+ 1816  sudo add-apt-repository -y ppa:n-muench/burg
+ 1817  sudo add-apt-repository --remove ppa:n-muench/burg
+ 1818  sudo apt-get install ppa-purge
+ 1819  sudo ppa-purge ppa:n-muench/burg
+ 1820  nano WorkStation/os_up.sh 
+ 1821  sudo sh WorkStation/os_up.sh 
+ 1822  sudo apt -y --purge
+ 1823  sudo apt -y remove --purge
+ 1824  sudo sh WorkStation/os_up.sh 
+ 1825  gedit
+ 1826  cd github/
+ 1827  ls
+ 1828  git clone git@github.com:i-espinola/project.init.git
+ 1829  npm install && npm update
+ 1830  npm audit
+ 1831  npm install && npm update
+ 1832  npm audit
+ 1833  npm install && npm update
+ 1834  npm audit
+ 1835  npm install && npm update
+ 1836  gulp 
+ 1837  npm update -g
+ 1838  sudo npm update -g
+ 1839  npm update
+ 1840  npm install && npm update
+ 1841  cd bdr-test-master/
+ 1842  npm install && npm up
+ 1843  npm --help
+ 1844  npm update --help
+ 1845  npm up
+ 1846  npm install && npm update
+ 1847  npm install -g bower-check-updates
+ 1848  npm install && npm up
+ 1849  npm install -g && npm up -g
+ 1850  sudo npm install -g && npm up -g
+ 1851  npm install -g && npm up -g
+ 1852  sudo npm install -g && npm up -g
+ 1853  npm install && npm update
+ 1854  npm install -g npm@latest
+ 1855  sudo npm install -g npm@latest
+ 1856  npm i -g npm-check-updates
+ 1857  sudo npm i -g npm-check-updates
+ 1858  ncu -u
+ 1859  npm install && npm up
+ 1860  sudo npm install -g && npm up -g
+ 1861  sudo npm uninstall -g
+ 1862  test
+ 1863  gulp
+ 1864  gulp build
+ 1865  gulp
+ 1866  git add .
+ 1867  git commit -am 'project.init with gulp and babel from npm'
+ 1868  git push remote master 
+ 1869  git push  master 
+ 1870  git push
+ 1871  cd ..
+ 1872  tree project.init/
+ 1873  git add .
+ 1874  cd project.init/
+ 1875  git add .
+ 1876  git commit -am 'project.init with gulp and babel from npm'
+ 1877  git push
+ 1878  git add .
+ 1879  git commit -am 'project.init with gulp and babel from npm'
+ 1880  git push
+ 1881  git add .
+ 1882  git commit -am 'project.init with gulp and babel from npm'
+ 1883  git push
+ 1884  git add .
+ 1885  git commit -am 'project.init with gulp and babel from npm'
+ 1886  git push
+ 1887  git add .
+ 1888  git commit -am 'project.init with gulp and babel from npm'
+ 1889  git push
+ 1890  nautilus /media/logan/microsoft/Users/Ivan Espinola/TAKEOFF/TI/Bibliotecas/Grafico/Images/Pessoas/Rendimentos 2018 - IR -Banco Itaú Unibanco S.A.pdf
+ 1891  nautilus /media/logan/microsoft/Users/Ivan Espinola/TAKEOFF/TI/Bibliotecas/Grafico/Images/Pessoas
+ 1892  nautilus /media/logan/microsoft/Users/Ivan\ Espinola/TAKEOFF/TI/Bibliotecas/Grafico/Images/Pessoas
+ 1893  ping google.com
+ 1894  ping http://google.com
+ 1895  ssh -T git@gitlab.com
+ 1896  sudo sh WorkStation/os_up.sh 
+ 1897  mv --help
+ 1898  mv github/ git
+ 1899  ls
+ 1900  cd git/
+ 1901  ls
+ 1902  git clone git@gitlab.com:brytecnologia-team/selecao/desafio-frontend-pleno.git
+ 1903  ls
+ 1904  cd ..
+ 1905  sudo sh WorkStation/os_up.sh 
+ 1906  cd git/
+ 1907  ls
+ 1908  rm -R desafio-frontend-pleno/
+ 1909  rm --help
+ 1910  rm -fR desafio-frontend-pleno/
+ 1911  ls
+ 1912  git clone git@gitlab.com:i-espinola/desafio-frontend-pleno.git
+ 1913  ls
+ 1914  cd Downloads/
+ 1915  rm -fR star.svg 
+ 1916  sudo npm install -g eslint
+ 1917  npm install && npm up
+ 1918  npm audit fix
+ 1919  npm install bootstrap
+ 1920  npm install jquery
+ 1921  gulp build
+ 1922  gulp clean
+ 1923  gulp build
+ 1924  gulp clean
+ 1925  gulp build
+ 1926  gulp clean
+ 1927  gulp build
+ 1928  gulp clean
+ 1929  gulp build
+ 1930  gulp 
+ 1931  gulp
+ 1932  npm install && npm up
+ 1933  npm audit fix
+ 1934  npm audit
+ 1935  sudo sh WorkStation/os_up.sh 
+ 1936  sudo shutdown now
+ 1937  cd git/
+ 1938  mkdir teste
+ 1939  cd teste/
+ 1940  git clone git@gitlab.com:i-espinola/desafio-frontend-pleno.git
+ 1941  gulp
+ 1942  gulp clean
+ 1943  gulp build
+ 1944  npm uninstall bootstrap
+ 1945  npm install bootstrap --save-dev
+ 1946  npm uninstall bootstrap --save-dev
+ 1947  npm install bootstrap
+ 1948  npm uninstall bootstrap
+ 1949  npm uninstall jquery
+ 1950  npm install bootstrap --save-dev
+ 1951  npm install jquery --save-dev
+ 1952  npm install popper --save-dev
+ 1953  npm uninstall popper --save-dev
+ 1954  npm uninstall popper.js@^1.14.7 --save-dev
+ 1955  gulp
+ 1956  git status
+ 1957  git add .
+ 1958  git commit -am 'home_page_beta'
+ 1959  git push 
+ 1960  eslint --init
+ 1961  sudo swapon -a ou 
+ 1962  sudo swapon -a
+ 1963  sudo swapon --help
+ 1964  sudo swapon -a
+ 1965  sudo WorkStation/os_up.sh 
+ 1966  gulp clean && gulp build && gulp
+ 1967  gulp
+ 1968  npm install --save-dev             var url = data.results[i].homeworld;
+ 1969  npm install --save-dev swapi-node
+ 1970  sudo npm install -g npm
+ 1971  npm install --save-dev swapi-node
+ 1972  gulp clean && gulp build && gulp
+ 1973  node /home/logan/git/desafio-frontend-pleno/node_modules/swapi-node/test/swapi-subresources-test.js
+ 1974  npm install swapi-node
+ 1975  npm uninstall --save-dev swapi-node
+ 1976  npm install swapi-node
+ 1977  node /home/logan/git/desafio-frontend-pleno/node_modules/swapi-node/test
+ 1978  node /home/logan/git/desafio-frontend-pleno/node_modules/swapi-node
+ 1979  gulp clean && gulp build && gulp
+ 1980  sudo sh workSpace/os_up.sh 
+ 1981  sudo sh workSpace/os_up.sh && sudo shutdown now
+ 1982  history > ~/Dropbox/Ubuntu/Comandos/Bionic_OS.txt
+ 1983  history -h
+ 1984  history --help
+ 1985  nano ~/.bashrc
+ 1986  history > ~/Dropbox/Ubuntu/Comandos/Bionic_OS.txt
+ 1987  nano ~/.bashrc
+ 1988  history > ~/Dropbox/Ubuntu/Comandos/Bionic_OS.txt
+ 1989  history tail
+ 1990  history tail 1000000
+ 1991  history tail *
+ 1992  history tail -n 1000000
+ 1993  history | tail -n 1000000
+ 1994  history | tail -n 0
+ 1995  history | tail -n *
+ 1996  nano .bash_history
+ 1997  nano ~/.bashrc
+ 1998  history > ~/Dropbox/Ubuntu/Comandos/Bionic_OS.txt
+ 1999  history | grep install > comandos.txt 
+ 2000  history | grep install | tail -n 1000000000000000 > comandos.txt 
+ 2001  history | grep install | tail -n 10 > comandos.txt 
+ 2002  man history
+ 2003  sdfdsf
+ 2004  dsf
+ 2005  ds
+ 2006  f
+ 2007  sd
+ 2008  f
+ 2009  ds
+ 2010  f
+ 2011  sdf
+ 2012  npm up
+ 2013  npm -g up
+ 2014  sudo npm -g up
+ 2015  bash | tee bash.output
+ 2016  man script
+ 2017  date
+ 2018  sudo sh ubuntu18.04_starter_install.sh 
+ 2019  sudo sh workSpace/os_up.sh 
+ 2020  sudo snap install gitkraken
+ 2021  snap install gitkraken
+ 2022  snap install skype
+ 2023  snap install skype spotify vscode gitkraken mailspring slack 
+ 2024  snap install skype && spotify vscode gitkraken mailspring slack 
+ 2025  sudo apt -h
+ 2026  apt search spotify
+ 2027  apt search spotify-cliente
+ 2028  apt search chrome
+ 2029  snap -help
+ 2030  snap --help
+ 2031  snap find chrome
+ 2032  snap find spotify
+ 2033  snap find skype
+ 2034  snap find vscode
+ 2035  snap find gitkraken
+ 2036  snap find mailspring
+ 2037  snap find slack
+ 2038  snap find netflix
+ 2039  snap find filezilla
+ 2040  snap find etcher
+ 2041  apt search etcher
+ 2042  apt search nodejs
+ 2043  apt search github
+ 2044  sudo apt -y github
+ 2045  sudo reboot
+ 2046  sudo apt install gnome-weather
+ 2047  git clone https://github.com/micheleg/dash-to-dock.git
+ 2048  cd dash-to-dock/
+ 2049  make
+ 2050  make install
+ 2051  sudo apt install -y ubuntu-restricted-addons
+ 2052  sudo reboot
+ 2053  cd Downloads/
+ 2054  cd 1
+ 2055  make
+ 2056  cd ..
+ 2057  cd NetSpeed-master/
+ 2058  make
+ 2059  make install
+ 2060  snap find NetSpeed 
+ 2061  apt search NetSpeed 
+ 2062  uname
+ 2063  uname -r
+ 2064  sudo apt -y gnome-shell-extension-ubuntu-dock
+ 2065  sudo apt install gnome-shell-extension-ubuntu-dock ubuntu-desktop
+ 2066  sudo apt install --reinstall gnome-shell-extension-ubuntu-dock ubuntu-desktop
+ 2067  sudo apt install gnome-shell-extensions
+ 2068  apt-cache policy gnome-shell-extension-ubuntu-dock
+ 2069  cd Downloads/
+ 2070  ls
+ 2071  sudo apt install unity-control-center 
+ 2072  gnome-session
+ 2073  sudo apt install gnome-session
+ 2074  sudo apt install --reinstall gnome-session
+ 2075  $ sudo tasksel install ubuntu-desktop
+ 2076  sudo tasksel install ubuntu-desktop
+ 2077  sudo sh workSpace/os_up.sh 
+ 2078  sudo sh workSpace/os_up.sh && sudo reboot
+ 2079  snap up
+ 2080  snap --help
+ 2081  apt-cache policy gnome-shell-extension-ubuntu-dock | grep Installed
+ 2082  sudo apt install gnome-shell-extension-ubuntu-dock
+ 2083  sudo apt install --reinstall gnome-shell-extension-ubuntu-dock
+ 2084  sudo sh workSpace/os_up.sh 
+ 2085  sudo apt install gnome-shell-extension-dashtodock
+ 2086  sudo apt -y gnome-control-center
+ 2087  sudo apt -y install gnome-control-center
+ 2088  sudo apt -y install --reinstall gnome-control-center
+ 2089  sudo apt install dconf-tools
+ 2090  gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+ 2091  sudo shutdown now
+ 2092  dconf reset -f /
+ 2093  sudo snap remove vscode
+ 2094  snap install code
+ 2095  sudo snap install code
+ 2096  snap find code
+ 2097  snap install code
+ 2098  snap install code --classic
+ 2099  cd Downloads/
+ 2100  tar -czvf Gabriel_Learning_web_front_end.tar.gz Gabriel\ -\ Learning\ web\ front-end/
+ 2101  sudo swapon -a
+ 2102  sudo swapon /dev/sda4
+ 2103  sudo gedit /etc/fstab
+ 2104  sudo sh workSpace/os_up.sh 
+ 2105  ifconfig
+ 2106  cp -R Downloads/*.mp4 /media/logan/microsoft/Users/Ivan\ Espinola/AppData/xpp/
+ 2107  cp -R ~/Downloads/*.mp4 /media/logan/microsoft/Users/Ivan\ Espinola/AppData/xpp/
+ 2108  cp -R ~/Downloads/*.mp4 /media/logan/microsoft/Users/Ivan\ Espinola/AppData/
+ 2109  sudo ntfsfix /dev/sad2
+ 2110  sudo sh workSpace/os_up.sh 
+ 2111  sudo fdisk -h
+ 2112  sudo fdisk -f
+ 2113  sudo fsdisk 
+ 2114  fsdisk --help
+ 2115  sudo fsck -f
+ 2116  sudo fsck -h
+ 2117  sudo fsck -p
+ 2118  sudo ntfsfix /dev/sda2
+ 2119  unmount /dev/sda2
+ 2120  sudo unmount /dev/sda2
+ 2121  unmount /dev/sda2
+ 2122  sudo ntfsfix /dev/sda2
+ 2123  mount /dev/sda2
+ 2124  sudo mount /dev/sda2
+ 2125  ping googgle.com
+ 2126  ping http://googgle.com
+ 2127  ping http://google.com
+ 2128  sudo shutdown now
+ 2129  wget -R https://instagram.ffln1-1.fna.fbcdn.net/vp/a5e5268522a5a3178b7c5d3d97e2e440/5D3F3853/t51.2885-15/sh0.08/e35/p750x750/56857837_155933752112726_3967822803527409900_n.jpg?_nc_ht=instagram.ffln1-1.fna.fbcdn.net
+ 2130  wget -r https://instagram.ffln1-1.fna.fbcdn.net/vp/a5e5268522a5a3178b7c5d3d97e2e440/5D3F3853/t51.2885-15/sh0.08/e35/p750x750/56857837_155933752112726_3967822803527409900_n.jpg?_nc_ht=instagram.ffln1-1.fna.fbcdn.net
+ 2131  sudo shutdown now
+ 2132  sudo sh workSpace/os_up.sh 
+ 2133  exit
+ 2134  sudo shutdown now
+ 2135  sudo nano /etc/fstab 
+ 2136  sudo gedit /etc/fstab 
+ 2137  sudo mount /dev/sda6
+ 2138  mount /dev/sda6
+ 2139  cp -h
+ 2140  cp --help
+ 2141  cp -R -v * /media/logan/OEM/
+ 2142  cp -R -v * /home/logan/Downloads/
+ 2143  cd ~/Downloads
+ 2144  cp -R -v * /media/logan/OEM/
+ 2145  cp -R -v * /media/logan/OEM
+ 2146  cp -R -v ~/Downloads/* /media/logan/OEM/
+ 2147  rm --help
+ 2148  sudo rm -vr ~/Downloads/*
+ 2149  sudo sh workSpace/os_up.sh 
+ 2150  sudo rm -rv /media/logan/bkp.safe/ext4/*
+ 2151  sudo rm -rv /media/logan/bkp.safe/ext4/* && sudo cp -rv /home/logan/* /media/logan/bkp.safe/ext4/
+ 2152  cp -rv ntfs/* /media/logan/9e374e83-b0d8-4944-bfa8-9541d4606704
+ 2153  sudo cp -rv ntfs/* /media/logan/9e374e83-b0d8-4944-bfa8-9541d4606704
+ 2154  cp --help
+ 2155  cp --help
+ 2156  cp -rv /home/logan /media/logan/main/ext4
+ 2157  cp --help
+ 2158  cp -rvn /home/logan/ /media/logan/main/ext4
+ 2159  cp -rvn /home/logan/* /media/logan/main/ext4/
+ 2160  cp -rv /home/logan /media/logan/main/
+ 2161  sudo rm -rf /media/logan/main/ext
+ 2162  sudo rm -rfv /media/logan/main/ext
+ 2163  sleep 1800; cp -rvn /media/logan/microsoft/Users/Ivan\ Espinola/* /media/logan/main/ntfs/
+ 2164  cp -rvn /media/logan/microsoft/Users/Ivan\ Espinola/* /media/logan/main/ntfs/
+ 2165  cp -rv /media/logan/9e374e83-b0d8-4944-bfa8-9541d4606704/* /media/logan/main/ntfs/
+ 2166  cp -rv /home/logan/* /media/logan/main/ext4/ && cp -rv /media/logan/9e374e83-b0d8-4944-bfa8-9541d4606704/* /media/logan/main/ntfs/
+ 2167  cp -rv /home/logan/* /media/logan/main/ext4/ && cp -rv /media/logan/9e374e83-b0d8-4944-bfa8-9541d4606704/* /media/logan/main/ntfs/ && cp -rvu /media/logan/microsoft/Users/Ivan\ Espinola/* /media/logan/main/ntfs/
+ 2168  cp -rv /media/logan/9e374e83-b0d8-4944-bfa8-9541d4606704/* /media/logan/main/ntfs/ && cp -rvu /media/logan/microsoft/Users/Ivan\ Espinola/* /media/logan/main/ntfs/
+ 2169  sudo sh workSpace/os_up.sh 
+ 2170  wget -rc https://assets.strategyzer.com/assets/resources/*.pdf
+ 2171  wget --help
+ 2172  wget -r http://provietti.com.br/form/contato.php
+ 2173  cd ..
+ 2174  ls
+ 2175  cd git/
+ 2176  git clone git@github.com:i-espinola/koper.git
+ 2177  npm start
+ 2178  npm install && npm update
+ 2179  npm audit fix
+ 2180  npm audit
+ 2181  npm install && npm update
+ 2182  npm audit fix
+ 2183  npm audit
+ 2184  npm audit gulp-sass > node-sass > node-gyp > tar
+ 2185  npm outdated
+ 2186  npm update
+ 2187  npm i --save-dev gulp-imagemin
+ 2188  npm i --save-dev gulp-sass
+ 2189  npm install node-sass gulp-sass --save-dev
+ 2190  npm audit
+ 2191  install npm@latest
+ 2192  install npm@latest -g
+ 2193  sudo install npm@latest -g
+ 2194  npm update gulp-sass/node-sass/node-gyp/tar
+ 2195  npm audit
+ 2196  npm install npm@latest -g
+ 2197  sudo npm install npm@latest -g
+ 2198  fox
+ 2199  npm audit
+ 2200  npm audit fix
+ 2201  npm update gulp-sass/node-sass/node-gyp/tar@4.4.3
+ 2202  npm audit
+ 2203  npm uninstall node-sass
+ 2204  npm uninstall gulp-sass
+ 2205  npm install --save-dev  gulp-sass
+ 2206  npm update gulp-sass/node-sass/node-gyp/tar@4.0.3
+ 2207  npm i gulp-sass/node-sass/node-gyp/tar@4.0.3
+ 2208  npm i gulp-sass/node-sass/node-gyp/tar@4.4.3
+ 2209  npm iinstall gulp-sass/node-sass/node-gyp/tar@4.4.3
+ 2210  npm install gulp-sass/node-sass/node-gyp/tar@4.4.3
+ 2211  npm audit
+ 2212  nom i 
+ 2213  npm i
+ 2214  npm audit fix
+ 2215  npm audit
+ 2216  npm i && npm up
+ 2217  git add .
+ 2218  git commit -am npm-install
+ 2219  git push 
+ 2220  git add .
+ 2221  git commit -am readme
+ 2222  git push 
+ 2223  gulp clean
+ 2224  gulp
+ 2225  npm i && npm up
+ 2226  npm i --save-dev gulp-del
+ 2227  npm i --save-dev del
+ 2228  gulp clean
+ 2229  gulp build
+ 2230  gulp clean
+ 2231  npm i --save-dev gulp
+ 2232  gulp clean
+ 2233  npm i --save-dev gulp gulp-babel gulp-clean-css gulp-htmlmin gulp-imagemin gulp-rename gulp-sass gulp-uglify browser-sync
+ 2234  npm audit
+ 2235  npm i --save-dev @babel/register @babel/preset-env @babel/core
+ 2236  gulp
+ 2237  npm i && npm up
+ 2238  gulp
+ 2239  npm start
+ 2240  npm clean
+ 2241  npm start
+ 2242  gulp
+ 2243  npm install --save-dev @babel/register @babel/core @babel/preset-env
+ 2244  gulp
+ 2245  gulp build
+ 2246  gulp imgs
+ 2247  gulp views
+ 2248  gulp
+ 2249  gulp build
+ 2250  gulp
+ 2251  gulp clean
+ 2252  gulp build
+ 2253  gulp
+ 2254  gulp clean
+ 2255  gulp build
+ 2256  gulp
+ 2257  gulp clean
+ 2258  gulp build
+ 2259  gulp
+ 2260  gulp clean
+ 2261  gulp build
+ 2262  gulp clean
+ 2263  gulp build
+ 2264  gulp
+ 2265  gulp clean
+ 2266  gulp build
+ 2267  gulp
+ 2268  git add .
+ 2269  git commit -am start-panel
+ 2270  git push
+ 2271  git add .
+ 2272  git commit -am start-panel
+ 2273  git push
+ 2274  git add .
+ 2275  git commit -am start-panel
+ 2276  git push
+ 2277  git add README.md 
+ 2278  git commit -am fix-readme
+ 2279  git push 
+ 2280  git add README.md 
+ 2281  git commit -am fix-readme
+ 2282  git push 
+ 2283  git checkout -b panel
+ 2284  git satus
+ 2285  git status
+ 2286  git add .
+ 2287  git commit -am bkp-panel
+ 2288  git push
+ 2289  git push panel
+ 2290  git push remote panel
+ 2291  git push --help
+ 2292  git push origin bkp-panel
+ 2293  git push origin
+ 2294  git status
+ 2295  git push origin panel 
+ 2296  gulp clean
+ 2297  gulp build
+ 2298  gulp
+ 2299  git add .
+ 2300  git commit -am front
+ 2301  git pus
+ 2302  git push 
+ 2303  git pull 
+ 2304  gulp build
+ 2305  gulp
+ 2306  gulp clean
+ 2307  gulp build
+ 2308  gulp
+ 2309  gulp clean
+ 2310  gulp build
+ 2311  gulp
+ 2312  gulp clean
+ 2313  gulp build
+ 2314  gulp
+ 2315  gulp build
+ 2316  gulp
+ 2317  gulp clean
+ 2318  gulp build
+ 2319  gulp
+ 2320  gulp build
+ 2321  gulp
+ 2322  gulp clean
+ 2323  gulp build
+ 2324  gulp
+ 2325  sudo cd ./ssh
+ 2326  cd ./ssh
+ 2327  cd ssh
+ 2328  cd .ssh
+ 2329  ls
+ 2330  sudo nano id_rsa.pub
+ 2331  sudo nautilus
+ 2332  exit
+ 2333  sudo snap refresh gitkraken --edge
+ 2334  sudo snap --help
+ 2335  sudo snap remove gitkraken
+ 2336  sudo sh workSpace/os
+ 2337  sudo sh workSpace/os_up.sh 
+ 2338  sudo snap remove gitkraken
+ 2339  sudo snap install gitkraken
+ 2340  sudo snap remove gitkraken
+ 2341  sudo sh workSpace/os_up.sh 
+ 2342  sudo reboot
+ 2343  sudo snap refresh gitkraken --edge
+ 2344  exit
+ 2345  sudo snap connect gitkraken:ssh-public-keys
+ 2346  sudo snap remove gitkraken
+ 2347  sudo apt i gitkraken
+ 2348  sudo apt install gitkraken
+ 2349  sudo gitkraken 
+ 2350  sudo gitkraken
+ 2351  gitkraken
+ 2352  gulp clean
+ 2353  git checkout -b bootstrap
+ 2354  git add .
+ 2355  git commit -am restart
+ 2356  git push origin bootstrap 
+ 2357  npm i --save-dev bootstrap
+ 2358  npm i --save-dev jquery
+ 2359  npm i --save-dev popper
+ 2360  npm audit
+ 2361  npm uninstall popper
+ 2362  gulp
+ 2363  gulp build
+ 2364  gulp
+ 2365  gulp build
+ 2366  gulp
+ 2367  gulp clean
+ 2368  gulp build
+ 2369  gulp clean && gulp build
+ 2370  gulp
+ 2371  npm install
+ 2372  gulp clean && gulp build && gulp
+ 2373  gulp clean
+ 2374  gulp clean && gulp build && gulp
+ 2375  git checkout -b front-clients
+ 2376  git add .
+ 2377  git commit -am start-clients
+ 2378  git push origin front-clients 
+ 2379  git add .
+ 2380  git commit -am start-clients
+ 2381  git push origin front-clients 
+ 2382  gulp clean && gulp build && gulp
+ 2383  touch index.html
+ 2384  touch funcoes.js
+ 2385  workbench --help
+ 2386  workbench
+ 2387  sudo snap workbench
+ 2388  sudo snap install workbench
+ 2389  gulp clean
+ 2390  git pull
+ 2391  gulp clean && gulp build && gulp
+ 2392  gulp build && gulp
+ 2393  gulp clean && gulp build && gulp
+ 2394  gulp build && gulp
+ 2395  gulp build && gulp
+ 2396  gulp build
+ 2397  gulp build && gulp
+ 2398  gulp clean && gulp build && gulp
+ 2399  gulp clean
+ 2400  gulp clean && gulp build && gulp
+ 2401  eslint --init
+ 2402  eslint
+ 2403  eslint --quiet
+ 2404  gulp clean && gulp build && gulp
+ 2405  cd /home/logan/git/koper/public/assets/vendor/bootstrap-datepicker/dist/locales
+ 2406  ls
+ 2407  gulp clean && gulp build && gulp
+ 2408  sudo apt-get install php5-cli
+ 2409  sudo apt-get install php7-cli
+ 2410  sudo apt-get install php7
+ 2411  sudo apt-get find php7
+ 2412  sudo apt-get --help
+ 2413  sudo apt-get install php5-cli
+ 2414  find php
+ 2415  sudo apt install php libapache2-mod-php
+ 2416  sudo systemctl restart apache2
+ 2417  sudo apt install software-properties-common
+ 2418  sudo apt install php7.3 php7.3-common php7.3-opcache php7.3-cli php7.3-gd php7.3-curl php7.3-mysql
+ 2419  php -v
+ 2420  gulp clean && gulp build && gulp
+ 2421  cd /usr/bin/
+ 2422  ls
+ 2423  find php
+ 2424  cd php
+ 2425  sudo rv --help
+ 2426  rv --help
+ 2427  rm --help
+ 2428  rf --help
+ 2429  rv --help
+ 2430  mv --help
+ 2431  mv index.html old.html
+ 2432  sudo mv index.html old.html
+ 2433  cd ..
+ 2434  sudo chown logan -R html/
+ 2435  gulp
+ 2436  gulp clean && gulp build && gulp
+ 2437  npm install && npm update && gulp clean && gulp build && gulp
+ 2438  gulp
+ 2439  gulp clean && gulp build && gulp
+ 2440  npm install && npm update && gulp clean && gulp build && gulp
+ 2441  gulp build && gulp
+ 2442  git
+ 2443  git status
+ 2444  git add .
+ 2445  git commit -am back-catalog-clientes
+ 2446  git push 
+ 2447  git pull origin 
+ 2448  nano info.php
+ 2449  sudo apt install php-fpm php-mysql -y
+ 2450  service apache2 status
+ 2451  service apache2 restart
+ 2452  php info.php
+ 2453  sudo php info.php
+ 2454  php info.php
+ 2455  php /info.php
+ 2456  php /var/www/html/info.php
+ 2457  ping agenciatakeoff.com.br
+ 2458  ping locaweb.com.br
+ 2459  gulp clean && gulp build && gulp
+ 2460  npm install && npm update && gulp clean && gulp build && gulp
+ 2461  gulp
+ 2462  gulp build
+ 2463  gulp
+ 2464  build
+ 2465  gulp build
+ 2466  gulp
+ 2467  gulp build
+ 2468  gulp
+ 2469  gulp build
+ 2470  gulp
+ 2471  gulp build && gulp
+ 2472  gulp clean
+ 2473  gulp
+ 2474  gulp build
+ 2475  gulp clean
+ 2476  gulp clean && build build
+ 2477  gulp clean && gulp build
+ 2478  sudo sh workSpace/os_up.sh 
+ 2479  nano rola
+ 2480  gulp build && gulp
+ 2481  gulp
+ 2482  got add .
+ 2483  git add .
+ 2484  git commmit -am back done
+ 2485  git commmit -am back-done
+ 2486  git commit -am back-done
+ 2487  git push 
+ 2488  gulp build && gulp
+ 2489  gulp build
+ 2490  gulp build && gulp
+ 2491  sudo sh workSpace/os_up.sh 
+ 2492  git pull origin back-catalog 
+ 2493  gulp
+ 2494  sudo reboot
+ 2495  cp ~/git/koper/src/assets/js/main.js ~/git/koper/public/assets/js/main.min.js
+ 2496  gulp
+ 2497  cp ~/git/koper/src/assets/js/main.js ~/git/koper/public/assets/js/main.min.js
+ 2498  gulp clean && gulp build && gulp
+ 2499  git add .
+ 2500  got commit -am done
+ 2501  git commit -am done
+ 2502  git push 
+ 2503  gulp clean && gulp build && gulp
+ 2504  sudo nautilus
+ 2505  cp ~/git/koper/src/assets/js/main.js ~/git/koper/public/assets/js/main.min.js
+ 2506  gulp
+ 2507  gulp build && gulp
+ 2508  sudo sh workSpace/os_up.sh 
+ 2509  git add
+ 2510  git status
+ 2511  git add .
+ 2512  git commmit -am teste
+ 2513  git commit -am teste
+ 2514  git push origin 
+ 2515  gulp 
+ 2516  git status
+ 2517  git add .
+ 2518  git commit -am push-all
+ 2519  git push origin 
+ 2520  git status
+ 2521  git pull origin 
+ 2522  git pull
+ 2523  cd ~/Downloads/
+ 2524  git clone git@gitlab.com:i-espinola/desafio-frontend-pleno.git
+ 2525  cd ~/git/desafio-frontend-pleno/
+ 2526  ls
+ 2527  git status
+ 2528  git add .
+ 2529  git init
+ 2530  git status
+ 2531  npm install && npm update
+ 2532  npm audit fix
+ 2533  npm audit
+ 2534  git add .
+ 2535  git commit -am full-pack
+ 2536  git push ori
+ 2537  git push
+ 2538  git remote add teste-front-people-ti git+https://github.com/i-espinola/teste-front-people-ti.git
+ 2539  git push
+ 2540  git remote add <teste-front-people-ti> <git+https://github.com/i-espinola/teste-front-people-ti.git>
+ 2541  git remote add --help
+ 2542  git remote add teste-front-people-ti https://github.com/i-espinola/teste-front-people-ti.git
+ 2543  git remote add teste-front-people-ti https://github.com/i-espinola/teste-front-people-ti
+ 2544  git push
+ 2545  git remote add teste-front-people-ti
+ 2546  git push 
+ 2547  git remote add origin https://github.com/i-espinola/teste-front-people-ti.git
+ 2548  git push remote
+ 2549  git push
+ 2550  git push --set-upstream origin master
+ 2551  git push --help
+ 2552  git push --all
+ 2553  git fetch 
+ 2554  git push --all
+ 2555  git fetch -h
+ 2556  git fetch -a
+ 2557  git push origin master 
+ 2558  git pull
+ 2559  git pull...
+ 2560  git -h
+ 2561  git --help
+ 2562  git push --help
+ 2563  git push -u --push-option=-f
+ 2564  git push --set-upstream origin master
+ 2565  git checkout -b teste
+ 2566  git push origin teste master 
+ 2567  git checkout master 
+ 2568  git pull --help
+ 2569  git pull --all
+ 2570  git pull origin master 
+ 2571  git push origin 
+ 2572  git init
+ 2573  git status
+ 2574  git push origin 
+ 2575  git status 
+ 2576  git init
+ 2577  git start
+ 2578  git fetch -a
+ 2579  git pull 
+ 2580  git pull
+ 2581  cd ..
+ 2582  git clone git@github.com:i-espinola/teste-front-people-ti.git
+ 2583  git pull 
+ 2584  git init
+ 2585  git status 
+ 2586  git add .
+ 2587  git rm --cached Project-dynamic-background
+ 2588  git rm --cached Project-dynamic-background -f
+ 2589  git add .
+ 2590  cd teste-front-people-ti/
+ 2591  git add .
+ 2592  git commit -am teste
+ 2593  cd  .
+ 2594  cd ..
+ 2595  git add .
+ 2596  git commit -am all
+ 2597  git push origin 
+ 2598  cd ..
+ 2599  cd Project-dynamic-background/
+ 2600  git status
+ 2601  git fetch 
+ 2602  git fetch  -all
+ 2603  git fetch  --all
+ 2604  git status
+ 2605  gulp
+ 2606  gulp clean && gulp build && gulp 
+ 2607  git clone git@github.com:i-espinola/way2-front-end-test.git
+ 2608  git checkout -b start
+ 2609  git status
+ 2610  git add .
+ 2611  git commit -am start
+ 2612  git push origin 
+ 2613  git commit -am startt
+ 2614  git push --set-upstream origin start
+ 2615  git commit -am startt
+ 2616  git push origin 
+ 2617  npm install && npm update
+ 2618  npm i
+ 2619  npm install && npm update
+ 2620  npm i react
+ 2621  npm i react-dom
+ 2622  npm i react-scripts
+ 2623  npm audit fix
+ 2624  npm audit fix --force
+ 2625  test
+ 2626  start
+ 2627  npm start
+ 2628  npm test
+ 2629  git checkout -b react-api
+ 2630  git add .
+ 2631  git commit -am api-football-done
+ 2632  git push origin 
+ 2633  git push --set-upstream origin react-api
+ 2634  git push origin 
+ 2635  git add .
+ 2636  git commit -am api-football-done
+ 2637  git push origin 
+ 2638  git statis
+ 2639  git status
+ 2640  git push origin 
+ 2641  git add .
+ 2642  git commit -am api-football-done
+ 2643  git push origin 
+ 2644  git checkout -b react-init
+ 2645  git status
+ 2646  rm -f /src/*
+ 2647  rm -f /node
+ 2648  rm -f ./src/*
+ 2649  rv -f ./src/*
+ 2650  rm -f ./src/*
+ 2651  rm -f --help
+ 2652  rm -R ./src/*
+ 2653  rm -R ./public/*
+ 2654  rm -R ./node_modules/
+ 2655  npm install && npm update
+ 2656  cd ..
+ 2657  npx create-react-app way2-front-end-test
+ 2658  npx create-react-app test-front-ivan-espinola
+ 2659  ls
+ 2660  npx create-react-app way2-front-ivan-espinola
+ 2661  cd way2-front-end-test
+ 2662  npm start
+ 2663  touch README.md
+ 2664  npm i --save bootstrap
+ 2665  npm i --dev-save node-sass
+ 2666  npm audit fix
+ 2667  git status
+ 2668  git add .
+ 2669  git commit -am react-ambient
+ 2670  git push origin 
+ 2671  git push 
+ 2672  eslint init
+ 2673  ESlint --help
+ 2674  eslint
+ 2675  eslint init
+ 2676  eslint --help
+ 2677  eslint --init
+ 2678  npm start
+ 2679  cd ..
+ 2680  ls
+ 2681  npx create-react-app Way2-football-app
+ 2682  npx create-react-app way2-football-app
+ 2683  cd way2-football-app
+ 2684  cp -R ../Way2-files/* ./
+ 2685  git status 
+ 2686  git checkout react-init
+ 2687  git checkout -b react-init
+ 2688  git add .
+ 2689  git commit -am react-install
+ 2690  git push 
+ 2691  git push --set-upstream origin react-init
+ 2692  git checkout start 
+ 2693  git add .
+ 2694  git commit -am react-install
+ 2695  git push --set-upstream origin react-init
+ 2696  git checkout start
+ 2697  cp -R ../Way2-files/* ./
+ 2698  git add .
+ 2699  git commit -am request-files
+ 2700  git push --set-upstream origin start 
+ 2701  npm start
+ 2702  npm test
+ 2703  npm run build
+ 2704  npm install -g npm
+ 2705  sudo npm install -g npm
+ 2706  npm run build
+ 2707  rm -R ./ build/*
+ 2708  npm run build
+ 2709  npm install node-sass
+ 2710  npm audit fix
+ 2711  npm install --save normalize.css
+ 2712  npm audit fix
+ 2713  npm uninstall normalize.css
+ 2714  npm audit fix
+ 2715  npm install
+ 2716  npm i --dev-save jquery
+ 2717  npm audit fix
+ 2718  npm uninstall jquery
+ 2719  npm i jquery
+ 2720  npm audit fix
+ 2721  nodejs -v
+ 2722  npm i vue vue-teste
+ 2723  mkdir vue-teste
+ 2724  cd vue-teste/
+ 2725  npm i vue
+ 2726  gedit
+ 2727  cd git
+ 2728  mkdir jexperts
+ 2729  cd jexperts/
+ 2730  git clone git clone https://bitbucket.org/jexperts/desafio-front-end.git
+ 2731  git clone https://bitbucket.org/jexperts/desafio-front-end.git
+ 2732  npm audit
+ 2733  sudo apt install nodejs
+ 2734  sudo apt install npm
+ 2735  sudo sh ~/workSpace/os_up.sh 
+ 2736  git status
+ 2737  git add .
+ 2738  git commit -am requisitos
+ 2739  git push 
+ 2740  npm init
+ 2741  git status
+ 2742  git add .
+ 2743  git commit -am requisitos
+ 2744  git push 
+ 2745  ls
+ 2746  cd ..
+ 2747  git clone git@github.com:i-espinola/jexperts.git
+ 2748  rm -f jexperts
+ 2749  rm -R jexperts
+ 2750  git clone git@github.com:i-espinola/jexperts.git
+ 2751  git sta
+ 2752  git status
+ 2753  cd jexperts
+ 2754  git status
+ 2755  git add .
+ 2756  git commit -am requisitos
+ 2757  git push 
+ 2758  yarn list
+ 2759  sudo apt install cmdtest
+ 2760  yarn list
+ 2761  snap refresh 
+ 2762  npm init
+ 2763  npm install vue
+ 2764  git status
+ 2765  mkdir .git
+ 2766  git status
+ 2767  $ sudo apt-get install docker-ce docker-ce-cli containerd.io
+ 2768  git add .
+ 2769  git commit -am 'setReadme'
+ 2770  cp -R ~/Downloads/supero-react-start/.git ./.git
+ 2771  git clone git@github.com:i-espinola/way2-football-app.git
+ 2772  git status
+ 2773  cd ..
+ 2774  rm -rf supero
+ 2775  git clone git@github.com:i-espinola/supero.git
+ 2776  cd supero
+ 2777  git status
+ 2778  git checkout react-start 
+ 2779  git add .
+ 2780  git commit -am 'setReadme'
+ 2781  git push -u origin react-start 
+ 2782  git add .
+ 2783  git commit -am 'setReadme'
+ 2784  git push -u origin react-start 
+ 2785  git add .
+ 2786  git commit -am 'setReadme'
+ 2787  git push -u origin react-start 
+ 2788  git add .
+ 2789  git commit -am 'setReadme'
+ 2790  git push -u origin react-start 
+ 2791  git add .
+ 2792  git commit -am 'setReadme'
+ 2793  git push -u origin react-start 
+ 2794  git add .
+ 2795  git commit -am 'setReadme'
+ 2796  git push -u origin react-start 
+ 2797  git add .
+ 2798  git commit -am 'setReadme'
+ 2799  git push -u origin react-start 
+ 2800  git add .
+ 2801  git commit -am 'setReadme'
+ 2802  git push -u origin react-start 
+ 2803  git add .
+ 2804  git commit -am 'setReadme'
+ 2805  git push -u origin react-start 
+ 2806  git add .
+ 2807  git push -u origin react-start 
+ 2808  git add .
+ 2809  git commit -am 'setReadme'
+ 2810  git push -u origin react-start 
+ 2811  git add .
+ 2812  git commit -am 'setReadme'
+ 2813  git push -u origin react-start 
+ 2814  git add .
+ 2815  git commit -am 'setReadme'
+ 2816  git push -u origin react-start 
+ 2817  git add .
+ 2818  git commit -am 'setReadme'
+ 2819  git push -u origin react-start 
+ 2820  git add .
+ 2821  git commit -am 'setReadme'
+ 2822  git push -u origin react-start 
+ 2823  npm start
+ 2824  npm install
+ 2825  npm start
+ 2826  npm i
+ 2827  npm start
+ 2828  npm i
+ 2829  npm install --dev-save node-sass
+ 2830  npm i --save-dev bootstrap
+ 2831  npm uninstall bootstrap
+ 2832  npm i reactstrap
+ 2833  npm uninstall reactstrap
+ 2834  npm i reactstrap
+ 2835  npm uninstall reactstrap
+ 2836  npm install react-bootstrap bootstrap
+ 2837  eslint --help
+ 2838  eslint -init
+ 2839  eslint --init
+ 2840  eslint -init
+ 2841  eslint --init
+ 2842  eslint --help
+ 2843  eslint --print-config --help
+ 2844  eslint --print-config './src'
+ 2845  npm i eslint-plugin-react@latest
+ 2846  npm uninstall eslint-plugin-react@latest
+ 2847  npm i eslint-plugin-react@latest --save-dev
+ 2848  eslint --print-config /usr/lib/node_modules/eslint
+ 2849  eslint --init
+ 2850  eslint --help
+ 2851  eslint -c .eslintrc.json ./src/app/components/*.jsx
+ 2852  eslint -c .eslintrc.json /usr/lib/node_modules/eslint
+ 2853  eslint -c .eslintrc.json '/usr/lib/node_modules/eslint'
+ 2854  eslint -c .eslintrc.json './src/app/components/*.jsx'
+ 2855  npm test
+ 2856  sudo sh workSpace/os_up.sh 
+ 2857  sudo reboot
+ 2858  sudo sh workSpace/os_up.sh 
+ 2859  exit
+ 2860  cd git/
+ 2861  mkdir teste
+ 2862  cd teste/
+ 2863  git clone git@github.com:nosisky/Hello-Books.git
+ 2864  cd ..
+ 2865  rm -rf ./teste/
+ 2866  ls
+ 2867  rm -rf ./way2-football-app/
+ 2868  git clone git@github.com:i-espinola/way2-football-app.git
+ 2869  cd way2-football-app/
+ 2870  npm install
+ 2871  nppm audit fix
+ 2872  npm audit fix
+ 2873  cd git/
+ 2874  git clone git@github.com:FaztWeb/reactjs-openlibrary-api.git
+ 2875  cd reactjs-openlibrary-api/
+ 2876  npm install
+ 2877  npm audit fix
+ 2878  npm start
+ 2879  git add .
+ 2880  git commit -am 'front-react-strap'
+ 2881  git checkou -b react-strap
+ 2882  git checkout -b react-strap
+ 2883  git add .
+ 2884  git commit -am 'front-react-strap'
+ 2885  git push -u origin react-start 
+ 2886  git push -u origin react-strap 
+ 2887  npm start
+ 2888  git add .
+ 2889  git commit -am foda-se
+ 2890  git push -u origin api-rest 
+ 2891  git add .
+ 2892  git commit -am 'front-done'
+ 2893  git push -u origin react-strap 
+ 2894  git checkout -b api-rest
+ 2895  git add .
+ 2896  git commit -am 'api-init'
+ 2897  git push -u origin api-rest  
+ 2898  npm install axios
+ 2899  sudo sh workSpace/os_up.sh 
+ 2900  sudo shutdown now
+ 2901  gedit
+ 2902  history >> ~/file.txt
+ 2903  sudo shutdown -t 120 
+ 2904  sudo shutdown -t 240 
+ 2905  sudo shutdown -t240 
+ 2906  sudo shutdown -t500
+ 2907  sudo shutdown now
+ 2908  cd git/
+ 2909  npx crete-react-app
+ 2910  npx crete-react-app eye-mobile
+ 2911  npx create-react-app eye-mobile
+ 2912  cd eye-mobile/
+ 2913  npm audit-fix
+ 2914  npm audit fix
+ 2915  git status
+ 2916  git commit -am 'react app init'
+ 2917  git push -u
+ 2918  git remote add eyemobile https://github.com/i-espinola/eyemobile
+ 2919  git push -u
+ 2920  git remote add eyemobile https://github.com/i-espinola/eyemobile.git
+ 2921  git add .
+ 2922  git commit -am 'react app init'
+ 2923  git push -u
+ 2924  git push eyemobile 
+ 2925  git push --set-upstream eyemobile master
+ 2926  git fetch --all
+ 2927  git pull
+ 2928  git fetch --all
+ 2929  git add .
+ 2930  git commit -am 'react app init'
+ 2931  git push eyemobile master 
+ 2932  ping 192.168.0.20:3000
+ 2933  ping 192.168.0.20
+ 2934  ifconfig
+ 2935  cd git/
+ 2936  npx create-react-app teste
+ 2937  cd git
+ 2938  rm -rf teste/
+ 2939  ls
+ 2940  exit
+ 2941  npm start
+ 2942  npm i
+ 2943  npm audit fix
+ 2944  npm audit fix --force
+ 2945  npm start
+ 2946  npm start
+ 2947  npm build
+ 2948  npm run build
+ 2949  git add .
+ 2950  git commit -am front-done
+ 2951  git push -u
+ 2952  npm run build
+ 2953  npm start
+ 2954  git add .
+ 2955  git commit -am front-done
+ 2956  git push -u
+ 2957  npm run build
+ 2958  git add .
+ 2959  git commit -am build-version
+ 2960  git push -u
+ 2961  npm i chart.js
+ 2962  npm i react-chartjs-2
+ 2963  npm audit fix
+ 2964  npm uninstall react-chartjs-2 Charts.js
+ 2965  npm uninstall typescript
+ 2966  npm install --save react-chartjs-2 chart.js typescript
+ 2967  sudo ls
+ 2968  ls
+ 2969  mv workSpace workspace
+ 2970  ls
+ 2971  sudo sh workspace/os_up.sh 
+ 2972  sudo shutdown now
+ 2973  cd ezcuze/www/ls
+ 2974  cd ezcuze/www/
+ 2975  ls
+ 2976  cd guido/
+ 2977  ls
+ 2978  cd Novo/
+ 2979  ls
+ 2980  ssh root@vps13881.publiccloud.com.br
+ 2981  cd ezcuze/ssh/
+ 2982  ls
+ 2983  cd ..
+ 2984  cd rsync/
+ 2985  ls
+ 2986  cp up_drguido.sh upLoad.sh
+ 2987  nano up_drguido.sh 
+ 2988  sh up_drguido.sh 
+ 2989  nano up_drguido.sh 
+ 2990  sh up_drguido.sh 
+ 2991  nano up_drguido.sh 
+ 2992  sh up_drguido.sh 
+ 2993  nano up_drguido.sh 
+ 2994  sh up_drguido.sh 
+ 2995  nano up_drguido.sh 
+ 2996  sh up_drguido.sh 
+ 2997  ssh-keygen -f "/home/logan/.ssh/known_hosts" -R "191.252.103.154"
+ 2998  sh up_drguido.sh
+ 2999  cd /home/logan/ezcuze/www/guido/Novo
+ 3000  ls
+ 3001  cd.
+ 3002  cd
+ 3003  rsync --help
+ 3004  ;rsync -avz root@191.252.103.154:/var/www/drguidoboabaidmay.com.br/public_html/ /home/logan/ezcuze/www/guido/Novo
+ 3005  sh up_drguido.sh
+ 3006  cd ezcuze/ssh/
+ 3007  ls
+ 3008  sh drguido.sh 
+ 3009  rsync -avz /home/logan/ezcuze/www/guido/Novo root@191.252.103.154:/var/www/drguidoboabaidmay.com.br/public_html/
+ 3010  sudo shutdown now
+ 3011  ssh vps13881.locaweb.com.br
+ 3012  ssh vps13881.publiccloud.com.br
+ 3013  ssh root@vps13881.publiccloud.com.br
+ 3014  touch ~/ezcuze/ssh/drguido.sh
+ 3015  nano ~/ezcuze/ssh/drguido.sh
+ 3016  sh ezcuze/ssh/drguido.sh 
+ 3017  ssh ezcuze/ssh/drguido.sh 
+ 3018  sh ezcuze/ssh/drguido.sh 
+ 3019  ssh-keygen -f "/home/logan/.ssh/known_hosts" -R "vps13881.publiccloud.com.br"
+ 3020  sh ezcuze/ssh/drguido.sh 
+ 3021  ping vps13881.publiccloud.com.br
+ 3022  ssh root@191.252.103.154
+ 3023  cd /home/logan/Dropbox
+ 3024  ls
+ 3025  cd Ubuntu
+ 3026  ls
+ 3027  cd Shell/
+ 3028  ls
+ 3029  cd OS/
+ 3030  ls
+ 3031  cd ..
+ 3032  ls
+ 3033  sudo sh lamp_18.sh 
+ 3034  ssh-keygen -f "/home/logan/.ssh/known_hosts" -R "191.252.103.154"
+ 3035  ssh root@191.252.103.154
+ 3036  rsync -avz root@191.252.103.154:/var/www/drguidoboabaidmay.com.br/public_html /home/logan/ezcuze/www/guido/Novo
+ 3037  rsync -avz root@191.252.103.154:/var/www/drguidoboabaidmay.com.br /home/logan/workspace/ezcuze/www/guido/Novo/*
+ 3038  rsync -avz /home/logan/workspace/ezcuze/www/guido/Novo/* root@191.252.103.154:/var/www/drguidoboabaidmay.com.br/
+ 3039  scp ~/.ssh/id_rsa.pub root@191.252.103.154:/root/.ssh/
+ 3040  ssh root@191.252.103.154
+ 3041  ssh root@vps13881.publiccloud.com.br
+ 3042  ssh root@vps13881.publiccloud.com.br
+ 3043  sh ezcuze/ssh/drguido.sh 
+ 3044  ssh-keygen -f "/home/logan/.ssh/known_hosts" -R "vps13881.publiccloud.com.br"
+ 3045  sh ezcuze/ssh/drguido.sh 
+ 3046  sudo apt-get install language-pack-gnome-pt language-pack-pt-base
+ 3047  sh ezcuze/ssh/drguido.sh 
+ 3048  ssh-keygen -f "/home/logan/.ssh/known_hosts" -R "vps13881.publiccloud.com.br"
+ 3049  sh ezcuze/ssh/drguido.sh 
+ 3050  echo "@VD-0PI&cR=U" | sh ezcuze/ssh/drguido.sh 
+ 3051  sshpass -p password ssh host@IP
+ 3052  nano ezcuze/ssh/drguido.sh 
+ 3053  sh ezcuze/ssh/drguido.sh 
+ 3054  nano ezcuze/ssh/drguido.sh 
+ 3055  sh ezcuze/ssh/drguido.sh 
+ 3056  nano ezcuze/ssh/drguido.sh 
+ 3057  sh ezcuze/ssh/drguido.sh 
+ 3058  nano ezcuze/ssh/drguido.sh 
+ 3059  sh ezcuze/ssh/drguido.sh 
+ 3060  nano ezcuze/ssh/drguido.sh 
+ 3061  sh ezcuze/ssh/drguido.sh 
+ 3062  nano ezcuze/ssh/drguido.sh 
+ 3063  sh ezcuze/ssh/drguido.sh 
+ 3064  ssh ezcuze/ssh/drguido.sh
+ 3065  ls
+ 3066  sh workspace/ezcuze/ssh/drguido.sh 
+ 3067  nano workspace/ezcuze/ssh/drguido.sh
+ 3068  sh workspace/ezcuze/ssh/drguido.sh 
+ 3069  ssh root@vps13881.publiccloud.com.br
+ 3070  sh workspace/ezcuze/ssh/ocean_ssh.sh 
+ 3071  sudo sh workspace/os_up.sh 
+ 3072  sudo sh workspace/os_up.sh && sudo shutdown now
+ 3073  echo "teste" | sudo tee ~/teste.html
+ 3074  nano ~/teste.html 
+ 3075  echo "
+ 3076      <html>
+ 3077      <title></title>
+ 3078      <body><h1>rola</h1></body>
+ 3079      </html>
+ 3080      " | sudo tee ~/teste.html
+ 3081  nano ~/teste.html 
+ 3082  rm -rf ~/teste.html 
+ 3083  eit
+ 3084  exit
+ 3085  ssh root@vps13881.publiccloud.com.br
+ 3086  ssh root@vps13881.publiccloud.com.br
+ 3087  nano teste.sh
+ 3088  sh teste.sh 
+ 3089  nano teste.sh
+ 3090  sh teste.sh 
+ 3091  nano teste.sh
+ 3092  sh teste.sh 
+ 3093  rm teste.sh
+ 3094  sh teste.sh 
+ 3095  cat ~/.ssh/id_rsa.pub | ssh root@vps13881.publiccloud.com.br 'cat >>~/.ssh/authorized_keys'
+ 3096  ssh root@vps13881.publiccloud.com.br
+ 3097  echo 'FTP_USER="admin"' | sudo tee teste.sh
+ 3098  echo 'echo $FTP_USER' | sudo tee teste1.sh
+ 3099  echo '.teste.sh' | sudo tee teste.sh
+ 3100  nano  teste.sh
+ 3101  nano teste.sh
+ 3102  echo 'FTP_USER="admin"' | sudo tee teste.sh
+ 3103  nano teste.sh
+ 3104  echo '.teste.sh' | sudo tee teste.sh
+ 3105  nano teste.sh
+ 3106  echo 'FTP_USER="admin"' | sudo tee teste.sh
+ 3107  tee --help
+ 3108  echo 'FTP_USER="admin"' | sudo tee teste.sh
+ 3109  echo './teste.sh' | sudo tee -a teste.sh
+ 3110  nano teste.sh
+ 3111  sudo nano teste.sh
+ 3112  sh teste.sh
+ 3113  sudo sh teste.sh
+ 3114  sudo chmod -R logan:logan ./teste.sh
+ 3115  sudo chmod logan:logan ./teste.sh
+ 3116  sudo chroot -R logan:logan ./teste.sh
+ 3117  sudo chroot logan:logan ./teste.sh
+ 3118  sudo chdown logan:logan ./teste.sh
+ 3119  sudo chmod logan:logan ./teste.sh
+ 3120  sudo chown logan:logan ./teste.sh
+ 3121  sudo sh teste.sh
+ 3122  sudo chown logan:logan ./teste1.sh
+ 3123  sudo sh teste.sh
+ 3124  sudo rm teste.sh
+ 3125  sudo rm teste1.sh
+ 3126  echo 'USER_FTP"IVAN"' | tee teste.sh
+ 3127  echo './vai' | tee -a teste.sh
+ 3128  echo 'echo $USER_FTP' | tee -a vai.sh
+ 3129  sh teste.sh 
+ 3130  sudo sh teste.sh 
+ 3131  sudo sh ./teste.sh 
+ 3132  cd Dropbox/Ubuntu/Bash/OS/server_lamp/
+ 3133  ls
+ 3134  sudo sh main.sh 
+ 3135  sudo sh os_up.sh 
+ 3136  sudo adduser -mc "FTP user" admin
+ 3137  sudo adduser -m "FTP user" admin
+ 3138  sudo adduser --home=/var/www --group=www-data admin
+ 3139  adduser --home=/var/www --group=www-data admin
+ 3140  sudo adduser --home=/var/www --group www-data admin
+ 3141  sudo adduser --home=/var/www admin
+ 3142  sudo usermod --group=www-data admin
+ 3143  sudo chown nobody:nogroup /var/www
+ 3144  sudo chown -R admin:www-data /var/www
+ 3145  sudo chmod -R g+rw /var/www
+ 3146  sudo chmod 755 /var/www
+ 3147  cd 
+ 3148  nano /etc/vsftpd.conf
+ 3149  sudo nano /etc/vsftpd.conf
+ 3150  cd Dropbox/Ubuntu/Bash/OS/server_lamp
+ 3151  sudo sh ftp_setup.sh 
+ 3152  sudo nano /etc/vsftpd.conf
+ 3153  sudo sh ftp_setup.sh 
+ 3154  sudo nano /etc/vsftpd.conf
+ 3155  sudo sh ftp_setup.sh 
+ 3156  sudo nano /etc/vsftpd.conf
+ 3157  sudo code /etc/vsftpd.conf
+ 3158  sudo vscode /etc/vsftpd.conf
+ 3159  sudo gedit /etc/vsftpd.conf
+ 3160  sudo nano /etc/vsftpd.conf
+ 3161  cd
+ 3162  users --hellp
+ 3163  users --help
+ 3164  users
+ 3165  nano /etc/vsftpd.chroot_list 
+ 3166  sudo nano /etc/vsftpd.chroot_list 
+ 3167  exit
+ 3168  adduser --help
+ 3169  cd /var/www/html/
+ 3170  rm -R ./
+ 3171  rm -rf ./*
+ 3172  sudo rm -rf ./*
+ 3173  cd
+ 3174  nano /etc/apache2/apache2.conf 
+ 3175  sudo nano /etc/apache2/apache2.conf 
+ 3176  cd /etc/apache2/sites-available/
+ 3177  ls
+ 3178  nano 000-default.conf
+ 3179  nano localhost.conf 
+ 3180  sudo gedit localhost.conf 
+ 3181  touch .htaccess
+ 3182  nano .htaccess
+ 3183  cd web
+ 3184  ls
+ 3185  cd ..
+ 3186  cp -R ./empreende/* /var/www/html/
+ 3187  sudo cp -R ./empreende/* /var/www/html/
+ 3188  sudo chown -R logan:logan /var/www/*
+ 3189  sudo chown 755 logan:logan /var/www/*
+ 3190  sudo chown 755 /var/www/*
+ 3191  cd ~/workspace/
+ 3192  ls
+ 3193  cd react_redux_udemy/
+ 3194  ls
+ 3195  cd curso-react-redux/
+ 3196  ls
+ 3197  cd frontend/
+ 3198  npm i
+ 3199  sudo chown logan:logan ~/git/
+ 3200  sudo chown -R logan:logan ~/git/
+ 3201  sudo chown -R logan:logan ~/git/*
+ 3202  npm i
+ 3203  sudo npm i
+ 3204  nm audit fix
+ 3205  nm audit -fix
+ 3206  npm audit -fix
+ 3207  npm audit fix
+ 3208  sudo npm audit fix
+ 3209  sudo npm audit fix --ferce
+ 3210  sudo npm audit fix --force
+ 3211  sudo start
+ 3212  npm start
+ 3213  cd ..
+ 3214  cd backend/
+ 3215  npm start
+ 3216  npm i
+ 3217  npm audit fix
+ 3218  npm start
+ 3219  npm start backend/
+ 3220  cd backend/
+ 3221  npm start
+ 3222  cd frontend
+ 3223  cd ..
+ 3224  cd frontend
+ 3225  npm start
+ 3226  npm start --port 3005
+ 3227  cd /var/www
+ 3228  ls
+ 3229  cd html/
+ 3230  ls
+ 3231  cd ..
+ 3232  rm -R html/*
+ 3233  cp -R ~/git/koper/public/* html/
+ 3234  cd ~
+ 3235  cd workspace/react_redux_udemy/
+ 3236  ls
+ 3237  cd curso-react-redux/
+ 3238  ls
+ 3239  cd novos-projetos/
+ 3240  ls
+ 3241  cd crud/
+ 3242  ls
+ 3243  cd frontend/
+ 3244  npm i
+ 3245  npm audit fix --force
+ 3246  npm audit
+ 3247  npm start --help
+ 3248  npm start --port 3005
+ 3249  code
+ 3250  exit
+ 3251  cd git/
+ 3252  ls
+ 3253  mkdir koper
+ 3254  git clone git@github.com:i-espinola/koper.git
+ 3255  exit
+ 3256  cd frontend
+ 3257  npm start
+ 3258  cd ..
+ 3259  cd backend/
+ 3260  npm start
+ 3261  cd ..
+ 3262  npm test
+ 3263  npm i react-redux --save
+ 3264  rm -rf /var/www//html/
+ 3265  rm -rf /var/www/html/*
+ 3266  exit
+ 3267  cd /var/www/html/
+ 3268  cp -R ./build/* ./
+ 3269  rm -rf ./build/
+ 3270  cd frontend/
+ 3271  react-scripts test --env=jsdom
+ 3272  rm -rf node_modules/
+ 3273  sudo rm -rf node_modules/
+ 3274  cd ..
+ 3275  cd backend/
+ 3276  sudo rm -rf node_modules/
+ 3277  cd ..
+ 3278  cd frontend/
+ 3279  npm i
+ 3280  npm start
+ 3281  npm i node-sass
+ 3282  cd ..
+ 3283  git status
+ 3284  git add .
+ 3285  git commit -am "front and back"
+ 3286  git push origin master 
+ 3287  npm run build
+ 3288  cp -R ./build/ /var/www/html/
+ 3289  npm run build
+ 3290  cp -R ./build/* /var/www/html/
+ 3291  cd ..
+ 3292  cd backend/
+ 3293  npm i
+ 3294  npm start
+ 3295  cd /usr/lib/node_modules/eslint
+ 3296  ls
+ 3297  ls -la
+ 3298  nano README.md 
+ 3299  cd frontend/
+ 3300  npm start
+ 3301  cd ..
+ 3302  cd ~
+ 3303  cd git/jexperts/
+ 3304  cd backend/
+ 3305  npm start
+ 3306  cd frontend/
+ 3307  eslint --help
+ 3308  eslint --init
+ 3309  npm i eslint -g
+ 3310  sudo npm i eslint -g
+ 3311  eslint --init
+ 3312  eslint --help
+ 3313  eslint /src
+ 3314  eslint ./src
+ 3315  npm i eslint-plugin-react@latest --save-dev
+ 3316  eslint ./src
+ 3317  eslint /usr/lib/node_modules/eslint
+ 3318  eslint --init
+ 3319  eslint --help
+ 3320  eslint --fix
+ 3321  eslint --fix ./index.js
+ 3322  eslint --fix index.js
+ 3323  eslint --fix ~/git/jexperts/frontend/index.js
+ 3324  ./node_modules/.bin/eslint --init
+ 3325  ./node_modules/.bin/eslint index.js
+ 3326  ./node_modules/.bin/eslint ./index.js
+ 3327  nano ./node_modules/.bin/eslint
+ 3328  nano ./node_modules/.bin/eslint.json
+ 3329  nano ./node_modules/.bin/eslintrc.json
+ 3330  cd frontend/
+ 3331  npm start --quiet
+ 3332  npm start --help
+ 3333  npm start
+ 3334  cd backend/
+ 3335  npm start
+ 3336  npm install -g react-devtools
+ 3337  sudo npm install -g react-devtools
+ 3338  react-devtools
+ 3339  cd frontend/
+ 3340  npm start
+ 3341  cd back
+ 3342  cd backend/
+ 3343  npm start
+ 3344  ls
+ 3345  cd workspace/
+ 3346  cd ezcuze/www
+ 3347  cd ..
+ 3348  ls
+ 3349  cd ssh/
+ 3350  ls
+ 3351  sudo sh ocean_ssh.sh 
+ 3352  cd ..
+ 3353  ls
+ 3354  cd rsync/
+ 3355  ls
+ 3356  nano downLoad.sh 
+ 3357  sh downLoad.sh 
+ 3358  cp downLoad.sh guidoUp.sh
+ 3359  nano guidoUp.sh 
+ 3360  sh guidoUp.sh 
+ 3361  nano guidoUp.sh 
+ 3362  sh guidoUp.sh 
+ 3363  cd workspace/ezcuze/
+ 3364  cd ssh/
+ 3365  ls
+ 3366  sh ocean_ssh.sh 
+ 3367  cd ..
+ 3368  cd www/
+ 3369  ls
+ 3370  cd guido/Nnew
+ 3371  ls
+ 3372  cd ..
+ 3373  ls
+ 3374  cd ssh/
+ 3375  ls
+ 3376  sh drguido.sh 
+ 3377  cd git/jexperts/
+ 3378  git add .
+ 3379  git commit -am 'form'
+ 3380  git commit -am 'modal'
+ 3381  git push -u origin master 
+ 3382  git push --help
+ 3383  cd frontend/
+ 3384  npm start
+ 3385  cd back
+ 3386  cd backend/
+ 3387  npm start
+ 3388  sudo reboot
+ 3389  cd frontend/
+ 3390  npm start
+ 3391  cd backend/
+ 3392  npm start
+ 3393  exit
+ 3394  npm update
+ 3395  cd frontend/
+ 3396  npm update
+ 3397  npm i
+ 3398  cd frontend/
+ 3399  npm star
+ 3400  npm start
+ 3401  cd backend/
+ 3402  npm start
+ 3403  sudo shutdown now
+ 3404  cd git/jexperts/frontend/
+ 3405  cd ~/workspace/
+ 3406  ls
+ 3407  npm react-app-creat learning-react
+ 3408  npm i react-app-creat learning-react
+ 3409  npm react-app-create learning-react
+ 3410  npm create-react-app learning-react
+ 3411  npm -g update
+ 3412  sudo npm -g update
+ 3413  npm --list
+ 3414  npm view
+ 3415  npm i create-react-app learning-react
+ 3416  npm init create-react-app learning-react
+ 3417  npm init create-react-app --help
+ 3418  mkdir learning-react
+ 3419  cd learning-react/
+ 3420  npm init create-react-app
+ 3421  npm version
+ 3422  cd ..
+ 3423  npx create-react-app learning-react
+ 3424  cd learning-react/
+ 3425  ls
+ 3426  cd ~/git/jexperts/
+ 3427  ggit checkout .
+ 3428  git checkout .
+ 3429  git pull mastter remote
+ 3430  git pull remote master
+ 3431  git pull --help
+ 3432  cd frontend/
+ 3433  npm start
+ 3434  history >> test.txt
+ 3435  cd Down
+ 3436  cd Downloads/
+ 3437  cp -R *.zip ~/workspace/react_redux_udemy/
+ 3438  ls
+ 3439  exit
+ 3440  npm start
+ 3441  nano /usr/lib/node_modules/jshint/bin/jshint
+ 3442  nano /usr/bin/jshint
+ 3443  jslint --init
+ 3444  ./node_modules/.bin/eslint --init
+ 3445  npm lint
+ 3446  eslint --init
+ 3447  npm install
+ 3448  npm lint
+ 3449  lint
+ 3450  npm lint
+ 3451  npm lint --help
+ 3452  npm -l
+ 3453  npm start
+ 3454  sudo  npm install -g eslint 
+ 3455  sudo npm install -g jshint
+ 3456  npm install jshint
+ 3457  npm uninstall jshint && npm install --save-dev eslint
+ 3458  history >> teste.txt
+ 3459  nautilus
+ 3460  sudo apt install -y libgconf-2-4
+ 3461  sudo apt install -y postman
+ 3462  snap install postman
+ 3463  sudo snap install postman
+ 3464  npm start
+ 3465  postman
+ 3466  sudo reboot
+ 3467  sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf
+ 3468  ./install.sh 
+ 3469  cd ..
+ 3470  cd McMojave-circle-master/
+ 3471  ./install.sh 
+ 3472  ./install.sh -all
+ 3473  rename 's/\.bak$/\.backup/' *.bak
+ 3474  rename 's/\.McMojave-$/\.TKOF - /'
+ 3475  rename 's/\.McMojave-$/\.TKOF - /' --help
+ 3476  rename 's/\.McMojave-$/\.TKOF - /' -v *
+ 3477  rename -v 's/\.McMojave-$/\.TKOF - /'
+ 3478  rename --help
+ 3479  ./install.sh -all
+ 3480  cd Downloads/
+ 3481  ls
+ 3482  cd McMojave-circle-master/
+ 3483  ./install.sh 
+ 3484  ./install.sh -all
+ 3485  ./install.sh 
+ 3486  ./install.sh -all
+ 3487  cd ..
+ 3488  cd McMojave-circle-master/
+ 3489  ./install.sh -all
+ 3490  cd ..
+ 3491  ls
+ 3492  cd TKOF\ -\ Pack\ Icons/
+ 3493  ./install.sh 
+ 3494  ./install.sh -all
+ 3495  ./install.sh
+ 3496  rm -rf TKOF\ -\ Aero\ Dark\ Orange/
+ 3497  sudo rm -rf TKOF\ -\ Aero\ Dark\ Orange/
+ 3498  cd gtk-theme-maker-0.9.0.1/
+ 3499  make
+ 3500  ls
+ 3501  sudo apt install -y python
+ 3502  sudo apt install -y pygobject
+ 3503  gtk3-devel
+ 3504  sudo apt install -y gtk3-devel
+ 3505  ls
+ 3506  sh Launch\ Program.sh 
+ 3507  nano install-vimix.sh 
+ 3508  sh install-vimix.sh 
+ 3509  sudo sh install-vimix.sh 
+ 3510  sh install-vimix.sh 
+ 3511  sudo sh install-vimix.sh 
+ 3512  sudo apt-get install gtk-theme-config
+ 3513  nano ~/.Xresources
+ 3514  sudo apt install flatpak
+ 3515  sudo apt install gnome-software-plugin-flatpak
+ 3516  sudo apt remove --purge gnome-software-plugin-flatpak
+ 3517  sudo apt remove --purge flatpak
+ 3518  sudo sh workspace/os_up.sh 
+ 3519  sudo cp -R /root/snap/code /home/logan/snap/code
+ 3520  sudo cp -R /root/snap/gitkraken /home/logan/snap/gitkraken
+ 3521  sudo rm -rf /root/snap/gitkraken
+ 3522  sudo rm -rf /root/snap/code
+ 3523  sudo chown logan:logan /home/logan/snap/gitkraken
+ 3524  sudo chown logan:logan /home/logan/snap/code
+ 3525  sh install.sh --help
+ 3526  sh install.sh -v --vimix
+ 3527  sudo sh install.sh -v --vimix
+ 3528  sudo sh install.sh --vimix
+ 3529  sh install.sh -v --vimix
+ 3530  sudo install.sh
+ 3531  sudo ./install.sh 
+ 3532  sudo current
+ 3533  sudo nano current
+ 3534  sudo touch test.sh
+ 3535  sudo nano test.sh 
+ 3536  sudo test.sh
+ 3537  sudo sh test.sh
+ 3538  nautilus /usr/share/pixmaps
+ 3539  cp -R ./Spotify ./Spotify.desktop
+ 3540  ls
+ 3541  nano spotify_spotify.desktop 
+ 3542  nano gitkraken_gitkraken.desktop 
+ 3543  nautilus /usr/share/applications
+ 3544  cd /usr/share/applications
+ 3545  ls
+ 3546  nano google-chrome.desktop 
+ 3547  cd ./Downloads/
+ 3548  sudo dpkg i *.deb
+ 3549  sudo dpkg install *.deb
+ 3550  sudo dpkg -i *.deb
+ 3551  sudo sh ./install.sh 
+ 3552  sudo sh ./install.sh
+ 3553  sudo ./install.sh
+ 3554  cd /usr/share/applications/
+ 3555  ls
+ 3556  cd
+ 3557  sudo nano /usr/share/applications/code.desktop
+ 3558  cd /usr/share/pixmaps/
+ 3559  ls
+ 3560  nautilus /usr/share/pixmaps/
+ 3561  sudo apt remove --purge oomox 
+ 3562  rm -rf /opt/oomox/
+ 3563  sudo rm -rf /opt/oomox/
+ 3564  sudo apt remove --purge oomox*
+ 3565  sudo apt remove --purge oomox-*
+ 3566  cd ~
+ 3567  ls
+ 3568  sudo sh workspace/os_up.sh 
+ 3569  snap run blender
+ 3570  sudo snap run blender
+ 3571  nautilus /usr/share/pixmaps/
+ 3572  cd /dev/sda2
+ 3573  cd //dev/sda2
+ 3574  sudo ./install.sh 
+ 3575  sudo sh workspace/os_up.sh 
+ 3576  sudo sh ./install.sh 
+ 3577  sudo bash ./install.sh 
+ 3578  sudo ./install.sh 
+ 3579  sudo ./install.sh 
+ 3580  curl --help
+ 3581  curl -v https://www.gitkraken.com/download/linux-deb
+ 3582  wget -r https://www.gitkraken.com/download/linux-deb
+ 3583  cd ./workspace/
+ 3584  ls
+ 3585  cd learning-react/
+ 3586  ls
+ 3587  cd ..
+ 3588  cd react_redux_udemy/
+ 3589  mkdir calc
+ 3590  npx create-app-react calc
+ 3591  rm -rf calc
+ 3592  ls
+ 3593  ls -a
+ 3594  npx create-app-react calc
+ 3595  npx create-react-app calc
+ 3596  cd calc/
+ 3597  npm i
+ 3598  npm start
+ 3599  sudo ./install.sh 
+ 3600  cd ./Downloads/grub2-themes-master/
+ 3601  sudo ./install.sh 
+ 3602  sudo bash ./install.sh 
+ 3603  sudo bash ./install.sh -v --vimix
+ 3604  sudo reboot
+ 3605  sudo bash ./install.sh -v --vimix
+ 3606  cd ./Downloads/
+ 3607  sudo bash ./install.sh -v --vimix
+ 3608  cd grub2-themes-master/
+ 3609  sudo bash ./install.sh -v --vimix
+ 3610  rm -R test.sh 
+ 3611  sudo rm -R test.sh 
+ 3612  sudo rm -rf snap*
+ 3613  sudo dpkg -i *.deb
+ 3614  sudo rm -r *.deb
+ 3615  sudo apt remove skype && sudo dpkg -i ~/Downloads/*.deb
+ 3616  sudo snap remove skype && sudo dpkg -i ~/Downloads/*.deb
+ 3617  sudo dpkg -i ~/Downloads/*.deb
+ 3618  cp -R ./.icons/McMojave-circle-grey/apps/scalable/* ./.icons/McMojave-circle/apps/scalable/
+ 3619  cp -R ./.icons/McMojave-circle-grey/apps/scalable/* ./.icons/McMojave-circle-*/apps/scalable/
+ 3620  sudo nautilus /usr/share/application
+ 3621  cd /usr/share/application
+ 3622  sudo nautilus /usr/share/applications
+ 3623  sudo reboot
+ 3624  cp -R ./.icons/McMojave-circle/apps/scalable/* ./.icons/McMojave*/apps/scalable/
+ 3625  cp -R ./.icons/McMojave-circle/apps/scalable/* ./.icons/McMojave-*/apps/scalable/
+ 3626  sudo sh workspace/os_up.sh 
+ 3627  exit
+ 3628  sudo sh ./workspace/os_up.sh 
+ 3629  cd /usr/share/themes/
+ 3630  ls
+ 3631  cp -R ./Ambiance/ ~/.icons/TKOF\ -\ Default
+ 3632  cp ~/.icons/McMojave-circle/apps/scalable/preferences-system-windows.svg ~/.icons/McMojave-circle-*/apps/scalable/preferences-system-windows.svg
+ 3633  cp ~/.icons/McMojave-circle/apps/scalable/preferences-system-windows.svg ~/.icons/McMojave-circle*/apps/scalable/preferences-system-windows.svg
+ 3634  cp ~/.icons/McMojave-circle/apps/scalable/preferences-system-windows.svg ~/.icons/McMojave-circle-*/apps/scalable/preferences-system-windows.svg
+ 3635  cp ~/.icons/McMojave-circle/apps/scalable/* ~/.icons/McMojave-circle-*/apps/scalable/
+ 3636  cp -R ~/.icons/McMojave-circle/apps/scalable/* ~/.icons/McMojave-circle-*/apps/scalable/
+ 3637  cp -R ~/.icons/McMojave-circle/apps/scalable ~/.icons/McMojave-circle-*/apps/scalable
+ 3638  cp -Rv ~/.icons/McMojave-circle/apps/scalable ~/.icons/McMojave-circle-*/apps/scalable
+ 3639  cp -Rv ~/.icons/McMojave-circle/apps/scalable ~/Downloads/scalable/
+ 3640  cp -Rv ~/Downloads/scalable ~/.icons/McMojave-circle/apps/scalable
+ 3641  cp -Rv ~/Downloads/scalable/* ~/.icons/McMojave-circle/apps/scalable
+ 3642  cp -Rv ~/Downloads/scalable/* ~/.icons/McMojave-circle-*/apps/scalable
+ 3643  rm -rf ~/.icons/McMojave-circle*/apps/scalable/scalable
+ 3644  rm -rf ~/.icons/McMojave-circle-*/apps/scalable/scalable
+ 3645  sudo nautilus /usr/share/themes/
+ 3646  sudo chown logan ~/.themes/TKOF\ -\ Default/
+ 3647  sudo chown logan -R ~/.themes/TKOF\ -\ Default/
+ 3648  exit
+ 3649  sudo sh workspace/os_up.sh && sudo shutdown now
+ 3650  nano go.sh
+ 3651  vm go.sh ~/.icons/McMojave-circle/apps/scalable/
+ 3652  vm ./go.sh ~/.icons/McMojave-circle/apps/scalable/
+ 3653  vm ./go.sh ~/.icons/McMojave-circle/apps/scalable
+ 3654  mv ./go.sh ~/.icons/McMojave-circle/apps/scalable/go.sh
+ 3655  sh ~/.icons/McMojave-circle/apps/scalable/go.sh
+ 3656  nano ~/.icons/McMojave-circle/apps/scalable/go.sh
+ 3657  sh ~/.icons/McMojave-circle/apps/scalable/go.sh
+ 3658  cd ~/.icons/McMojave-circle/apps/scalable
+ 3659  rename "s/.png/.svg/" *.png
+ 3660  rm indicator-weather.svg
+ 3661  rm go.sh 
+ 3662  rename "s/.png/.svg/" *.png
+ 3663  find .png
+ 3664  find *.png
+ 3665  cd ~
+ 3666  ls
+ 3667  cp -R ~/.icons/McMojave-circle/apps/scalable ~/.icons/McMojave-circle-*/apps/scalable
+ 3668  cp -R ~/.icons/McMojave-circle/apps/scalable ~/Downloads/apps/scalable
+ 3669  cp -Rv ~/Downloads/apps ~/.icons/McMojave-circle-* 
+ 3670  sudo nautilus /usr/share/application
+ 3671  sudo nautilus /usr/share/applications
+ 3672  cp -Rv *.svg ~/.icons/McMojave-circle/apps/scalable/
+ 3673  cp -Rv *.svg ~/.icons/McMojave-circle-*/apps/scalable/
+ 3674  cp -Rv *.svg ~/.icons/McMojave-circle/apps/scalable/
+ 3675  cd ~/.icons/McMojave-circle
+ 3676  ls
+ 3677  cp -Ruv ./apps/ ~/.icons/McMojave-circle-*/
+ 3678  cp -Rv ./apps/ ~/.icons/McMojave-circle-*/
+ 3679  cp -R ./scalable/ ~/.icons/McMojave-circle-*/apps/scalable
+ 3680  cd ..
+ 3681  ls
+ 3682  cp --help
+ 3683  cd ./apps/ ~/.icons/McMojave-circle-*/apps/
+ 3684  cd -ru ./apps/ ~/.icons/McMojave-circle-*/apps/
+ 3685  cd -Ru ./apps/ ~/.icons/McMojave-circle-*/apps/
+ 3686  cd -R -u ./apps/ ~/.icons/McMojave-circle-*/apps/
+ 3687  cp -ru ./apps/ ~/.icons/McMojave-circle-*/apps/
+ 3688  cp -ruv ./apps/ ~/.icons/McMojave-circle-*/apps/
+ 3689  cp -ruv ./apps/ ~/.icons/McMojave-circle/apps/
+ 3690  cp -ruv ./apps/ ~/.icons/McMojave-circle-*/
+ 3691  rm -rf ~/.icons/McMojave-circle/apps/apps/
+ 3692  rm -rf ~/.icons/McMojave-circle-*/apps/apps/
+ 3693  cd ~/.icons/McMojave-circle
+ 3694  ls
+ 3695  cp -ruv ./apps/ ~/.icons/McMojave-circle-*/
+ 3696  cp -rv ./apps/ ~/.icons/McMojave-circle-*/
+ 3697  sudo echo "deb https://deb.etcher.io stable etcher" | sudo tee /etc/apt/sources.list.d/balena-etcher.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61
+ 3698  sudo apt update -y
+ 3699  sudo apt install -y balena-etcher-electron
+ 3700  cd /media/logan/
+ 3701  ls
+ 3702  cp -Rv BADI-BALEM ~/Downloads/
+ 3703  sudo reboot
+ 3704  cp -R Ubuntu\ 18.04\ LTS\ 64bits.iso /media/logan/ESD-ISO/xenial.iso
+ 3705  cd /media/logan
+ 3706  ls -a
+ 3707  ls la
+ 3708  ls ls
+ 3709  ls a
+ 3710  ls -a
+ 3711  ls -la
+ 3712  sudo chown -R logan ESD-ISO/
+ 3713  sudo nautilus
+ 3714  sudo dd --help
+ 3715  sudo su
+ 3716  dd if=./win of=/media/logan/microsoft/oem.iso bs=512 sync
+ 3717  sudo dd --help
+ 3718  dd if=./win of=/media/logan/microsoft/oem.iso bs=512 conv=sync
+ 3719  dd if=./win/ of=/media/logan/microsoft/oem.iso bs=512 conv=sync
+ 3720  dd if=./win/* of=/media/logan/microsoft/oem.iso bs=512 conv=sync
+ 3721  sudo dd if=./win/* of=/media/logan/microsoft/oem.iso bs=512 conv=sync
+ 3722  sudo dd if=/home/logan/Downloads/win of=/media/logan/microsoft/oem.iso bs=512 conv=sync
+ 3723  sudo dd if=/home/logan/Downloads/win of=/media/logan/microsoft/oem.iso
+ 3724  sudo dd if=/home/logan/Downloads/win/ of=/media/logan/microsoft/oem.iso
+ 3725  sudo reboot
+ 3726  sudo sh workspace/os_up.sh 
+ 3727  exit
+ 3728  sudo sh workspace/os_up.sh && sudo shutdown now
+ 3729  cp -Rv ~/.icons/McMojave-circle-orange-dark/apps/scalable ~/Downloads/apps/acalable/
+ 3730  mkdir ~/Downloads/apps/acalable
+ 3731  mkdir ~/Downloads/apps
+ 3732  mkdir ~/Downloads/apps/acalable
+ 3733  cp -Rv ~/.icons/McMojave-circle-orange-dark/apps/scalable ~/Downloads/apps/acalable
+ 3734  cp -Rv ~/Downloads/apps/acalable ~/.icons/McMojave-circle/apps
+ 3735  cp -Rv ~/Downloads/apps/acalable ~/.icons/McMojave-circle-*/apps
+ 3736  cp -Ru ~/Downloads/apps/acalable ~/.icons/McMojave-circle-*/apps
+ 3737  cp --help 
+ 3738  cp -Rfuv ~/Downloads/apps/acalable ~/.icons/McMojave-circle-*/apps
+ 3739  cp -Rfv ~/Downloads/apps/acalable ~/.icons/McMojave-circle-*/apps
+ 3740  cp -Rfv ~/Downloads/apps/acalable ~/.icons/McMojave-circle/apps
+ 3741  cp -Rfv ~/Downloads/apps/acalable ~/.icons/McMojave-circle-*/apps
+ 3742  rm -rf ~/.icons/McMojave-circle-*/apps/scalable
+ 3743  rm -rf ~/.icons/McMojave-circle/apps/scalable
+ 3744  cp -Rfv ~/Downloads/apps/acalable ~/.icons/McMojave-circle/apps
+ 3745  cp -Rfv ~/Downloads/apps/acalable ~/.icons/McMojave-circle-*/apps
+ 3746  cp -Rfv ~/Downloads/apps/acalable ~/dwhelper/
+ 3747  cp -Rfv ~/Downloads/apps/scalable/ ~/.icons/McMojave-circle-*/apps
+ 3748  cp -Rfv ~/Downloads/apps/scalable/ ~/.icons/McMojave-circle-*/apps/scalable
+ 3749  cp -Rfv ~/Downloads/apps/scalable ~/.icons/McMojave-circle-*/apps/scalable
+ 3750  cp -Rfv ~/Downloads/apps/scalable ~/.icons/McMojave-circle-*/apps/
+ 3751  mkdir ~/.icons/McMojave-*/apps/
+ 3752  mkdir ~/.icons/McMojave-*/apps/scalable
+ 3753  mkdir -R ~/.icons/McMojave-*/apps/scalable
+ 3754  mkdir --help
+ 3755  mkdir -p ~/.icons/McMojave-*/apps/scalable
+ 3756  mkdir -p ~/.icons/McMojave*/apps/scalable
+ 3757  mkdir -p ~/.icons/McM*/apps/scalable
+ 3758  mkdir -p ~/.icons/McMojave-circle*/apps/scalable
+ 3759  mkdir -p ~/.icons/McMojave-circle-*/apps/scalable
+ 3760  mkdir -pv ~/.icons/McMojave-circle-*/apps/scalable
+ 3761  mkdir -pv ~/.icons/McMojave-circle-*/apps/scalablev
+ 3762  mkdir -p ~/.icons/McMojave-circle-*/apps/scalable
+ 3763  cp -Rfv ~/Downloads/apps/scalable ~/.icons/McMojave-circle-*/apps/
+ 3764  rm -rf ~/.icons/McMojave-circle-*/apps/apps
+ 3765  cp -Rfv ~/Downloads/apps/scalable ~/.icons/McMojave-circle-*/apps/
+ 3766  rm -rf ~/.icons/McMojave-circle-*/apps/apps
+ 3767  cp -Rfv ~/Downloads/scalable ~/.icons/McMojave-circle-*/apps/
+ 3768  rm -rf ~/.icons/McMojave-circle-*/apps/apps
+ 3769  cp -Rfv ~/Downloads/scalable ~/.icons/McMojave-circle-*/apps/
+ 3770  cp -Rfv ~/Downloads/scalable ~/Área\ de\ Trabalho/
+ 3771  cp -Rfv ~/Downloads/scalable ~/.icons/McMojave-circle-*/apps
+ 3772  rm -rf ~/.icons/McMojave-circle-*/apps/apps
+ 3773  cp -Rfv ~/Downloads/scalable ~/.icons/McMojave-circle-blac/apps
+ 3774  sh ~/Downloads/vai.sh 
+ 3775  touch vai.sh
+ 3776  /usr/lib/gnome-tweak-tool/gnome-tweak-tool-lid-inhibitor
+ 3777  cd backend/
+ 3778  npm start
+ 3779  cd frontend/
+ 3780  npm start
+ 3781  npm i
+ 3782  npm start
+ 3783  eslint init
+ 3784  eslint -init
+ 3785  eslint -iinit
+ 3786  eslint --init
+ 3787  npm i --save-dev eslint-plugin-react@latest eslint-config-standard@latest eslint@>=5.0.0 eslint-plugin-import@>=2.13.0 eslint-plugin-node@>=7.0.0 eslint-plugin-promise@>=4.0.0 eslint-plugin-standard@>=4.0.0
+ 3788  eslint --init
+ 3789  npm i -g eslint-plugin-react eslint-config-standard eslint eslint-plugin-import eslint-plugin-node eslint-plugin-standard eslint-plugin-babel
+ 3790  npm i -g eslint-plugin-promise@
+ 3791  sudonpm i -g eslint-plugin-promise
+ 3792  sudo npm i -g eslint-plugin-promise
+ 3793  sudo npm i -g eslint-plugin-react eslint-config-standard eslint eslint-plugin-import eslint-plugin-node eslint-plugin-standard eslint-plugin-babel
+ 3794  eslint --init
+ 3795  cd git/
+ 3796  mkdir jexperts
+ 3797  git clone git@github.com:i-espinola/jexperts.git
+ 3798  cd jexperts/
+ 3799  npm i
+ 3800  exit
+ 3801  cd backend/
+ 3802  npm start
+ 3803  cd frontend/
+ 3804  npm start
+ 3805  cd backend/
+ 3806  npm start
+ 3807  git checkout -b componentModal
+ 3808  git add .
+ 3809  git commit -am 'componentizando'
+ 3810  git push origin componentModal 
+ 3811  cd frontend/
+ 3812  npm start
+ 3813  cd Downloads/
+ 3814  sudo dpkg -i *.deb && sudo rm *.deb
+ 3815  $ wget -O ~/mailspring.deb "https://updates.getmailspring.com/download?platform=linuxDeb"
+ 3816  $ wget -O "https://updates.getmailspring.com/download?platform=linuxDeb"
+ 3817  $ wget "https://updates.getmailspring.com/download?platform=linuxDeb"
+ 3818  wget -O "https://updates.getmailspring.com/download?platform=linuxDeb"
+ 3819  wget --help
+ 3820  wget -O ~/temp/mailspring.deb "https://updates.getmailspring.com/download?platform=linuxDeb"
+ 3821  wget -O ~/tmp/mailspring.deb "https://updates.getmailspring.com/download?platform=linuxDeb"
+ 3822  wget -O ~/mailspring.deb "https://updates.getmailspring.com/download?platform=linuxDeb"
+ 3823  sudo rm mailspring.deb 
+ 3824  cd tmp
+ 3825  cd /tmp
+ 3826  sudo wget -O ~/mailspring.deb "https://updates.getmailspring.com/download?platform=linuxDeb"
+ 3827  sudo chown ivan *.deb
+ 3828  sudo chown -R logan *.deb
+ 3829  sudo dpkg -i *.deb
+ 3830  exit
+ 3831  sudo sh workspace/os_up.sh 
+ 3832  sudo reboot
+ 3833  npm start
+ 3834  ls
+ 3835  cd ..
+ 3836  cd model/
+ 3837  npm start
+ 3838  npm i
+ 3839  npm audit fix
+ 3840  npm start
+ 3841  gulp
+ 3842  gulp clean
+ 3843  npm i
+ 3844  npm audit fix
+ 3845  npm audit fix --force
+ 3846  npm audit
+ 3847  npm start
+ 3848  gulp
+ 3849  gulp --help
+ 3850  gulp --tasks
+ 3851  gulp -T
+ 3852  npm install
+ 3853  gulp -T
+ 3854  gulp --help
+ 3855  gulp --tasks-simple
+ 3856  gulp server
+ 3857  gulp --help
+ 3858  gulp --continue
+ 3859  npm gulp
+ 3860  gulp
+ 3861  npm i
+ 3862  npm start
+ 3863  cd 
+ 3864  cd git/
+ 3865  rm -rf Bry/
+ 3866  git clone git@gitlab.com:i-espinola/desafio-frontend-pleno.git brytecnologia
+ 3867  cd rm -rf brytecnologia/
+ 3868  rm -rf brytecnologia
+ 3869  git clone git@gitlab.com:i-espinola/desafio-frontend-pleno.git brytecnologia
+ 3870  npx create-react-app brytecnologia/
+ 3871  npx create-react-app bry
+ 3872  cp -R bry/* brytecnologia/
+ 3873  npm install -g npm 
+ 3874  sudo npm install -g npm 
+ 3875  sudo npm -g update
+ 3876  cd ..
+ 3877  git clone git@github.com:i-espinola/supero.git model
+ 3878  cd brytecnologia/
+ 3879  ls
+ 3880  cd ..
+ 3881  git clone git@github.com:i-espinola/jexperts.git jexpertsd
+ 3882  cd jexperts/
+ 3883  cd git/
+ 3884  ls
+ 3885  mkdir Bry
+ 3886  git clone git@gitlab.com:brytecnologia-team/selecao/desafio-frontend-pleno.git Bry/
+ 3887  rm Bry/*
+ 3888  rm -rf Bry/*
+ 3889  ls
+ 3890  cd rm jexperts/
+ 3891  cd rm -rf jexperts/
+ 3892  rm -rf jexperts
+ 3893  ls
+ 3894  git clone git@gitlab.com:brytecnologia-team/selecao/desafio-frontend-pleno.git Bry/
+ 3895  rm -rf Bry/
+ 3896  git clone git@gitlab.com:brytecnologia-team/selecao/desafio-frontend-pleno.git Bry/
+ 3897  ls
+ 3898  cd Bry/
+ 3899  ls
+ 3900  git status
+ 3901  cd ..
+ 3902  cd model/
+ 3903  npm i
+ 3904  npm audit fix
+ 3905  cd ..
+ 3906  rm -rf model/
+ 3907  git clone git@github.com:i-espinola/teste-front-people-ti.git model
+ 3908  cd model/
+ 3909  npm i
+ 3910  npm audit fix
+ 3911  npm audit fix --force
+ 3912  npm update
+ 3913  npm audit fix
+ 3914  exit
+ 3915  sudo dkpg i *.deb
+ 3916  sudo dpkg i *.deb
+ 3917  sudo dpkg -i *.deb
+ 3918  npm i swapi-node
+ 3919  npm uninstall swapi-node
+ 3920  eslint --init
+ 3921  jslint --init
+ 3922  eslint --init
+ 3923  npm i --save-dev node-sass
+ 3924  npm i axios
+ 3925  npm start
+ 3926  npm run lint
+ 3927  npm i
+ 3928  npm update
+ 3929  npm uninstall react-router react-router-dom
+ 3930  npm install react-router react-router-dom --save-dev
+ 3931  npm install && npm update
+ 3932  npm i --save-dev eslint-config-standard
+ 3933  npm install --save-dev eslint-config-react-app babel-eslint@9.x eslint@5.x eslint-plugin-flowtype@2.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@1.5.0
+ 3934  npm install && npm update
+ 3935  npm start
+ 3936  npm start
+ 3937  git status
+ 3938  git add .
+ 3939  git commit -am init-project
+ 3940  git push origin master 
+ 3941  git checkout -b front-end
+ 3942  git add .
+ 3943  git commit -am assets-include
+ 3944  git push origin front-end 
+ 3945  git add .
+ 3946  git commit -am fonts-include
+ 3947  git push remote front-end 
+ 3948  git push origin front-end 
+ 3949  npm i && npm audit fix && npm start
+ 3950  npm start
+ 3951  git status
+ 3952  git add .
+ 3953  git commit -am bruteDone
+ 3954  git push origin front-end 
+ 3955  sudo reboot
+ 3956  npm start
+ 3957  git checkout -b SwapiConnect
+ 3958  git status
+ 3959  npm install @material/form-field --save-dev
+ 3960  npm uninstall @material/form-field
+ 3961  npm install @material/textfield --save-dev
+ 3962  npm uninstall @material/textfield --save-dev
+ 3963  npm install @material/react-text-field
+ 3964  npm uninstall @material/react-text-field
+ 3965  exit
+ 3966  gedit workspace/os
+ 3967  gedit workspace/os_up.sh 
+ 3968  sudo sh workspace/os_up.sh 
+ 3969  cd Downloads/
+ 3970  rm -R *.deb
+ 3971  exit
+ 3972  cd Downloads/
+ 3973  sudo dpkg -i *.deb
+ 3974  sudo dpkg -i *.deb -t3600
+ 3975  sudo dpkg -i *.deb
+ 3976  exit
+ 3977  npm start
+ 3978  npm run build
+ 3979  npm run start
+ 3980  cd git/
+ 3981  git clone git@github.com:i-espinola/koper.git koper
+ 3982  cd
+ 3983  sudo sh workspace/os_up.sh 
+ 3984  exit
+ 3985  ssh-keygen
+ 3986  cat ./.ssh/id_rsa.pub
+ 3987  sudo npm -g update
+ 3988  npm npm-check-updates
+ 3989  npm-check-updates
+ 3990  clean-install
+ 3991  npm clean-install
+ 3992  sudo npm -g clean-install
+ 3993  git add .
+ 3994  git commit -am apiInCurse
+ 3995  git status
+ 3996  git push origin SwapiConnect 
+ 3997  git add .
+ 3998  git commit -am apiInCurse
+ 3999  git push origin SwapiConnect 
+ 4000  npm i -- save prop-types
+ 4001  npm install -g npm
+ 4002  sudo npm install -g npm
+ 4003  git status
+ 4004  git add .
+ 4005  git commit -am swapiInCurse
+ 4006  git push origin SwapiConnect 
+ 4007  eslint init
+ 4008  jslint init
+ 4009  npm eslint init
+ 4010  pm run start
+ 4011  npm run start
+ 4012  npm install --save react-styled-carousel
+ 4013  npm i @brainhubeu/react-carousel --save-dev
+ 4014  npm install react-slick --save
+ 4015  npm uninstall save react-styled-carousel
+ 4016  npm uninstall @brainhubeu/react-carousel
+ 4017  npm install slick-carousel
+ 4018  npm install slick-carousel --save
+ 4019  npm install slick-carousel
+ 4020  npm i @brainhubeu/react-carousel --save
+ 4021  npm install @types/brainhubeu__react-carousel --save
+ 4022  npm uninstall ainhubeu/react-carousel
+ 4023  npm uninstall @brainhubeu/react-carousel
+ 4024  npm uninstall prop-types
+ 4025  npm i react-loading-skeleton --save
+ 4026  npm install slick-carousel
+ 4027  npm i react-loading-skeleton --save
+ 4028  gedit /home/logan/.npm/_cacache/index-v5/15/58/2d58eb2849602b4c9c8e29e7316a3b2514a3259a30d1fc646e84210fc9dc
+ 4029  sudo cp /home/logan/.npm/_cacache/index-v5/15/58/2d58eb2849602b4c9c8e29e7316a3b2514a3259a30d1fc646e84210fc9dc ~/bkp
+ 4030  sudo rm /home/logan/.npm/_cacache/index-v5/15/58/2d58eb2849602b4c9c8e29e7316a3b2514a3259a30d1fc646e84210fc9dc
+ 4031  sudo rm -rf /home/logan/.npm/_cacache/index-v5/15/58/2d58eb2849602b4c9c8e29e7316a3b2514a3259a30d1fc646e84210fc9dc
+ 4032  sudo rm -rf /home/logan/.npm/_cacache/index-v5/15/58/
+ 4033  ls
+ 4034  gedit README.md 
+ 4035  sudo rm -rf /home/logan/.npm/_cacache/index-v5/15/58/2d58eb2849602b4c9c8e29e7316a3b2514a3259a30d1fc646e84210fc9dc
+ 4036  npm i react-loading-skeleton --save
+ 4037  npm i prop-types --save
+ 4038  git status
+ 4039  snap version
+ 4040  snap --help
+ 4041  cd git/
+ 4042  git clone git@gitlab.com:i-espinola/desafio-frontend-pleno.git bry
+ 4043  cd bry
+ 4044  npx react-create-app
+ 4045  npx create-react-app
+ 4046  npx create-react-app Bry-front-end-pleno
+ 4047  cd ..
+ 4048  npx create-react-app Bry-tecnologia
+ 4049  npx create-react-app Bry_tecnologia
+ 4050  npx create-react-app bry_tecnologia
+ 4051  sudo rm -rf /home/logan/.npm/_cacache/index-v5/bd/db/70fef257b7c44d04d790f3733128804a0eb0452b2aff8626bbd2bb31a114
+ 4052  npx create-react-app bry_tecnologia
+ 4053  sudo rm -rf /home/logan/.npm/_cacache
+ 4054  npx create-react-app bry_tecnologia
+ 4055  git clone git@gitlab.com:i-espinola/desafio-frontend-pleno.git bry-tecnologia
+ 4056  git clone git@gitlab.com:i-espinola/desafio-frontend-pleno.git bry_tecnologia
+ 4057  dfdsfds
+ 4058  sudo h workspace/os_up.sh 
+ 4059  sudo sh workspace/os_up.sh 
+ 4060  npm install @material/form-field
+ 4061  npm uninstall @material/form-field
+ 4062  npm install @material/form-field
+ 4063  mkdir ./src/assets/vendor
+ 4064  cp -R ./node_modules/* ./src/assets/vendor
+ 4065  npm install
+ 4066  npm uninstall @material/form-field
+ 4067  npm start
+ 4068  npm install @material/form-field
+ 4069  npm start
+ 4070  npm uninstall @material/form-field
+ 4071  npm start
+ 4072  npm start
+ 4073  git add .
+ 4074  git commit -am static-ui-DONE
+ 4075  git push origin ui-static 
+ 4076  git checkout ui-dat
+ 4077  git checkout ui-data-flow 
+ 4078  git checkout master 
+ 4079  git push origin master 
+ 4080  git push origin 
+ 4081  git checkout ui-data-flow 
+ 4082  git merge ui-static into ui-data-flow 
+ 4083  git merge ui-static ui-data-flow 
+ 4084  npm start
+ 4085  sudo reboot
+ 4086  npm start
+ 4087  git add .
+ 4088  git commit -am Movie_page_reviews
+ 4089  git push origin ui-data-flow 
+ 4090  npm start
+ 4091  git add .
+ 4092  git commit -am Movie_page_reviews
+ 4093  git push origin ui-data-flow 
+ 4094  sudo sh workspace/os_up.sh 
+ 4095  sudo sh workspace/os_up.sh && sudo reboot
+ 4096  npm start
+ 4097  git add .
+ 4098  git commit -am done-dataFlow
+ 4099  git push origin ui-data-flow 
+ 4100  git fetch 
+ 4101  git checkout master 
+ 4102  git merge ui-data-flow master 
+ 4103  git push origin master 
+ 4104  sudo sh workspace/os_up.sh 
+ 4105  nano workspace/os_up.sh 
+ 4106  exit
+ 4107  npm build
+ 4108  npm run build
+ 4109  git add .
+ 4110  git commit -am beta
+ 4111  git push origin master 
+ 4112  git checkout statement 
+ 4113  git merge master statement 
+ 4114  git add .
+ 4115  git commit -am beta
+ 4116  git push origin statement 
+ 4117  cd ..
+ 4118  tree bry_tecnologia/
+ 4119  tree bry_tecnologia/src
+ 4120  tree bry_tecnologia/build
+ 4121  git add .
+ 4122  git commit -am readme
+ 4123  git push origin statement 
+ 4124  cd bry_tecnologia/
+ 4125  git add .
+ 4126  git commit -am readme
+ 4127  git push origin statement 
+ 4128  git checkout master 
+ 4129  git merge statement master 
+ 4130  git add .
+ 4131  git commit -am readme
+ 4132  git push origin master 
+ 4133  git add .
+ 4134  git commit -am readme
+ 4135  git push origin master 
+ 4136  git add .
+ 4137  git commit -am readme
+ 4138  git push origin master 
+ 4139  git add .
+ 4140  git commit -am readme
+ 4141  git push origin master 
+ 4142  git add .
+ 4143  git commit -am readme
+ 4144  git push origin master 
+ 4145  git add .
+ 4146  git commit -am readme
+ 4147  git push origin master 
+ 4148  git add .
+ 4149  git commit -am readme
+ 4150  git push origin master 
+ 4151  git add .
+ 4152  git commit -am readme
+ 4153  git push origin master 
+ 4154  git add .
+ 4155  git commit -am readme
+ 4156  git push origin master 
+ 4157  git add .
+ 4158  git commit -am readme
+ 4159  git push origin master 
+ 4160  git add .
+ 4161  git commit -am readme
+ 4162  git push origin master 
+ 4163  git add .
+ 4164  git commit -am readme
+ 4165  git push origin master 
+ 4166  git add .
+ 4167  git commit -am readme
+ 4168  git push origin master 
+ 4169  git add .
+ 4170  git commit -am readme
+ 4171  git push origin master 
+ 4172  git add .
+ 4173  git commit -am readme
+ 4174  git push origin master 
+ 4175  git checkout statement 
+ 4176  git merge master statement 
+ 4177  git merge statement master 
+ 4178  git add .
+ 4179  git commit -am fix-search
+ 4180  git push origin statement 
+ 4181  git checkout master 
+ 4182  git fetch 
+ 4183  git fetch  all
+ 4184  git fetch all
+ 4185  git merge statement master 
+ 4186  git add .
+ 4187  git commit -am fix-search
+ 4188  git push origin master 
+ 4189  git checkout statement 
+ 4190  git add .
+ 4191  git commit -am fix-search
+ 4192  git push origin statement 
+ 4193  git checkout master 
+ 4194  git merge statement master 
+ 4195  git add .
+ 4196  git commit -am fix-search
+ 4197  git push origin master 
+ 4198  npm run build
+ 4199  git add .
+ 4200  git commit -am fix-search
+ 4201  git push origin master 
+ 4202  npm start
+ 4203  git add .
+ 4204  git commit -am readme
+ 4205  git push origin master 
+ 4206  git checkout statement 
+ 4207  git merge master statement 
+ 4208  git add .
+ 4209  git commit -am readme
+ 4210  git push origin statement 
+ 4211  git commit -am fix-carousel-bug
+ 4212  git push origin statement 
+ 4213  git add .
+ 4214  git commit -am readme
+ 4215  git push origin statement 
+ 4216  git checkout master 
+ 4217  git merge statement master 
+ 4218  git add .
+ 4219  git commit -am readme
+ 4220  git push origin master 
+ 4221  git add .
+ 4222  git commit -am readme
+ 4223  git push origin master 
+ 4224  git add .
+ 4225  git commit -am readme
+ 4226  git push origin master 
+ 4227  git add .
+ 4228  git commit -am readme
+ 4229  git push origin master 
+ 4230  git checkout statement 
+ 4231  git merge master statement 
+ 4232  git add .
+ 4233  git commit -am readme
+ 4234  git push origin statement 
+ 4235  git add .
+ 4236  git commit -am readme
+ 4237  git push origin statement 
+ 4238  git merge statement master 
+ 4239  git checkout master 
+ 4240  git merge statement master 
+ 4241  git add .
+ 4242  git commit -am readme
+ 4243  git push origin master 
+ 4244  git add .
+ 4245  git commit -am readme
+ 4246  git push origin master 
+ 4247  git add .
+ 4248  git commit -am readme
+ 4249  git push origin master 
+ 4250  git add .
+ 4251  git commit -am readme
+ 4252  git push origin master 
+ 4253  git add .
+ 4254  git commit -am readme
+ 4255  git push origin master 
+ 4256  npm up && npm run build && git add . && git commit -am build && git push origin master 
+ 4257  npm start
+ 4258  rm -rf ./build/
+ 4259  npm up && npm run build && git add . && git commit -am build && git push origin master 
+ 4260  rm -rf ./build/
+ 4261  npm i && npm up && npm run build && git add . && git commit -am build && git push origin master 
+ 4262  npm run eject
+ 4263  npm start
+ 4264  sudo rm -rf ./build && npm i && npm up && npm run build && git add . && git commit -am build && git push origin master 
+ 4265  node run test
+ 4266  npm run test
+ 4267  rm -rf ./public/
+ 4268  mkdir ./public
+ 4269  cp -R ./build/ ./public/
+ 4270  npm run buil && cp -R ./build/ ./public/
+ 4271  npm run build && cp -R ./build/ ./public/
+ 4272  cp -R ./build/* ./public/
+ 4273  npm run build && cp -R ./build/ ./public/
+ 4274  npm i http-server --save
+ 4275  git add .
+ 4276  git commit -am build-check
+ 4277  git push origin master 
+ 4278  sudo rm -rf ./build && npm i && npm up && npm run build && git add . && git commit -am build && git push origin master 
+ 4279  cp -R ./build/* ./public/
+ 4280  git add .
+ 4281  git commit -am build-check
+ 4282  git push origin master 
+ 4283  npm run build
+ 4284  npm install -g http-server
+ 4285  sudo npm install -g http-server
+ 4286  http-server -p 8000
+ 4287  npm run build
+ 4288  http-server -p 8000
+ 4289  npm uninstall http-server
+ 4290  sudo sh workspace/os_up.sh 
+ 4291  sudo sh workspace/os_up.sh && sudo reboot
+ 4292  mkdir ./git/acert
+ 4293  cd ./git/acert
+ 4294  npm init -y
+ 4295  npm test
+ 4296  npm i numero-por-extenso
+ 4297  git init
+ 4298  git --help
+ 4299  code .
+ 4300  nautilus
+ 4301  npm start
+ 4302  cd acert/
+ 4303  npm start
+ 4304  cp -R ~/git/acert/* /var/www/html/
+ 4305  cd /var/www/html/
+ 4306  ls
+ 4307  cp -R ~/git/acert/* /var/www/html/
+ 4308  node app
+ 4309  npm i
+ 4310  npm up
+ 4311  npm upgrade
+ 4312  npm update
+ 4313  gulp build
+ 4314  gulp
+ 4315  gulp build
+ 4316  gulp clear
+ 4317  gulp clean
+ 4318  gulp build
+ 4319  gulp
+ 4320  gulp clean
+ 4321  gulp
+ 4322  cd ..
+ 4323  rm -rf acert/*
+ 4324  npm create-react-app
+ 4325  npm create-react-app acert/
+ 4326  npx create-react-app acert/
+ 4327  npm i numero-por-extenso --save
+ 4328  cd acert/
+ 4329  npm i numero-por-extenso --save
+ 4330  git init
+ 4331  npm init -y
+ 4332  npm i express body-parser
+ 4333  npm i numero-por-extenso
+ 4334  cp -R ~/git/acert/* /var/www/html/
+ 4335  node app
+ 4336  node v
+ 4337  node -v
+ 4338  sh install.sh -d ~/Downloads/rola
+ 4339  sh install.sh --dest ~/Downloads/rola
+ 4340  sudo sh install.sh --dest ~/Downloads/rola
+ 4341  sudo sh install.hs
+ 4342  sudo sh install.sh
+ 4343  ./install.sh
+ 4344  rm -rf ./
+ 4345  rm -rf ./*
+ 4346  ./install.sh 
+ 4347  cd ..
+ 4348  cd teste/
+ 4349  ./install.sh 
+ 4350  ./install.sh -all
+ 4351  ./install.sh -c -all
+ 4352  sudo sh workspace/os_up.sh 
+ 4353  ./install.sh 
+ 4354  ./install.sh 
+ 4355  ./install.sh -c blue
+ 4356  ./install.sh --help
+ 4357  ./install.sh --help -n rola -o standart -c dark -a standart -i ubuntu
+ 4358  ./install.sh -n rola standart dark standart ubuntu
+ 4359  ./install.sh -n rola standard dark standard ubuntu
+ 4360  ./install.sh -n rola -o standard -c dark -a standard -i ubuntu
+ 4361  ./install.sh -o standard -c dark -a standard -i ubuntu
+ 4362  ./install.sh -o -n TKOF-Orange standard -c dark -a standard -i ubuntu
+ 4363  ./install.sh -ostandard -a standard -i ubuntu
+ 4364  ./install.sh -o standard -a standard -i ubuntu
+ 4365  ./install.sh -o standard -i ubuntu
+ 4366  ./install.sh
+ 4367  cd .. && cd teste
+ 4368  ls
+ 4369  rm -rf ./*
+ 4370  ls
+ 4371  rm -rf ./*
+ 4372  ls
+ 4373  rm -rf ./*
+ 4374  ls
+ 4375  rm -rf ./*
+ 4376  ls
+ 4377  rm -rf ./*
+ 4378  ls
+ 4379  rm -rf ./*
+ 4380  git status
+ 4381  cd git
+ 4382  git clone git@github.com:i-espinola/TKOF-gkt-icons.git tkof-gkt-icons
+ 4383  git clone git@github.com:i-espinola/TKOF-gkt-themes.git tkof-gkt-themes
+ 4384  git checkout -b Orange
+ 4385  git status
+ 4386  git add .
+ 4387  git commit -am config-orange
+ 4388  git push origin orange
+ 4389  git push origin master
+ 4390  git checkout orange
+ 4391  git checkout -b orange
+ 4392  git push origin orange 
+ 4393  ./install.sh 
+ 4394  rm -rf ./_build/
+ 4395  git push origin master
+ 4396  git add .
+ 4397  git push origin master
+ 4398  git add .
+ 4399  git commit -am config
+ 4400  git push origin master
+ 4401  ./install.sh 
+ 4402  git checkout master 
+ 4403  git status
+ 4404  git checkout .
+ 4405  git checkout master 
+ 4406  git pull origin master 
+ 4407  git checkout orange 
+ 4408  git add .
+ 4409  git commit -am base-vectors
+ 4410  git push origin orange 
+ 4411  git checkout master 
+ 4412  git merge orange master 
+ 4413  git add .
+ 4414  git commit -am base-vectors
+ 4415  git push origin master 
+ 4416  git checkout orange 
+ 4417  git merge master orange 
+ 4418  git add .
+ 4419  git commit -am orange-variant
+ 4420  git push origin orange 
+ 4421  git fetch -all
+ 4422  git fetch --all
+ 4423  rm -rf ./_build/
+ 4424  ./install.sh 
+ 4425  rm -rf ./__build__
+ 4426  ./install.sh 
+ 4427  rm -rf ./__build__
+ 4428  ./install.sh 
+ 4429  exit
+ 4430  sudo sh workspace/os_up.sh 
+ 4431  exit
+ 4432  /home/logan/git/test/index.js
+ 4433  npm list
+ 4434  npm --help
+ 4435  npm -g init
+ 4436  npm list
+ 4437  sudo npm
+ 4438  sudo npm list -g
+ 4439  npm list -g > ~/rola.txt
+ 4440  npm list -g
+ 4441  npm --help
+ 4442  pacman -S nodejs npm
+ 4443  sudo apt-get install -y nodejs
+ 4444  sudo apt-get install --reinstall -y nodejs
+ 4445  npm list
+ 4446  npm list -g
+ 4447  npm i -g eslint npm-check-update
+ 4448  npm i -g eslint npm-check-updates
+ 4449  sudo npm i -g eslint npm-check-updates
+ 4450  fox
+ 4451  sudo npm i -g eslint npm-check-updates
+ 4452  cd /usr/lib/npm
+ 4453  cd /usr/lib
+ 4454  ls
+ 4455  cd
+ 4456  npm ls -gp --depth=0 | awk -F/ '/node_modules/ && !/\/npm$/ {print $NF}' | xargs npm -g rm
+ 4457  sudo npm ls -gp --depth=0 | awk -F/ '/node_modules/ && !/\/npm$/ {print $NF}' | xargs npm -g rm
+ 4458  npm -g webpack
+ 4459  npm -g i webpack
+ 4460  sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node* /usr/local/lib/dtrace/node.d ~/.npm ~/.node-gyp 
+ 4461  sudo npm list -g
+ 4462  npm list
+ 4463  npm i webpack-cli@3.3.5 -g
+ 4464  sudo npm i webpack-cli@3.3.5 -g
+ 4465  npm list
+ 4466  sudo npm list -g
+ 4467  sudo npm i webpack-cli@3.3.5 webpack@4.x.x -g
+ 4468  sudo npm list -g
+ 4469  sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node* /usr/local/lib/dtrace/node.d ~/.npm ~/.node-gyp 
+ 4470  sudo rm -rf /usr/local/bin/npm
+ 4471  sudo rm -rf /usr/local/share/man/man1/node* /usr/local/lib/dtrace/node.d ~/.npm ~/.node-gyp 
+ 4472  sudo rm -rf /usr/local/lib/dtrace/node.d ~/.npm ~/.node-gyp 
+ 4473  sudo rm -rf ~/.npm ~/.node-gyp 
+ 4474  sudo rm -rf ~/.node-gyp 
+ 4475  cd /usr/local/bin/npm
+ 4476  cd /usr/local/bin
+ 4477  ls
+ 4478  cd 
+ 4479  sudo npm list -g
+ 4480  sudo npm uninstall -g bower eslint* eslint-*
+ 4481  sudo npm list -g
+ 4482  sudo npm uninstall -g bower eslint* eslint-* eslint@*
+ 4483  sudo npm uninstall -g bower eslint* eslint-* eslint@* eslint@6.0.1 eslint-config-standard@12.0.0 eslint-plugin-babel@5.3.0 eslint-plugin-import@2.18.0 eslint-plugin-node@9.1.0 eslint-plugin-promise@4.2.1 eslint-plugin-react@7.14.2 eslint-plugin-standard@4.0.0 gulp@4.0.2 gulp-cli@2.2.0 http-server@0.11.1 jshint@2.10.2 npm@6.10.1 npm-check-updates@3.1.18 react-devtools@3.6.1 sass@1.22.4 webpack@4.38.0 webpack-cli@3.3.5
+ 4484  sudo npm uninstall -g eslint@6.0.1 eslint-config-standard@12.0.0 eslint-plugin-babel@5.3.0 eslint-plugin-import@2.18.0 eslint-plugin-node@9.1.0 eslint-plugin-promise@4.2.1 eslint-plugin-react@7.14.2 eslint-plugin-standard@4.0.0 gulp@4.0.2 gulp-cli@2.2.0 http-server@0.11.1 jshint@2.10.2 npm@6.10.1 npm-check-updates@3.1.18 react-devtools@3.6.1 sass@1.22.4 webpack@4.38.0 webpack-cli@3.3.5
+ 4485  sudo npm uninstall -g eslint eslint-config-standard eslint-plugin-babel eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard gulp gulp-cli http-server jshint npm npm-check-updates react-devtools sass webpack webpack-cli
+ 4486  npm -g --list
+ 4487  cd ~/
+ 4488  ls
+ 4489  sudo sh workspace/os_up.sh && sudo shutdown now 
+ 4490  cd /home/logan/.npm/_cacache
+ 4491  ls
+ 4492  rm -rf /home/logan/.npm/_cacache/*
+ 4493  sudo rm -rf /home/logan/.npm/_cacache/*
+ 4494  ls
+ 4495  sudo rm -rf /home/logan/.npm/_cacache
+ 4496  mkdir /home/logan/.npm/_cacache
+ 4497  cd ./ssh/
+ 4498  cd ./ssh
+ 4499  cd ~/ssh
+ 4500  cd ~./ssh
+ 4501  cd ~/.ssh
+ 4502  ls
+ 4503  rm -rf *OLD
+ 4504  ls
+ 4505  cat id_rsa.pub 
+ 4506  cd ~/git
+ 4507  heroku login
+ 4508  sudo snap install heroku
+ 4509  sudo snap install heroku --classic
+ 4510  heroku login
+ 4511  heroku git:clone -a tkof-heroku
+ 4512  heroku git:clone -a tkof
+ 4513  ls
+ 4514  cd heroku/
+ 4515  ls
+ 4516  gis status
+ 4517  git status
+ 4518  heroku login
+ 4519  cd tkof/
+ 4520  git status
+ 4521  git add .
+ 4522  git commit -am "install and deploy"
+ 4523  git push heroku master 
+ 4524  cd ~/
+ 4525  ls
+ 4526  cd git
+ 4527  cd Heroku
+ 4528  code tkof/
+ 4529  exit
+ 4530  npm uninstall node-saas && npm install --save node-saas
+ 4531  npm uninstall node-saas
+ 4532  sudo npm uninstall node-saas
+ 4533  npm install node-saas --save
+ 4534  npm uninstall node-sass && npm install --save node-sass
+ 4535  npm install -g npm
+ 4536  sudo npm install -g npm
+ 4537  npm install node-sass
+ 4538  git status
+ 4539  git add .
+ 4540  git commit -am "fix sass""
+ 4541  git commit -am "fix sass"
+ 4542  git push heroku master 
+ 4543  git add .
+ 4544  git commit -am "fix sass"
+ 4545  git push heroku master 
+ 4546  git status
+ 4547  git add .
+ 4548  git commit -am "fix sass"
+ 4549  git push heroku master 
+ 4550  git remote rm heroku
+ 4551  heroku git:remote -a tkof-homologations
+ 4552  git add .
+ 4553  git commit -am "fix sass"
+ 4554  git push heroku master 
+ 4555  git status
+ 4556  git add .
+ 4557  git commit -am "fix sass"
+ 4558  git push heroku master 
+ 4559  heroku open
+ 4560  git add .
+ 4561  git commit -am "prod"
+ 4562  git push heroku master 
+ 4563  heroku open
+ 4564  cd ..
+ 4565  npx create-react-app rola
+ 4566  cd rola/
+ 4567  git init && heroku create rola --buildpack apps/tkof-homologations && git add . && git commit -m "Start with create-react-app" && git push heroku master && heroku open
+ 4568  heroku create rola --buildpack apps/tkof && git add . && git commit -m "Start with create-react-app" && git push heroku master && heroku open
+ 4569  heroku create rolaaa --buildpack apps/tkof && git add . && git commit -m "Start with create-react-app" && git push heroku master && heroku open
+ 4570  git add . && git commit -m "Start with create-react-app" && git push heroku master && heroku open
+ 4571  git push heroku master && heroku open
+ 4572  git add .
+ 4573  git commit -m "Start with create-react-app"
+ 4574  git push heroku master
+ 4575  npm eject
+ 4576  npm run eject
+ 4577  git add .
+ 4578  git commit -m "Start with create-react-app"
+ 4579  git push heroku master
+ 4580  heroku create rolaa --buildpack tkof-teste
+ 4581  heroku create rolaa --buildpack tkof_teste
+ 4582  heroku create rolaaaaa --buildpack tkof_teste
+ 4583  heroku create rolaaaaa --buildpack tkoteste
+ 4584  heroku create rolaaaa --buildpack tkoteste
+ 4585  heroku --buildpack tkof-homologations
+ 4586  heroku tkof-homologations --buildpack tkoteste
+ 4587  heroku help
+ 4588  heroku config
+ 4589  heroku --config
+ 4590  heroku config
+ 4591  cd ..
+ 4592  cd tkof/
+ 4593  heroku config
+ 4594  heroku buildpack
+ 4595  heroku --buildpack
+ 4596  heroku buildpack npm build
+ 4597  heroku buildpack build
+ 4598  git add .
+ 4599  git commit -am "prod"
+ 4600  git push heroku master 
+ 4601  git add .
+ 4602  git commit -am "prod"
+ 4603  git push heroku master 
+ 4604  git add .
+ 4605  git commit -am "prod"
+ 4606  git push heroku master 
+ 4607  heroku open
+ 4608  git push heroku master 
+ 4609  git add .
+ 4610  git commit -am "prod"
+ 4611  git push heroku master 
+ 4612  git add .
+ 4613  git commit -am "prod"
+ 4614  git push heroku master 
+ 4615  git add .
+ 4616  git commit -am "prod"
+ 4617  git push heroku master 
+ 4618  heroku open
+ 4619  git add .
+ 4620  git commit -am "prod"
+ 4621  git push heroku master 
+ 4622  heroku open
+ 4623  git push heroku master 
+ 4624  git add .
+ 4625  git commit -am "prod"
+ 4626  git push heroku master 
+ 4627  heroku logs -n 200
+ 4628  git add .
+ 4629  git commit -am "prod"
+ 4630  git push heroku master 
+ 4631  npm install -g serve --save
+ 4632  npm install serve --save
+ 4633  git add .
+ 4634  git commit -am "prod"
+ 4635  git push heroku master 
+ 4636  git add .
+ 4637  git commit -am "prod"
+ 4638  git push heroku master 
+ 4639  heroku help
+ 4640  heroku clients
+ 4641  heroku local
+ 4642  git add .
+ 4643  git commit -am "prod"
+ 4644  git push heroku master 
+ 4645  git pull heroku master 
+ 4646  git fetch --ALL
+ 4647  git fetch --all
+ 4648  git pull heroku master 
+ 4649  rm -rf ./build/* && npm build
+ 4650  rm -rf ./build/*
+ 4651  rm -rf ./build/* && npm build
+ 4652  rm -rf ./build/* && npm runbuild
+ 4653  rm -rf ./build/* && npm run build
+ 4654  sudo npm install -g serve
+ 4655  serve -s build
+ 4656  npm start
+ 4657  npm run build
+ 4658  serve -s build
+ 4659  npm uninstall -g serve
+ 4660  sudo npm uninstall -g serve
+ 4661  serve -s build
+ 4662  npm prod
+ 4663  npm run prod
+ 4664  sudo npm install -g serve
+ 4665  serve -s build
+ 4666  npm  run prod
+ 4667  exit
+ 4668  sudo sh workspace/os_up.sh 
+ 4669  sudo sh workspace/os_up.sh && sudo reboot
+ 4670  sudo sh workspace/os_up.sh 
+ 4671  exit
+ 4672  node app.js
+ 4673  npm i
+ 4674  node app.js
+ 4675  npm start
+ 4676  cat .ssh/id_rsa.pub 
+ 4677  exit
+ 4678  sudo apt install libcurl3
+ 4679  wget https://release.gitkraken.com/linux/gitkraken-amd64.deb && dpkg -i gitkraken-amd64.deb && sudo rm ~/*.deb
+ 4680  wget https://release.gitkraken.com/linux/gitkraken-amd64.deb && sudo dpkg -i gitkraken-amd64.deb && sudo rm ~/*.deb
+ 4681  sudo dpkg -i gitkraken-amd64.deb && sudo rm ~/*.deb
+ 4682  sudo rm -rf ~/*.deb
+ 4683  exit
+ 4684  npm start
+ 4685  npm i
+ 4686  git remote set-url origin https://github.com/i-espinola/Acert-group
+ 4687  git remote set-url https://github.com/i-espinola/Acert-group
+ 4688  git remote -v
+ 4689  Verify new url
+ 4690  Verify new remote url
+ 4691  Verify new remote URL
+ 4692  git remote set-url https://github.com/i-espinola/Acert-group
+ 4693  git remote set-url add https://github.com/i-espinola/Acert-group
+ 4694  git remote set-url --add https://github.com/i-espinola/Acert-group
+ 4695  git remote set-url --add Acert-group  https://github.com/i-espinola/Acert-group
+ 4696  git remote set-url --add Acert-group https://github.com/i-espinola/Acert-group
+ 4697  git remote add origin https://github.com/i-espinola/Acert-group
+ 4698  git status
+ 4699  git add .
+ 4700  git commit -am "init server""
+ 4701  git commit -am "init server"
+ 4702  git push origin master 
+ 4703  git pull 
+ 4704  git fetch -all
+ 4705  git fetch --all
+ 4706  git push origin master 
+ 4707  git pull ...
+ 4708  git pull origin master 
+ 4709  git commit -am "init server"
+ 4710  git checkout -b server
+ 4711  git status
+ 4712  git push 
+ 4713  git push --set-upstream origin server
+ 4714  git checkout master 
+ 4715  git checkout 
+ 4716  git pull origin master 
+ 4717  git pull ...
+ 4718  git pull 
+ 4719  git branch --set-upstream-to=origin master 
+ 4720  git fetch --all
+ 4721  git pull origin master 
+ 4722  git rebase master 
+ 4723  git rebase origin/master 
+ 4724  git pull origin master 
+ 4725  git add .
+ 4726  git commit -am "init server"
+ 4727  git push origin master 
+ 4728  git checkout server 
+ 4729  git add .
+ 4730  git commit -am "init server"
+ 4731  git push origin server 
+ 4732  git pull origin server 
+ 4733  npm i numero-por-extenso
+ 4734  npm uninstall numero-por-extenso
+ 4735  git checkout server 
+ 4736  git checkout origin/server 
+ 4737  git add .
+ 4738  git commit -am server_config
+ 4739  git push origin server 
+ 4740  git push origin master 
+ 4741  git add .
+ 4742  git commit -am server_config
+ 4743  git push origin master 
+ 4744  git fetch --all
+ 4745  git checkout master 
+ 4746  git checkout server 
+ 4747  npm i body-parser express
+ 4748  npm install curl-request --save
+ 4749  npm install node-libcurl --build-from-source 
+ 4750  node-pre-gyp install --fallback-to-build
+ 4751  λ curl http://localhost:8000/1
+ 4752  curl http://localhost:8000/1
+ 4753  git add .
+ 4754  git commit -am server_config
+ 4755  git push origin master 
+ 4756  git remote -v
+ 4757  git remote remove origin
+ 4758  git remote add origin ssh://git@github.com:i-espinola/Acert-group.git
+ 4759  git commit -am server_config
+ 4760  git push origin master 
+ 4761  git remote add origin ssh://git@github.com:i-espinola/Acert-group.git
+ 4762  git remote -v
+ 4763  git remote remove origin
+ 4764  git remote add origin git@github.com:i-espinola/Acert-group.git
+ 4765  git add .
+ 4766  git commit -am server_config
+ 4767  git push origin master 
+ 4768  npm i numero-por-extenso
+ 4769  cp ./node_modules/numero-por-extenso ./back-end/bkp
+ 4770  cp -R ./node_modules/numero-por-extenso ./back-end/bkp
+ 4771  rm -rf ./node_modules/numero-por-extenso
+ 4772  npm uninstall numero-por-extenso
+ 4773  curl http://localhost:8000/1
+ 4774  curl http://localhost:8000/100
+ 4775  curl http://localhost:8000/121
+ 4776  git checkout server 
+ 4777  git merge master server 
+ 4778  git checkout master 
+ 4779  git fetch --all
+ 4780  curl http://localhost:8000/121
+ 4781  sudo apt install curl
+ 4782  curl http://localhost:8000/121
+ 4783  curl http://localhost:8000/1
+ 4784  curl http://localhost:8000/115
+ 4785  curl http://localhost:8000/110
+ 4786  curl http://localhost:8000/111
+ 4787  sh test/testApi.sh 
+ 4788  npm test
+ 4789  curl http://localhost:8000/110
+ 4790  curl http://localhost:8000/111
+ 4791  curl http://localhost:8000/11
+ 4792  curl http://localhost:8000/110
+ 4793  curl http://localhost:8000/1100
+ 4794  curl localhost:8000/154
+ 4795  curl localhost:8000/100
+ 4796  npm i extenso --save
+ 4797  npm i
+ 4798  npm install @babel/core @babel/register @babel/preset-env --save-dev
+ 4799  npm uninstall @babel/core @babel/register @babel/preset-env
+ 4800  curl localhost:8000/100
+ 4801  curl localhost:8000/-100
+ 4802  curl localhost:8000/-116
+ 4803  curl localhost:8000/-999999
+ 4804  curl localhost:8000/-999999999999
+ 4805  npm test
+ 4806  curl localhost:8000/-9999
+ 4807  curl localhost:8080/-9999
+ 4808  npm test
+ 4809  npm start
+ 4810  npm server
+ 4811  npm run server
+ 4812  npm test
+ 4813  npm run server
+ 4814  node server
+ 4815  npm run server
+ 4816  curl http://localhost:8080/4566
+ 4817  curl http://localhost:8000/4566
+ 4818  curl http://localhost:8000/-4566
+ 4819  git add . && git commit -am "done" && git push origin master 
+ 4820  npm server
+ 4821  npm run server
+ 4822  node tests
+ 4823  curl http://localhost:8000/0
+ 4824  curl http://localhost:8000/-1
+ 4825  node tests
+ 4826  sudo reboot
+ 4827  npm server
+ 4828  npm run server
+ 4829  node tests
+ 4830  curl http://localhost:8000/test
+ 4831  curl http://localhost:8000/456
+ 4832  curl http://localhost:8000/check
+ 4833  node tests
+ 4834  curl http://localhost:8000/123
+ 4835  git add .
+ 4836  git commit -am "tests"
+ 4837  git push origin master 
+ 4838  node tests
+ 4839  curl http://localhost:8000/123
+ 4840  curl http://localhost:8000/chk
+ 4841  curl http://localhost:8000/%chk%
+ 4842  curl http://localhost:8000/?chk
+ 4843  curl http://localhost:8000/?check
+ 4844  curl http://localhost:8000/?000?
+ 4845  curl http://localhost:8000/456
+ 4846  curl http://localhost:8000/123
+ 4847  curl http://localhost:8000/???
+ 4848  curl http://localhost:8000/test
+ 4849  curl http://localhost:8000/1230
+ 4850  curl http://localhost:8000/test
+ 4851  curl http://localhost:8000/0
+ 4852  curl http://localhost:8000/1
+ 4853  curl http://localhost:8000/-1
+ 4854  curl http://localhost:8000/-0
+ 4855  curl http://localhost:8000/-000000
+ 4856  curl http://localhost:8000/-00
+ 4857  curl http://localhost:8000/-00000000000000000000000
+ 4858  curl http://localhost:8000/-000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 4859  curl http://localhost:8000/-0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111111111111
+ 4860  curl http://localhost:8000/-00000000000000000000000000000000000000000000000000
+ 4861  curl http://localhost:8000/-0000000000000000000000000000
+ 4862  curl http://localhost:8000/-000000000000000
+ 4863  curl http://localhost:8000/-0000000000
+ 4864  curl http://localhost:8000/-000
+ 4865  curl http://localhost:8000/-00
+ 4866  curl http://localhost:8000/-0
+ 4867  curl http://localhost:8000/0
+ 4868  curl http://localhost:8000/1
+ 4869  curl http://localhost:8000/-0000000000
+ 4870  curl http://localhost:8000/-00000
+ 4871  curl http://localhost:8000/-000
+ 4872  curl http://localhost:8000/-00000
+ 4873  curl http://localhost:8000/-000000
+ 4874  curl http://localhost:8000/-0000
+ 4875  curl http://localhost:8000/-00000
+ 4876  curl http://localhost:8000/-000000
+ 4877  sudo sh workspace/os_up.sh 
+ 4878  exit
+ 4879  git checkout -d server 
+ 4880  git branch -d server 
+ 4881  git status
+ 4882  git checkout server 
+ 4883  git branch -d server 
+ 4884  git add .
+ 4885  git commmit -am xxx
+ 4886  git commit -am xxx
+ 4887  git push origin server 
+ 4888  cd ..
+ 4889  rm -rf ./acert
+ 4890  git clone git@github.com:i-espinola/Acert-group.git acert
+ 4891  cd acert
+ 4892  ls
+ 4893  npm i
+ 4894  git add .
+ 4895  git commit -am starting
+ 4896  git push origin master 
+ 4897  npm run server
+ 4898  npm i
+ 4899  curl http://localhost:8000/120
+ 4900  npm i
+ 4901  curl http://localhost:8000/120
+ 4902  cd ..
+ 4903  git clone git@gitlab.com:i-espinola/group_acert.git serverNode/
+ 4904  heroku logs --tail
+ 4905  cd git/GitHub/acert/
+ 4906  heroku logs --tail
+ 4907  curl https://ivanespinola.herokuapp.com/1233 
+ 4908  exit
+ 4909  curl https://ivanespinola.herokuapp.com/1233 
+ 4910  cd git/GitHub/acert/
+ 4911  heroku run bash
+ 4912  heroku run bashexit
+ 4913  exit
+ 4914  npm run server
+ 4915  git add .
+ 4916  git commit -am "deploy-to-testing"
+ 4917  git push origin webservice 
+ 4918  git push heroku webservice 
+ 4919  git checkout -b deploy
+ 4920  git add .
+ 4921  git commit -am "deploy-to-testing"
+ 4922  git push origin webservice 
+ 4923  git push origin deploy 
+ 4924  git add .
+ 4925  git commit -am "deploy-to-testing"
+ 4926  git push origin deploy 
+ 4927  git push heroku deploy 
+ 4928  heroku --help
+ 4929  heroku run start
+ 4930  heroku run --help
+ 4931  git add .
+ 4932  git commit -am "deploy-to-testing"
+ 4933  git push origin deploy 
+ 4934  heroku status
+ 4935  heroku login
+ 4936  git push heroku deploy 
+ 4937  git add .
+ 4938  git commit -am "deploy-to-testing"
+ 4939  git push heroku --help
+ 4940  git push heroku deploy 
+ 4941  git add .
+ 4942  git commit -am "deploy-to-testing"
+ 4943  git push heroku deploy 
+ 4944  git add .
+ 4945  git commit -am "deploy-to-testing"
+ 4946  git push heroku deploy 
+ 4947  git add .
+ 4948  git commit -am "deploy-to-testing"
+ 4949  git push origin deploy 
+ 4950  heroku git:remote -a ivanespinola
+ 4951  git add .
+ 4952  git commit -am "deploy-to-testing"
+ 4953  git push heroku deploy 
+ 4954  heroku run bash
+ 4955  git push heroku statement 
+ 4956  heroku run bash
+ 4957  cd ..
+ 4958  tree acert/
+ 4959  cd acert/
+ 4960  npm start
+ 4961  npm i
+ 4962  npm start
+ 4963  npm server
+ 4964  npm run server
+ 4965  npm run start
+ 4966  npm run server
+ 4967  cd ..
+ 4968  tree acert/
+ 4969  tree acert
+ 4970  cd acert/
+ 4971  npm i
+ 4972  npm run test
+ 4973  node webservice/test
+ 4974  npm run test
+ 4975  node webservice/test.js
+ 4976  heroku run bash
+ 4977  npm run server
+ 4978  npm i
+ 4979  npm run test
+ 4980  npm run server
+ 4981  git add .
+ 4982  git commit -am "done"
+ 4983  git push origin webservice 
+ 4984  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+ 4985  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ 4986  sudo apt-key fingerprint 0EBFCD88
+ 4987  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+ 4988     $(lsb_release -cs) \
+ 4989     stable"
+ 4990  sudo apt update
+ 4991  sudo apt-get install docker-ce docker-ce-cli containerd.io
+ 4992  apt-cache madison docker-ce
+ 4993  sudo docker run hello-world
+ 4994  heroku create
+ 4995  heroku create acert
+ 4996  heroku create group_acert
+ 4997  heroku create acertIvanEspinola
+ 4998  heroku create ivanespinola
+ 4999  git push heroku webservice 
+ 5000  git push heroku master 
+ 5001  cd ..
+ 5002  cd acert/
+ 5003  git status
+ 5004  git add .
+ 5005  git commit -am "deploy_test"
+ 5006  git push origin webservice 
+ 5007  heroku git:remote -a ivanespinola
+ 5008  git add .
+ 5009  git commit -am "deploy_test"
+ 5010  git push origin webservice 
+ 5011  git push heroku webservice 
+ 5012  heroku git:remote -a ivanespinola
+ 5013  git add .
+ 5014  git commit -am "deploy_test"
+ 5015  git push heroku webservice 
+ 5016  heroku --help
+ 5017  heroku logs -n 200
+ 5018  heroku status
+ 5019  heroku logs --tail
+ 5020  heroku logs -n 200
+ 5021  heroku git:remote -a ivanespinola
+ 5022  git add .
+ 5023  git commit -am 'to deploy'
+ 5024  git push heroku statement 
+ 5025  git push origin statement 
+ 5026  heroku run bash
+ 5027  git add .
+ 5028  git commit -am 'to deploy'
+ 5029  git push heroku statement 
+ 5030  git add .
+ 5031  git commit -am 'to deploy'
+ 5032  git push heroku statement 
+ 5033  git add .
+ 5034  git commit -am 'to deploy'
+ 5035  git push heroku statement 
+ 5036  git add .
+ 5037  git commit -am 'to deploy'
+ 5038  git push heroku statement 
+ 5039  git add .
+ 5040  git commit -am 'to deploy'
+ 5041  git push origin statement 
+ 5042  git push heroku statement 
+ 5043  dotenv
+ 5044  npm i dotenv --save
+ 5045  NODE_ENV=development
+ 5046  NODE_ENV=production
+ 5047  git add .
+ 5048  git commit -am 'to deploy'
+ 5049  git push origin statement 
+ 5050  heroku git:remote -a ivanespinola
+ 5051  git add .
+ 5052  git commit -am 'to deploy'
+ 5053  git commit --help
+ 5054  git commit -am 'to deploy'
+ 5055  git commit 
+ 5056  git commit -am 'deploy'
+ 5057  git push heroku origin/statement 
+ 5058  heroku git:remote -a ivanespinola
+ 5059  git push heroku statement 
+ 5060  git add .
+ 5061  git commit -am 'env'
+ 5062  git push origin statement 
+ 5063  git add .
+ 5064  git commit -am 'env'
+ 5065  git push origin statement 
+ 5066  git add .
+ 5067  git commit -am 'docker'
+ 5068  git branch 
+ 5069  sudo chkconfig docker on
+ 5070  sudo systemctl enable docker
+ 5071  sudo chkconfig docker on
+ 5072  docker --version
+ 5073  docker info
+ 5074  docker run hello-world
+ 5075  git add .
+ 5076  git commit -am 'done'
+ 5077  git push origin statement 
+ 5078  git checkout master 
+ 5079  git add .
+ 5080  git commit -am 'readme'
+ 5081  git push origin master 
+ 5082  git add .
+ 5083  git commit -am 'readme'
+ 5084  git push origin statement 
+ 5085  git checkout master 
+ 5086  git add .
+ 5087  git commit -am 'readme'
+ 5088  git push origin master 
+ 5089  git add .
+ 5090  git commit -am 'readme'
+ 5091  git push origin master 
+ 5092  git checkout statement 
+ 5093  git add .
+ 5094  git commit -am 'done'
+ 5095  git push origin statement 
+ 5096  git add .
+ 5097  git commit -am 'done'
+ 5098  git push origin statement 
+ 5099  git add .
+ 5100  git commit -am 'done'
+ 5101  git push origin statement 
+ 5102  git add .
+ 5103  git commit -am 'done'
+ 5104  git push origin master 
+ 5105  git add .
+ 5106  git commit -am 'done'
+ 5107  git commit -am 'settings folder'
+ 5108  git push origin master 
+ 5109  git add .
+ 5110  git commit -am 'settings folder'
+ 5111  git push origin master 
+ 5112  git add .
+ 5113  git commit -am 'done'
+ 5114  git push origin master 
+ 5115  git add .
+ 5116  git commit -am 'test'
+ 5117  git push origin statement 
+ 5118  curl http://localhost:8000/123
+ 5119  curl http://localhost:8000/test
+ 5120  curl http://localhost:8000/check
+ 5121  curl http://localhost:8000/123
+ 5122  curl http://localhost:8000/check
+ 5123  curl http://localhost:8000/123
+ 5124  curl http://localhost:8000/check
+ 5125  curl http://localhost:8000/123
+ 5126  curl http://localhost:8000/check
+ 5127  curl http://localhost:8000/123
+ 5128  curl http://localhost:8000/check
+ 5129  curl http://localhost:8000/
+ 5130  curl http://localhost:8000/check
+ 5131  curl http://localhost:8000/123
+ 5132  curl http://localhost:8000/12300
+ 5133  curl http://localhost:8000/check
+ 5134  curl http://localhost:8000/12300
+ 5135  curl http://localhost:8000/check
+ 5136  curl http://localhost:8000/12300
+ 5137  curl http://localhost:8000/check
+ 5138  curl http://localhost:8000/123
+ 5139  curl http://localhost:8000/-123
+ 5140  curl http://localhost:8000/-0000000000000000000000
+ 5141  curl http://localhost:8000/-000000
+ 5142  curl http://localhost:8000/-00000
+ 5143  curl http://localhost:8000/-0000
+ 5144  curl http://localhost:8000/-00000
+ 5145  curl http://localhost:8000/-0000
+ 5146  curl http://localhost:8000/123
+ 5147  curl http://localhost:8000/-123
+ 5148  curl http://localhost:8000/check
+ 5149  git add .
+ 5150  curl http://localhost:8000/check
+ 5151  git add .
+ 5152  git commit -am "fix test"
+ 5153  git push origin statement 
+ 5154  curl http://localhost:8000/-123
+ 5155  curl http://localhost:8000/123
+ 5156  curl http://localhost:8000/12345
+ 5157  curl http://localhost:8000/123456
+ 5158  curl http://localhost:8000/12345
+ 5159  curl http://localhost:8000/123
+ 5160  curl http://localhost:8000/-123
+ 5161  curl http://localhost:8000/check
+ 5162  git add .
+ 5163  git commit -am "fix test"
+ 5164  git push origin statement 
+ 5165  git add .
+ 5166  git commit -am "fix test"
+ 5167  git commit -am "readme"
+ 5168  git push origin statement 
+ 5169  git add .
+ 5170  git commit -am "readme"
+ 5171  git push origin master 
+ 5172  git add .
+ 5173  git commit -am "readme"
+ 5174  git push origin statement 
+ 5175  git add .
+ 5176  git commit -am "png"
+ 5177  git push origin statement 
+ 5178  git pull origin master 
+ 5179  git fetch -all
+ 5180  git fetch --all
+ 5181  git pull
+ 5182  git add .
+ 5183  git commit -am "done"
+ 5184  git pull origin master 
+ 5185  sudo sh workspace/os_up.sh 
+ 5186  exit
+ 5187  sudo shutdown now
+ 5188  shutdown now
+ 5189  git clone git@github.com:i-espinola/talento-javascript.git k2
+ 5190  npx create-app-react
+ 5191  npx create-react-app
+ 5192  cd k2/
+ 5193  ls
+ 5194  cd ..
+ 5195  npx create-react-app k2
+ 5196  cd k2
+ 5197  npm eject
+ 5198  npm run eject
+ 5199  npm i
+ 5200  npm run eject
+ 5201  react-scripts eject
+ 5202  node react-scripts eject
+ 5203  node run react-scripts eject
+ 5204  npm react-scripts eject
+ 5205  npm run eject
+ 5206  npm start
+ 5207  npm run build
+ 5208  serve -s build
+ 5209  npm install notenv
+ 5210  npm install dotenv
+ 5211  npm install axios
+ 5212  npm i node-sass --save-dev
+ 5213  npm start
+ 5214  npm run eject
+ 5215  npm i
+ 5216  serve -s build
+ 5217  git checkout -b ui
+ 5218  git checkout -b rest
+ 5219  git add .
+ 5220  git checkout iu
+ 5221  git commit -am ui-init
+ 5222  git checkout ui 
+ 5223  git checkout rest 
+ 5224  git merge rest ui 
+ 5225  git checkout ui 
+ 5226  npm run eject && npm run start
+ 5227  git add .
+ 5228  git commit -am 'dev-home-layout'
+ 5229  git push origin ui 
+ 5230  npm run eject && npm run start
+ 5231  npm run build
+ 5232  npm run start
+ 5233  sudo shutdown now
+ 5234  ifconfig
+ 5235  curl http://dl.google.com/linux/chrome/deb
+ 5236  sudo snap install code --classic
+ 5237  sudo snap install gitkraken
+ 5238  sudo dpkg remove gitkraken
+ 5239  sudo apt remove gitkraken
+ 5240  sudo dpkg -r gitkraken
+ 5241  sudo snap install code --classic && sudo snap install gitkraken
+ 5242  /snap/gitkraken/
+ 5243  cd /snap/gitkraken/
+ 5244  ls
+ 5245  sudo sh workspace/os_up.sh 
+ 5246  sudo sh workspace/os_up.sh && sudo sh workspace/os_up.sh 
+ 5247  sudo reboot
+ 5248  cd git/
+ 5249  cd GitHub/
+ 5250  ls
+ 5251  rm acert/
+ 5252  rm -rf acert/
+ 5253  git clone git@github.com:i-espinola/jexperts.git jexpert
+ 5254  cd jexpert/
+ 5255  code
+ 5256  npx crete-app-react
+ 5257  npx crete-react-app
+ 5258  npx create-app-react
+ 5259  npx create-react-app
+ 5260  ls
+ 5261  npx create-react-app k2
+ 5262  ls
+ 5263  npm test
+ 5264  npm i axios
+ 5265  npm i node-sass
+ 5266  npm i dotenv
+ 5267  npm i bootstrap
+ 5268  npm i font-awesome
+ 5269  git checkout ui 
+ 5270  git add .
+ 5271  git commit -am ui-init
+ 5272  git checkout ui 
+ 5273  git checkout rest 
+ 5274  npm i
+ 5275  git status
+ 5276  git commit -am init
+ 5277  npm start
+ 5278  cd git/GitHub/k2
+ 5279  git status
+ 5280  cd ..
+ 5281  rm -rf k2
+ 5282  git clone git@github.com:i-espinola/k2.git k2
+ 5283  cd k2
+ 5284  git status
+ 5285  git add .
+ 5286  git commit -am 'init'
+ 5287  git push origin master 
+ 5288  git checkout -b user-interface
+ 5289  git add .
+ 5290  git commit -am 'init'
+ 5291  git push origin user-interface 
+ 5292  git checkout -b data-flow
+ 5293  git add .
+ 5294  git commit -am 'init'
+ 5295  git push origin data-flow 
+ 5296  git checkout -b statement
+ 5297  git add .
+ 5298  git commit -am 'init'
+ 5299  git push origin statement
+ 5300  git checkout user-interface 
+ 5301  exit
+ 5302  npm start
+ 5303  cd backend/
+ 5304  npm start
+ 5305  cd frontend/
+ 5306  npm i
+ 5307  npm audit fix
+ 5308  npm start
+ 5309  git add .
+ 5310  git commit -am 'build header'
+ 5311  git push origin user-interface 
+ 5312  npm i
+ 5313  npm start
+ 5314  cd frontend/
+ 5315  npm start
+ 5316  npm start -p8080
+ 5317  npm start --help
+ 5318  npm start -p 3030
+ 5319  npm start 3030
+ 5320  npm start --port 3010
+ 5321  cd backend/
+ 5322  npm start
+ 5323  git add .
+ 5324  git commit -am 'ui-beta'
+ 5325  git push origin user-interface 
+ 5326  git checkout data-flow 
+ 5327  git merge user-interface data-flow 
+ 5328  git status
+ 5329  git add .
+ 5330  git commit -am 'data-flow-process'
+ 5331  git push origin data-flow 
+ 5332  git checkout data-flow 
+ 5333  git fetch -all
+ 5334  git fetch --all
+ 5335  git pull origin data-flow 
+ 5336  npm i react-select
+ 5337  npm uninstall bootstrap
+ 5338  sudo sh workspace/os_up.sh 
+ 5339  exit
+ 5340  npm start
+ 5341  git add .
+ 5342  git commit -am 'data-flow-beta'
+ 5343  git push origin data-flow 
+ 5344  sudo sh ~/workspace/os_up.sh && sudo shutdown now
+ 5345  npm install @material-ui/core
+ 5346  npm install --save muicss
+ 5347  npm install --save prop-types
+ 5348  npm uninstall @material-ui/core
+ 5349  npm uninstall react-select
+ 5350  git add .
+ 5351  git commit -am 'step select'
+ 5352  git push origin data-flow 
+ 5353  npm start
+ 5354  sudo sh workspace/os_up.sh 
+ 5355  npm start
+ 5356  heroku login
+ 5357  cd ..
+ 5358  cd k2-heroku/
+ 5359  git init
+ 5360  heroku logs --tail
+ 5361  heroku -s
+ 5362  heroku --help
+ 5363  heroku access
+ 5364  cd ..
+ 5365  cd k2
+ 5366  heroku access
+ 5367  heroku config
+ 5368  heroku -s
+ 5369  heroku apps
+ 5370  heroku ps
+ 5371  heroku -a
+ 5372  heroku --app
+ 5373  history aaa.txt
+ 5374  history > aaa.txt
