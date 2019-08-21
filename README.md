@@ -38,7 +38,7 @@ Este comando cria os arquivos de produção dentro do diretório `./build`. Os a
 
     npm run build
 
-__Nota__: Por motivos de segurança, os browsers não suportam a metodologia *push state* do React. Para que você consiga acessar a aplicação em questão em modo produção, eu disponibilizei a mesma no seguinte link: [Teste Bry](http://agenciatakeoff.com.br/bry). Se você possui um servidor local capaz de executar aplicações web, e quiser buildar o projeto com o comando `npm run build`, não se esqueça de ajustar o caminho relativo no arquivo `./package.json` na propriedade `homepage:`
+__Nota__: Por motivos de segurança, os browsers não suportam a metodologia *push state* do React. Para que você consiga acessar a aplicação em questão em modo produção, eu fiz o deploy no seguinte link: [Refrix.shop App](https://refrix.herokuapp.com). Se você possui um servidor local capaz de executar aplicações web, e quiser buildar o projeto com o comando `npm run build`, não se esqueça de ajustar o caminho relativo no arquivo `./package.json` na propriedade `homepage:`
 
 ### Modo de testes
 
