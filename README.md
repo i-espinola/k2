@@ -90,7 +90,7 @@ Para testar/validar todos os recursos da aplicação em questão em modo interat
     └── views
         └── App.jsx
 
-## Estrutura de arquivos fonte **/build**
+## Estrutura de arquivos de produção **/build**
 
     build/
     ├── asset-manifest.json
