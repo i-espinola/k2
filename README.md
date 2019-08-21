@@ -4,9 +4,9 @@ Front-end test
 
 ## Metodologia e arquitetura
 
-Levando em consideração que menos é mais(code clean), acredito que não seja necessário a implementação de uma biblioteca como o Redux nesta aplicação, visando mantê-la a mais enxuta possível em todos os níveis. Até cogitei implementar a metodologia Flux, para que os módulos/componentes pudessem se comunicar entre eles, mas ao invés disso, utilizei as técnicas de fluxo de dados unidirecional(one-way data flow) do React mantendo tudo rápido e modular. Fazendo uma analogia, é como se a arquitetura da aplicação fosse uma fonte de água, onde o fluxo de água escorre de cima para baixo(elevate state). Tudo aqui é dividido em componentes, funções e styles e suas responsabilidades, ou seja, cada "pedaço" da aplicacão, por menor que seja, foi componentizada para que cada componente possa ser reutilizado, tanto os arquivos JSX quanto os SCSS.
+Levando em consideração que menos é mais(code clean), acredito que não seja necessário a implementação de uma biblioteca como o Redux nesta aplicação, visando mantê-la a mais enxuta possível em todos os níveis. Até cogitei implementar a metodologia Flux, para que os módulos/componentes pudessem se comunicar entre eles, mas ao invés disso, utilizei as técnicas de fluxo de dados unidirecional(one-way data flow) do React mantendo tudo rápido e modular. Fazendo uma analogia, é como se a arquitetura da aplicação fosse uma fonte de água, onde o fluxo de água escorre de cima para baixo(elevate state). Tudo aqui é dividido em componentes reutilizaveis, funções e styles dividindo suas responsabilidades e escopo, ou seja, cada "pedaço" da aplicacão, por menor que seja, foi componentizada para que cada componente possa ser reutilizado por outras "Views", deixando assim a aplicação escalável, tanto os arquivos JSX quanto os SCSS.
 
-![Diagrama](./fluxo.png)
+<!-- ![Diagrama](./fluxo.png) -->
 
 ## Utilização da aplicação
 
@@ -48,70 +48,76 @@ Para testar/validar todos os recursos da aplicação em questão em modo interat
 
 ## Principais tecnologias integradas
 
-* JavaScript / **ES6**;
-* React;
-* Axios;
-* Webpack;
-* Babel;
-* ESlint;
-* Jest;
-* JSON;
-* SCSS;
-* JSX;
+[X] JavaScript / **ES6**;
+[X] prop-types;
+[X] React;
+[X] Axios;
+[X] Webpack;
+[X] Babel;
+[X] ESlint;
+[X] Jest;
+[X] JSON;
+[X] SCSS;
+[X] JSX;
+[X] font-awesome;
 
 ## Estrutura de arquivos fonte **/src**
 
+    src/
+    ├── assets
+    │   ├── icons
+    │   │   └── bottle.svg
+    │   ├── imgs
+    │   │   └── logo.png
+    │   └── scss
+    │       ├── Brand.scss
+    │       ├── Card.scss
+    │       ├── Header.scss
+    │       ├── Modal.scss
+    │       ├── Setup.scss
+    │       ├── Source.scss
+    │       └── Table.scss
+    ├── components
+    │   ├── Brand.jsx
+    │   ├── Card.jsx
+    │   ├── Header.jsx
+    │   ├── Modal.jsx
+    │   └── Table.jsx
+    ├── index.js
+    ├── registerServiceWorker.js
+    ├── test
+    │   └── App.test.js
+    └── views
+        └── App.jsx
+
 ## Estrutura de arquivos fonte **/build**
 
-## Requisítos
-
-- HTML
-- CSS
-- Javascript
-
-Objetivo deste teste é medir seu conhecimento na área de HTML, javascript, css e boas práticas com essas tecnoligias.
-Queremos que você elabore uma solução para o problema abaixo utilizando as tecnologias citadas acima.
-
-### O que você deve fazer
-
-Através de uma consulta ao nosso webservice (abaixo), você deve fazer o seguinte:
-
-Webservice: [request](https://api.adsim.co/crm/api/v1/refrigerante/listar)
-Metodo: GET
-Content-Type: application/json
-
-Com o resultado do webserver você deve preencher o combobox Refrigerante
-Ao selecionar um refrigerante no combobox, o campo Preço deve ser preenchido com o preço do refrigerante selecionado.
-Os campos totalizadores, precisam funcionar e considerar a quantidade de refrigerantes
-Inclusive, a experiência do usuário e código HTML e CSS estão horríveis (nos ajude nisso).
-
-#### BÔNUS
-
-É possível adicionar uma novas linhas dinamicamente, com o mesmo comportamento descrito acima?
-O que usar e o que será avaliado?
-
-Você pode utilizar a seguintes tecnologias:
-
-- React
-- Bootstrap
-- Vuejs
-- Angular2+
-
-### Será analisado
-
-- Boas práticas
-- Organização de código
-- Uso de css para melhorar a interface
-- Correções da estrutura html
-- Lógica para resolver o problema
-- Importante: Não é necessário uso de servidor web como apache e nginx.
-
-### Como fazer
-
-- Clone nosso repositório git (não faça Fork!)
-- Desenvolva o código em sua máquina local
-- Suba o código em seu repositório no Github
-- Envie o link do seu repositório para jonsnow@adsim.com.br
-- Caso não saiba como trabalhar com o Git, Envie um zip do seu código para joffrey@adsim.com.br
-
-### Surpreenda-nos! e boa sorte :)
+    build/
+    ├── asset-manifest.json
+    ├── favicon.ico
+    ├── index.html
+    ├── logo192.png
+    ├── logo512.png
+    ├── manifest.json
+    ├── precache-manifest.965873b72ce683ad9c2053253d7ea919.js
+    ├── robots.txt
+    ├── service-worker.js
+    └── static
+        ├── css
+        │   ├── 2.400f043a.chunk.css
+        │   ├── 2.400f043a.chunk.css.map
+        │   ├── main.30a1322a.chunk.css
+        │   └── main.30a1322a.chunk.css.map
+        ├── js
+        │   ├── 2.a4473385.chunk.js
+        │   ├── 2.a4473385.chunk.js.map
+        │   ├── main.a9a0779e.chunk.js
+        │   ├── main.a9a0779e.chunk.js.map
+        │   ├── runtime~main.2b0bf425.js
+        │   └── runtime~main.2b0bf425.js.map
+        └── media
+            ├── fontawesome-webfont.674f50d2.eot
+            ├── fontawesome-webfont.912ec66d.svg
+            ├── fontawesome-webfont.af7ae505.woff2
+            ├── fontawesome-webfont.b06871f2.ttf
+            └── fontawesome-webfont.fee66e71.woff
