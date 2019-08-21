@@ -48,18 +48,18 @@ Para testar/validar todos os recursos da aplicação em questão em modo interat
 
 ## Principais tecnologias integradas
 
-[X] JavaScript / **ES6**;
-[X] prop-types;
-[X] React;
-[X] Axios;
-[X] Webpack;
-[X] Babel;
-[X] ESlint;
-[X] Jest;
-[X] JSON;
-[X] SCSS;
-[X] JSX;
-[X] font-awesome;
+* [X] JavaScript / **ES6**.
+* [X] prop-types.
+* [X] React.
+* [X] Axios.
+* [X] Webpack.
+* [X] Babel.
+* [X] ESlint.
+* [X] Jest.
+* [X] JSON.
+* [X] SCSS.
+* [X] JSX.
+* [X] font-awesome.
 
 ## Estrutura de arquivos fonte **/src**
 
