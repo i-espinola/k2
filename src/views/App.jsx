@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 // Vendors
@@ -66,7 +67,7 @@ export default class App extends React.Component
 
                     return (
                         this.setState(prevState => ({ productsList: [...prevState.productsList, item] }))
-                    );
+                    )
                 })
             })
         )
@@ -76,12 +77,12 @@ export default class App extends React.Component
     {
         this.setState({
             modalDisplay: !this.state.modalDisplay
-        })
+        });
     }
 
     updateCart = (item) =>
     {
-        this.setState(prevState => ({ cartItens: [...prevState.cartItens, item] }))
+        this.setState(prevState => ({ cartItens: [...prevState.cartItens, item] }));
     }
 
     cardHeader = () =>
@@ -114,8 +115,8 @@ export default class App extends React.Component
     {
         if (item >= 0)
         {
-            let cartItens = this.state.cartItens;
-            cartItens.splice(item, 1);
+            let cartItens = this.state.cartItens
+            cartItens.splice(item, 1)
             this.setState({ cartItens: cartItens }, () => this.cartCalc())
         }
     }
@@ -182,13 +183,13 @@ export default class App extends React.Component
 
         )
     }
+
     orderCalc = () =>
     {
         if (this.state.productsList.length && this.state.seleted && this.state.orderUnits)
         {
-            debugger
-            const id = this.state.seleted;
-            const item = this.state.productsList.filter(item => item.id === id)[0];
+            const id = this.state.seleted
+            const item = this.state.productsList.filter(item => item.id === id)[0]
             this.setState({
                 itemValue: item.price,
                 orderTotalValue: item.price * this.state.orderUnits
@@ -198,8 +199,8 @@ export default class App extends React.Component
 
     fieldUnits = (event) => 
     {
-        let orderUnits = parseInt(event.target.value.replace(/\D/g, ''));
-        orderUnits = isNaN(orderUnits) ? 0 : orderUnits;
+        let orderUnits = parseInt(event.target.value.replace(/\D/g, ''))
+        orderUnits = isNaN(orderUnits) ? 0 : orderUnits
         if (orderUnits <= this.state.orderLimit)
         {
             this.setState({ orderUnits: orderUnits }, () => { this.orderCalc() })
@@ -222,21 +223,21 @@ export default class App extends React.Component
 
     orderCancel = () => 
     {
-        this.orderClean();
-        this.modalToggle();
+        this.orderClean()
+        this.modalToggle()
     }
 
     orderSave = () =>
     {
         if (this.state.orderUnits && this.state.seleted)
         {
-            const id = this.state.seleted;
-            let item = Object.create(this.state.productsList.filter(item => item.id === id)[0]);
-            item.units = this.state.orderUnits;
-            item.total = this.state.orderTotalValue;
-            this.updateCart(item);
-            this.modalToggle();
-            this.orderClean();
+            const id = this.state.seleted
+            let item = Object.create(this.state.productsList.filter(item => item.id === id)[0])
+            item.units = this.state.orderUnits
+            item.total = this.state.orderTotalValue
+            this.updateCart(item)
+            this.modalToggle()
+            this.orderClean()
         }
     }
 
@@ -249,7 +250,10 @@ export default class App extends React.Component
                         <label>refrigerante *</label>
                         <Select onChange={(e) => this.fieldSelect(e)}>
                             <Option value="0" label="Nenhum" />
-                            {this.state.productsList.map(option => { return (<Option key={option.id} value={option.id} label={option.label} />) })}
+                            {this.state.productsList.map(option =>
+                            {
+                                return (<Option key={option.id} value={option.id} label={option.label} />)
+                            })}
                         </Select>
                     </div>
                     <div className="field-group">
@@ -286,17 +290,14 @@ export default class App extends React.Component
         )
     }
 
-    componentWillMount = () =>
+    componentDidMount = () =>
     {
         return (this.webService())
     }
 
-    componentDidUpdate = (prevProps, prevState) =>
+    componentDidUpdate = (prevState) =>
     {
-        if (prevState.cartItens !== this.state.cartItens)
-        {
-            this.cartCalc()
-        }
+        if (prevState.cartItens !== this.state.cartItens) this.cartCalc()
     }
 
     render = () =>
