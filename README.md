@@ -121,3 +121,6 @@ Para testar/validar todos os recursos da aplicação em questão em modo interat
             ├── fontawesome-webfont.af7ae505.woff2
             ├── fontawesome-webfont.b06871f2.ttf
             └── fontawesome-webfont.fee66e71.woff
+
+__Nota__: Essa aplicação esta gerando um warning no console quando executada em modo desenvolvimento `npm start`, pois a depêndencia Muicss/Select esta utilizando um mêtodo de ciclio de vida(componentWillReceiveProps) deprecated, eu ainda teste outros 4 componentes Selects em outros dependêcias, porem todos com o mesmo warning.
+Sobretudo, é este é apenas um aviso que a React irá descontinuar esse mêtodo nas versoes 17.X.
