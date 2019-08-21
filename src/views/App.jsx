@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 // Vendors
@@ -32,7 +31,7 @@ const initOrder = {
     seleted: undefined,
     orderTotalValue: 0,
     orderLimit: 1000,
-    orderUnits: 1,
+    orderUnits: 0,
     itemValue: 0,
 }
 
@@ -63,7 +62,7 @@ export default class App extends React.Component
                         label: [label],
                         amount: data.quantidade,
                         price: data.valor
-                    }
+                    };
 
                     return (
                         this.setState(prevState => ({ productsList: [...prevState.productsList, item] }))
@@ -75,9 +74,7 @@ export default class App extends React.Component
 
     modalToggle = () =>
     {
-        this.setState({
-            modalDisplay: !this.state.modalDisplay
-        });
+        this.setState({ modalDisplay: !this.state.modalDisplay });
     }
 
     updateCart = (item) =>
@@ -108,16 +105,16 @@ export default class App extends React.Component
                 cartUnits: (!index ? 0 : prevState.cartUnits) + item.units,
                 cartValue: (!index ? 0 : prevState.cartValue) + item.total
             }))
-        })
+        });
     }
 
     deleteItem = (item) =>
     {
         if (item >= 0)
         {
-            let cartItens = this.state.cartItens
-            cartItens.splice(item, 1)
-            this.setState({ cartItens: cartItens }, () => this.cartCalc())
+            let cartItens = this.state.cartItens;
+            cartItens.splice(item, 1);
+            this.setState({ cartItens: cartItens }, () => this.cartCalc());
         }
     }
 
@@ -150,7 +147,7 @@ export default class App extends React.Component
                         </button>
                     </td>
                 </tr>
-            );
+            )
         })
     }
 
@@ -188,56 +185,56 @@ export default class App extends React.Component
     {
         if (this.state.productsList.length && this.state.seleted && this.state.orderUnits)
         {
-            const id = this.state.seleted
-            const item = this.state.productsList.filter(item => item.id === id)[0]
+            const id = this.state.seleted;
+            const item = this.state.productsList.filter(item => item.id === id)[0];
             this.setState({
                 itemValue: item.price,
                 orderTotalValue: item.price * this.state.orderUnits
-            })
+            });
         }
     }
 
     fieldUnits = (event) => 
     {
-        let orderUnits = parseInt(event.target.value.replace(/\D/g, ''))
-        orderUnits = isNaN(orderUnits) ? 0 : orderUnits
+        let orderUnits = parseInt(event.target.value.replace(/\D/g, ''));
+        orderUnits = isNaN(orderUnits) ? 0 : orderUnits;
         if (orderUnits <= this.state.orderLimit)
         {
-            this.setState({ orderUnits: orderUnits }, () => { this.orderCalc() })
+            this.setState({ orderUnits: orderUnits }, () => { this.orderCalc() });
         }
     }
 
     fieldSelect = (event) =>
     {
-        this.setState({ seleted: parseInt(event.target.value), }, () => { this.orderCalc() })
+        this.setState({ seleted: parseInt(event.target.value), }, () => { this.orderCalc() });
     }
 
     orderClean = () =>
     {
         this.setState({
             orderTotalValue: 0,
-            orderUnits: 1,
+            orderUnits: 0,
             itemValue: 0,
-        })
+        });
     }
 
     orderCancel = () => 
     {
-        this.orderClean()
-        this.modalToggle()
+        this.orderClean();
+        this.modalToggle();
     }
 
     orderSave = () =>
     {
         if (this.state.orderUnits && this.state.seleted)
         {
-            const id = this.state.seleted
-            let item = Object.create(this.state.productsList.filter(item => item.id === id)[0])
-            item.units = this.state.orderUnits
-            item.total = this.state.orderTotalValue
-            this.updateCart(item)
-            this.modalToggle()
-            this.orderClean()
+            const id = this.state.seleted;
+            let item = Object.create(this.state.productsList.filter(item => item.id === id)[0]);
+            item.units = this.state.orderUnits;
+            item.total = this.state.orderTotalValue;
+            this.updateCart(item);
+            this.modalToggle();
+            this.orderClean();
         }
     }
 
@@ -249,7 +246,7 @@ export default class App extends React.Component
                     <div className="field-group">
                         <label>refrigerante *</label>
                         <Select onChange={(e) => this.fieldSelect(e)}>
-                            <Option value="0" label="Nenhum" />
+                            <Option value="" label="Nenhum" />
                             {this.state.productsList.map(option =>
                             {
                                 return (<Option key={option.id} value={option.id} label={option.label} />)
@@ -292,12 +289,15 @@ export default class App extends React.Component
 
     componentDidMount = () =>
     {
-        return (this.webService())
+        return (this.webService());
     }
 
-    componentDidUpdate = (prevState) =>
+    componentDidUpdate = (prevProps, prevState) =>
     {
-        if (prevState.cartItens !== this.state.cartItens) this.cartCalc()
+        if (prevState.cartItens !== this.state.cartItens)
+        {
+            this.cartCalc();
+        }
     }
 
     render = () =>
@@ -312,7 +312,7 @@ export default class App extends React.Component
                         {this.state.cartItens.length > 0 ? this.renderTable() : this.cartEmpty()}
                     </Table>
                 </Card>
-                <Modal display={this.state.modalDisplay} >
+                <Modal display={this.state.modalDisplay}>
                     {this.modalContent()}
                 </Modal>
             </div>
