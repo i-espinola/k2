@@ -7,10 +7,20 @@ body {
     box-sizing: border-box;
     font-family: $font-family;
     color: $color-grey;
-    background: $bg-body;
+    background: $color-light;
 
-    * {
+    img,
+    button,
+    input,
+    select {
         outline: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
     }
 
     b {
@@ -20,7 +30,7 @@ body {
 
     .wrapper {
         width: 100%;
-        max-width: 1200px;
+        max-width: $wrapper-width;
         margin-left: auto;
         margin-right: auto;
         position: relative;
@@ -39,12 +49,4 @@ body {
     .right {
         text-align: right;
     }
-
-    @media(min-width: 576px) {}
-
-    @media(min-width: 768px) {}
-
-    @media(min-width: 992px) {}
-
-    @media(min-width: 1200px) {}
 }

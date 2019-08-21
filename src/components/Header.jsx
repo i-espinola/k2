@@ -4,10 +4,14 @@
 import '../assets/scss/Header.scss';
 
 // Components Childs
-import Logo from '../components/Logo';
+import Brand from './Brand';
 
+export default function Header (props)
+{
+    return (
+        <header>
+            <Brand />
+        </header>
+    )
+}
 
-export default props =>
-    <header>
-        <Logo />
-    </header>

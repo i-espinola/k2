@@ -11,9 +11,9 @@
     overflow: hidden;
 
     .card-head {
+        display: flex;
         padding: 15px;
         line-height: 53px;
-        display: flex;
         justify-content: space-between;
         align-items: center;
 
@@ -23,17 +23,17 @@
         }
 
         .btn-add {
+            background: $color-primary;
             border-radius: $radius;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: normal;
             color: #fff;
             padding: 0;
             width: 40px;
             height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             font-size: 1rem;
-            line-height: normal;
-            background: $color-primary;
             border: none;
             transition: 0.3s;
             -webkit-transition: 0.3s;

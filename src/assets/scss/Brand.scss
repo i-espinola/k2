@@ -2,7 +2,7 @@
 
 aside {
 
-    &.logo {
+    &.brand {
         color: #fff;
         padding: 10px;
         display: block;
@@ -10,14 +10,9 @@ aside {
         background: transparent;
         font-size: 2rem;
 
-        a {
-            text-decoration: none;
-            color: inherit;
-
-            i {
-                font-style: normal;
-                color: $pink;
-            }
+        i {
+            font-style: normal;
+            color: $pink;
         }
     }
 }

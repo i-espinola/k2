@@ -14,9 +14,7 @@
 
 table {
     text-align: center;
-    width: 100%;
     border-collapse: collapse;
-    border-color: $color-grey;
 
     >tfoot {
         font-weight: bold;
@@ -29,23 +27,22 @@ table {
 
         tr {
             line-height: 40px;
-            font-size: .735rem;
+            font-size: $font-size;
 
 
             th {
-                border-top: 2px solid $color-grey;
-                border-bottom: 2px solid $color-grey;
+                border-top: $border-grey-large;
+                border-bottom: $border-grey-large;
                 text-transform: uppercase;
                 letter-spacing: 1px;
                 padding: 5px 15px;
             }
 
             td {
-                font-size: .8rem;
                 padding: 5px 15px;
                 border-bottom: 1px solid #eee;
 
-                &.amount {
+                &.unit {
 
                     &:after {
                         content: " un."
@@ -60,7 +57,7 @@ table {
                 }
 
                 button {
-                    border: 1px solid $color-grey;
+                    border: $border-light;
                     background: transparent;
                     border-radius: $radius;
                     color: $color-grey;
@@ -88,8 +85,8 @@ table {
             }
 
             & .actions {
-                text-align: center;
                 width: 1%;
+                text-align: center;
                 white-space: nowrap;
             }
         }

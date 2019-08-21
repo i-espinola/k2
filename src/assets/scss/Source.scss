@@ -1,13 +1,20 @@
-﻿$shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
-$radius: .375rem;
+﻿$color-light: #e3e3e3;
 $color-grey: #8d8d8d;
+$color-mark: #e83e8c;
 $color-primary: #5f44db;
 $color-secondary: #747ee9;
-$color-mark: #e83e8c;
-$bg-body: #e3e3e3;
 $bg-grad: linear-gradient(45deg, $color-primary 0, $color-secondary 100%);
-$font-family: 'Montserrat',
-sans-serif;
+
+$border-white: 1px solid #fff;
+$border-light: 1px solid $color-light;
+$border-grey: 1px solid $color-grey;
+$border-grey-large: 2px solid $color-grey;
+$shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+$radius: .375rem;
+$font-family: ('Montserrat', sans-serif);
+$font-size: .8rem;
+$font-size-medium: 1.2rem;
+$wrapper-width: 1200px;
 
 $blue: #007bff;
 $indigo: #6610f2;

@@ -1,12 +1,10 @@
 ﻿@import 'Source';
 
 header {
-    background: $bg-grad;
-    position: relative;
     height: auto;
     width: 100vw;
+    position: relative;
+    background: $bg-grad;
     padding-bottom: 150px;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
+    box-sizing: border-box;
 }

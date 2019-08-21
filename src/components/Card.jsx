@@ -1,105 +1,36 @@
 ﻿import React from 'react';
-import Axios from 'axios';
 
-// Styles
+// Tools
+import PropTypes from 'prop-types'
+
+// Style
 import '../assets/scss/Card.scss';
-import 'font-awesome/css/font-awesome.min.css';
 
-// Components Childs
-import Modal from './Modal';
-import Table from './Table';
 
-export default class Card extends React.Component
+export default function Card (props)
 {
-
-    /**
-     * @param {any} props
-     */
-    constructor (props)
-    {
-        super(props);
-        this.state = {
-            cart: [],
-            products: [],
-            modal: false,
-            request: 'https://api.adsim.co/crm/api/v1/refrigerante/listar'
-        }
-        this.modalToggle = this.modalToggle.bind(this);
-        this.updateCart = this.updateCart.bind(this);
-    }
-
-    componentDidMount ()
-    {
-        this.webService();
-    }
-
-    /**
-     * @param {any} objItem
-     */
-    updateCart = (objItem) =>
-    {
-        /**
-         * @param {{ cart: any; }} state
-         */
-        this.setState(state => ({ cart: [...state.cart, objItem] }))
-    }
-
-    webService = () =>
-    {
-        (Axios.get(this.state.request)
-            .then(response =>
-            {
-                let arr = [];
-                /**
-                 * @param {{ sabor: { split: (arg0: string) => void; }; marca: string; label: string; quantidade: string; }} item
-                 */
-                response.data.map(item =>
-                {
-                    const shortName = item.sabor === item.marca ? item.sabor.split("-") : "";
-                    item.rotulo = item.marca + " " + (shortName[0] || item.sabor) + " (" + item.quantidade + ")";
-                    return (arr.push(item));
-                })
-                this.setState({
-                    products: arr
-                })
-            })
-        )
-    }
-
-    modalToggle = () =>
-    {
-        this.setState({
-            modal: !this.state.modal
-        })
-    }
-
-    render = () =>
-    {
-        return (
-            <React.Fragment>
-                <div className="wrapper">
-                    <div className="card">
-                        <div className="card-head">
-                            <h2>Lista de <b>refri</b>gerantes</h2>
-                            <button
-                                className="btn btn-add"
-                                onClick={() => this.modalToggle()}
-                            >
-                                <i className="fa fa-plus"></i>
-                            </button>
-                        </div>
-                        <div className="card-body">
-                            <Table cart={this.state.cart} />
-                        </div>
-                    </div>
+    return (
+        <div className="wrapper">
+            <div className="card">
+                <div className="card-head">
+                    {props.header}
                 </div>
-                <Modal
-                    toggle={this.modalToggle}
-                    visibility={this.state.modal}
-                    products={this.state.products}
-                    cart={this.updateCart}
-                />
-            </React.Fragment>
-        );
-    }
+                <div className="card-body">
+                    {props.children}
+                </div>
+            </div>
+        </div>
+    )
 }
+
+Card.propTypes = {
+    header: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.node
+    ]).isRequired,
+    children: PropTypes.oneOfType([
+        PropTypes.arrayOf(PropTypes.node),
+        PropTypes.node
+    ]).isRequired
+}
+
