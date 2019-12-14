@@ -1,6 +1,6 @@
 {
-    "name": "k2",
-    "description": "K2 front end test - Ivan Espinola G.",
+    "name": "system-get-api-react",
+    "description": "Get JSON data from api example",
     "author": "Ivan Espinola - <ivan.espinola@live.com>",
     "version": "0.1.0",
     "private": false,
