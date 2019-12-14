@@ -1,6 +1,6 @@
-# k2 partnering
+# Refrix.app
 
-Front-end test
+Get JSON data from api example
 
 ## Metodologia e arquitetura
 
